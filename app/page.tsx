@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { CourseSelector } from "@/components/CourseSelector";
 import { OpportunityCard } from "@/components/OpportunityCard";
 import { useTheme } from "@/components/ThemeProvider";
+import { createClient } from "@/lib/supabase/client";
 import sampleOpportunities from "@/data/sample-opportunities.json";
 import type { Opportunity, Region } from "@/types";
 
@@ -26,10 +27,17 @@ export default function DiscoverPage() {
   const [refreshStatus, setRefreshStatus] = useState<"idle"|"checking"|"done">("idle");
   const [mounted, setMounted]   = useState(false);
   const { theme, toggle: toggleTheme } = useTheme();
+  const [userEmail, setUserEmail] = useState<string | null>(null);
   const lastRefresh = useRef<number>(0);
   const REFRESH_MS = 6 * 60 * 60 * 1000;
 
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => {
+    setMounted(true);
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data }) => {
+      setUserEmail(data.user?.email ?? null);
+    });
+  }, []);
 
   useEffect(() => {
     async function refresh() {
@@ -107,12 +115,30 @@ export default function DiscoverPage() {
               {theme === "dark" ? "☀️" : "🌙"}
             </button>
 
-            <a
-              href="/login"
-              className="hidden items-center gap-1.5 rounded-full border border-line bg-paper-raised px-4 py-1.5 text-[12px] font-bold text-slate transition-all duration-200 hover:border-purple hover:text-purple sm:flex"
-            >
-              Sign in
-            </a>
+            {userEmail ? (
+              <div className="hidden items-center gap-2 sm:flex">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-primary text-[11px] font-black text-white shadow-card">
+                  {userEmail[0].toUpperCase()}
+                </span>
+                <button
+                  onClick={async () => {
+                    const supabase = createClient();
+                    await supabase.auth.signOut();
+                    setUserEmail(null);
+                  }}
+                  className="rounded-full border border-line bg-paper-raised px-3 py-1.5 text-[12px] font-bold text-slate transition hover:border-red hover:text-red"
+                >
+                  Sign out
+                </button>
+              </div>
+            ) : (
+              <a
+                href="/login"
+                className="hidden items-center gap-1.5 rounded-full border border-line bg-paper-raised px-4 py-1.5 text-[12px] font-bold text-slate transition-all duration-200 hover:border-purple hover:text-purple sm:flex"
+              >
+                Sign in
+              </a>
+            )}
 
             <button
               onClick={() => setShowSaved(true)}
