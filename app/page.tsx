@@ -58,9 +58,12 @@ export default function DiscoverPage() {
   const savedList = useMemo(() => OPPORTUNITIES.filter(o => saved.has(o.id)), [saved]);
   const hasFilters = !!(course || modes.size || regions.size || types.size || search);
 
-  const toggle = (set: Set<string>, set2: (s: Set<string>) => void, val: string) =>
-    set2((p: Set<string>) => { const n = new Set(p); n.has(val) ? n.delete(val) : n.add(val); return n; });
-  
+  const toggle = (set: Set<string>, set2: (s: Set<string>) => void, val: string) => {
+  const n = new Set(set);
+  n.has(val) ? n.delete(val) : n.add(val);
+  set2(n);
+};
+
   return (
     <div className="min-h-screen bg-paper">
 
