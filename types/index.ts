@@ -38,7 +38,7 @@ export interface Opportunity {
   achievements: string[];
   reflection_prompts: string[];
   example_sentence: string;
-  type: OpportunityType;
+  type?: OpportunityType;
   is_active: boolean;
   last_checked: string; // ISO date string
   created_at?: string;
