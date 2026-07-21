@@ -59,8 +59,8 @@ export default function DiscoverPage() {
   const hasFilters = !!(course || modes.size || regions.size || types.size || search);
 
   const toggle = (set: Set<string>, set2: (s: Set<string>) => void, val: string) =>
-    set2(p => { const n = new Set(p); n.has(val) ? n.delete(val) : n.add(val); return n; });
-
+    set2((p: Set<string>) => { const n = new Set(p); n.has(val) ? n.delete(val) : n.add(val); return n; });
+  
   return (
     <div className="min-h-screen bg-paper">
 
