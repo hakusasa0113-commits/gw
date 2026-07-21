@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f0f4ff;
+  --paper-raised: #ffffff;
+  --paper-subtle: #f8faff;
+  --ink: #0d1b2a;
+  --ink-soft: #3d5166;
+  --slate: #6b7a8d;
+  --line: #dde4f0;
+
+  --blue: #4f6ef7;
+  --blue-dim: #3a56e4;
+  --blue-soft: #eef1ff;
+  --blue-glow: rgba(79,110,247,0.18);
+
+  --purple: #9061f9;
+  --purple-dim: #7c3aed;
+  --purple-soft: #f3eeff;
+
+  --mint: #0ea874;
+  --mint-dim: #0a7a56;
+  --mint-soft: #e6faf3;
+
+  --amber: #f0930a;
+  --amber-dim: #d97706;
+  --amber-soft: #fff7e6;
+
+  --pink: #e8449a;
+  --pink-soft: #fde8f4;
+
+  --red: #ef4444;
+  --red-soft: #fee2e2;
+
+  --gradient-primary: linear-gradient(135deg, #4f6ef7 0%, #9061f9 100%);
+  --gradient-cool: linear-gradient(135deg, #4f6ef7 0%, #9061f9 100%);
+  --gradient-warm: linear-gradient(135deg, #f0930a 0%, #e8449a 100%);
+  --gradient-success: linear-gradient(135deg, #0ea874 0%, #0a7a56 100%);
+  --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #e8449a 100%);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ─────────────────────────────── */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--slate); }
+
+/* ── Focus ─────────────────────────────────── */
+*:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 4px; }
+
+/* ── Keyframe animations ───────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.8); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ── Animation utilities ───────────────────── */
+.animate-fade-up        { animation: fadeUp 0.45s ease forwards; }
+.animate-fade-in        { animation: fadeIn 0.3s ease forwards; }
+.animate-slide-left     { animation: slideInLeft 0.4s ease forwards; }
+.animate-scale-in       { animation: scaleIn 0.3s ease forwards; }
+.animate-float          { animation: float 4s ease-in-out infinite; }
+.animate-pulse-dot      { animation: pulse-dot 2s ease-in-out infinite; }
+
+.animate-delay-100 { animation-delay: 0.1s; opacity: 0; }
+.animate-delay-200 { animation-delay: 0.2s; opacity: 0; }
+.animate-delay-300 { animation-delay: 0.3s; opacity: 0; }
+.animate-delay-400 { animation-delay: 0.4s; opacity: 0; }
+
+/* ── Gradient text ─────────────────────────── */
+.gradient-text {
+  background: var(--gradient-primary);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-animate {
+  background: var(--gradient-hero);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 6s ease infinite;
+}
+
+/* ── Skeleton loading ──────────────────────── */
+.skeleton {
+  background: linear-gradient(90deg, var(--line) 25%, var(--paper-subtle) 50%, var(--line) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+/* ── Glass card ────────────────────────────── */
+.glass {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+/* ── Smooth hover lift ─────────────────────── */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(79,110,247,0.12);
+}

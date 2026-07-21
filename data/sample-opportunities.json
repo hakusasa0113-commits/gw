@@ -1,0 +1,3461 @@
+[
+  {
+    "id": "o1",
+    "organisation_id": "",
+    "organisation_name": "Do-it.org",
+    "role": "Volunteer (Search by Course)",
+    "courses": [
+      "medicine",
+      "nursing"
+    ],
+    "description": "Search the UK's largest volunteering database for opportunities that match your course, location and availability.",
+    "why_it_helps": "Do-it lists thousands of active roles updated in real time — you can filter by interest, location and commitment.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 14,
+    "town": "Anywhere (online)",
+    "apply_url": "https://do-it.org/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What role matched your course interest most closely?"
+    ],
+    "example_sentence": "Finding a placement through Do-it helped me target exactly the experience my application needed.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o2",
+    "organisation_id": "",
+    "organisation_name": "Reach Volunteering",
+    "role": "Skills-Based Volunteer",
+    "courses": [
+      "computer-science",
+      "engineering",
+      "data-science-ai"
+    ],
+    "description": "Match your academic skills to charities and non-profits that need them — from data analysis to legal research to design.",
+    "why_it_helps": "Skills-based volunteering is especially compelling evidence because it shows your subject knowledge being applied to real problems.",
+    "skills": [
+      "Varies by skill area"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 18,
+    "town": "Anywhere (online)",
+    "apply_url": "https://reachvolunteering.org.uk/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What professional skill did this role let you apply for the first time?"
+    ],
+    "example_sentence": "Using my subject skills to help a charity through Reach Volunteering gave my application concrete, real-world evidence.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o3",
+    "organisation_name": "Mind Together Helpline",
+    "role": "Listening Volunteer (Trained)",
+    "courses": [
+      "psychology",
+      "nursing",
+      "education",
+      "social-work"
+    ],
+    "description": "After training, staff a supervised text-based listening service supporting young people.",
+    "why_it_helps": "Gives grounded, ethical exposure to mental health support.",
+    "skills": [
+      "Active listening",
+      "Safeguarding awareness",
+      "Emotional regulation"
+    ],
+    "mode": "online",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere (online)",
+    "apply_url": "https://www.samaritans.org/support-us/volunteer/",
+    "achievements": [
+      "Completed accredited safeguarding training",
+      "Supported service users under supervision"
+    ],
+    "reflection_prompts": [
+      "What did the training teach you about the limits of a volunteer's role?"
+    ],
+    "example_sentence": "Training as a listening volunteer showed me how much psychological support depends on restraint.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o4",
+    "organisation_id": "",
+    "organisation_name": "Citizens Advice",
+    "role": "Trainee Adviser (Rolling Intake)",
+    "courses": [
+      "law",
+      "politics",
+      "history"
+    ],
+    "description": "Citizens Advice runs rolling volunteer intakes year-round — train as an adviser helping the public with legal, financial and welfare issues.",
+    "why_it_helps": "Client-facing legal and social welfare advice is among the most impactful and evidential experience for Law and Social Work applications.",
+    "skills": [
+      "Legal information delivery",
+      "Client communication",
+      "Case recording"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "6 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.citizensadvice.org.uk/about-us/support-us/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What case revealed most starkly the gap between rights on paper and access in practice?"
+    ],
+    "example_sentence": "Advising real clients at Citizens Advice showed me that legal knowledge only has value when it reaches the people who need it.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o5",
+    "organisation_id": "",
+    "organisation_name": "Conservation Volunteers (TCV)",
+    "role": "Green Volunteer (Always Open)",
+    "courses": [
+      "biology-life-sciences",
+      "engineering",
+      "architecture",
+      "environmental-science",
+      "chemistry"
+    ],
+    "description": "TCV runs weekly green volunteering sessions nationwide — habitat management, planting, river work and biodiversity projects.",
+    "why_it_helps": "Regular fieldwork with a professional conservation organisation builds exactly the practical evidence science courses want.",
+    "skills": [
+      "Habitat management",
+      "Field ecology",
+      "Teamwork outdoors"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 day/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.tcv.org.uk/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did regular practical conservation work reveal about ecosystems that a lecture couldn't?"
+    ],
+    "example_sentence": "Weekly TCV sessions gave me sustained, fieldwork-based evidence I could reference throughout my application.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o6",
+    "organisation_id": "",
+    "organisation_name": "Volunteering Matters",
+    "role": "Volunteer (Always Open)",
+    "courses": [
+      "education",
+      "psychology",
+      "english-literature"
+    ],
+    "description": "Volunteering Matters runs year-round programmes across health, community, sport and education — always accepting new volunteers.",
+    "why_it_helps": "A trusted national charity with structured roles across most subject areas.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://volunteeringmatters.org.uk/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "Which programme aligned best with your target course?"
+    ],
+    "example_sentence": "Volunteering through Volunteering Matters gave me structured, evidenced experience I could speak to at interview.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o7",
+    "organisation_id": "",
+    "organisation_name": "Tutor Trust",
+    "role": "Volunteer Tutor (Always Open)",
+    "courses": [
+      "business",
+      "economics"
+    ],
+    "description": "Tutor Trust recruits volunteer tutors year-round to support disadvantaged pupils in core academic subjects.",
+    "why_it_helps": "Structured one-to-one tutoring with measurable outcomes is strong, specific evidence for Education and subject-specialist applications.",
+    "skills": [
+      "Subject tutoring",
+      "Lesson planning",
+      "Progress tracking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://tutortrust.org/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did tracking a pupil's progress week-to-week teach you about how learning actually works?"
+    ],
+    "example_sentence": "Tutoring disadvantaged students through Tutor Trust gave me measurable, outcome-evidenced teaching experience.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o8",
+    "organisation_id": "",
+    "organisation_name": "Do-it.org",
+    "role": "Volunteer (Search by Course)",
+    "courses": [
+      "medicine",
+      "nursing",
+      "psychology",
+      "social-work"
+    ],
+    "description": "Search the UK's largest volunteering database for opportunities that match your course, location and availability.",
+    "why_it_helps": "Do-it lists thousands of active roles updated in real time — you can filter by interest, location and commitment.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 14,
+    "town": "Anywhere (online)",
+    "apply_url": "https://do-it.org/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What role matched your course interest most closely?"
+    ],
+    "example_sentence": "Finding a placement through Do-it helped me target exactly the experience my application needed.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o9",
+    "organisation_id": "",
+    "organisation_name": "Reach Volunteering",
+    "role": "Skills-Based Volunteer",
+    "courses": [
+      "architecture",
+      "engineering",
+      "art-design"
+    ],
+    "description": "Match your academic skills to charities and non-profits that need them — from data analysis to legal research to design.",
+    "why_it_helps": "Skills-based volunteering is especially compelling evidence because it shows your subject knowledge being applied to real problems.",
+    "skills": [
+      "Varies by skill area"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 18,
+    "town": "Anywhere (online)",
+    "apply_url": "https://reachvolunteering.org.uk/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What professional skill did this role let you apply for the first time?"
+    ],
+    "example_sentence": "Using my subject skills to help a charity through Reach Volunteering gave my application concrete, real-world evidence.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o10",
+    "organisation_id": "",
+    "organisation_name": "Do-it.org",
+    "role": "Volunteer (Search by Course)",
+    "courses": [
+      "computer-science",
+      "business",
+      "education",
+      "data-science-ai"
+    ],
+    "description": "Search the UK's largest volunteering database for opportunities that match your course, location and availability.",
+    "why_it_helps": "Do-it lists thousands of active roles updated in real time — you can filter by interest, location and commitment.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 14,
+    "town": "Anywhere (online)",
+    "apply_url": "https://do-it.org/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What role matched your course interest most closely?"
+    ],
+    "example_sentence": "Finding a placement through Do-it helped me target exactly the experience my application needed.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o11",
+    "organisation_id": "",
+    "organisation_name": "Citizens Advice",
+    "role": "Trainee Adviser (Rolling Intake)",
+    "courses": [
+      "journalism",
+      "business",
+      "law",
+      "english-literature",
+      "politics"
+    ],
+    "description": "Citizens Advice runs rolling volunteer intakes year-round — train as an adviser helping the public with legal, financial and welfare issues.",
+    "why_it_helps": "Client-facing legal and social welfare advice is among the most impactful and evidential experience for Law and Social Work applications.",
+    "skills": [
+      "Legal information delivery",
+      "Client communication",
+      "Case recording"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "6 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.citizensadvice.org.uk/about-us/support-us/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What case revealed most starkly the gap between rights on paper and access in practice?"
+    ],
+    "example_sentence": "Advising real clients at Citizens Advice showed me that legal knowledge only has value when it reaches the people who need it.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o12",
+    "organisation_id": "",
+    "organisation_name": "Volunteering Matters",
+    "role": "Volunteer (Always Open)",
+    "courses": [
+      "medicine",
+      "nursing",
+      "physiotherapy",
+      "sports-science"
+    ],
+    "description": "Volunteering Matters runs year-round programmes across health, community, sport and education — always accepting new volunteers.",
+    "why_it_helps": "A trusted national charity with structured roles across most subject areas.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.sja.org.uk/get-involved/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "Which programme aligned best with your target course?"
+    ],
+    "example_sentence": "Volunteering through Volunteering Matters gave me structured, evidenced experience I could speak to at interview.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o13",
+    "organisation_name": "Boots Community Pharmacy",
+    "role": "Pharmacy Counter Volunteer",
+    "courses": [
+      "pharmacy",
+      "chemistry",
+      "medicine"
+    ],
+    "description": "Shadow dispensary technicians and support the pharmacy team with stock checks and customer signposting.",
+    "why_it_helps": "Observed dispensary work and medicines management is core evidence for Pharmacy applications.",
+    "skills": [
+      "Attention to detail",
+      "Customer communication",
+      "Medicines awareness"
+    ],
+    "mode": "in-person",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 16,
+    "town": "Birmingham",
+    "apply_url": "https://www.boots.jobs/working-at-boots/early-careers/",
+    "achievements": [
+      "Shadowed 30+ dispensing interactions over two months"
+    ],
+    "reflection_prompts": [
+      "What did you learn about how a pharmacist balances speed with accuracy?"
+    ],
+    "example_sentence": "Shadowing dispensary technicians every Saturday showed me that safe medicines management is built on process, not guesswork.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o14",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "dentistry",
+      "medicine"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://www.jica.go.jp/volunteer/index.html",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o15",
+    "organisation_name": "City Streets Outreach",
+    "role": "Homeless Support Volunteer",
+    "courses": [
+      "social-work",
+      "psychology",
+      "nursing"
+    ],
+    "description": "Join evening outreach teams providing hot food, toiletries and signposting to rough sleepers.",
+    "why_it_helps": "Direct, supervised engagement with vulnerable adults is a strong differentiator for Social Work applications.",
+    "skills": [
+      "Non-judgmental communication",
+      "Risk awareness",
+      "Team coordination"
+    ],
+    "mode": "in-person",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.crisis.org.uk/get-involved/volunteer/",
+    "achievements": [
+      "Built consistent rapport with regular rough sleepers",
+      "Learned safe referral pathways"
+    ],
+    "reflection_prompts": [
+      "What assumptions about homelessness did direct contact challenge?"
+    ],
+    "example_sentence": "Weekly outreach taught me that social support only reaches people when it meets them where they actually are.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o16",
+    "organisation_id": "",
+    "organisation_name": "Tutor Trust",
+    "role": "Volunteer Tutor (Always Open)",
+    "courses": [
+      "mathematics",
+      "economics",
+      "physics",
+      "data-science-ai"
+    ],
+    "description": "Tutor Trust recruits volunteer tutors year-round to support disadvantaged pupils in core academic subjects.",
+    "why_it_helps": "Structured one-to-one tutoring with measurable outcomes is strong, specific evidence for Education and subject-specialist applications.",
+    "skills": [
+      "Subject tutoring",
+      "Lesson planning",
+      "Progress tracking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://www.nationalnumeracy.org.uk/get-involved",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did tracking a pupil's progress week-to-week teach you about how learning actually works?"
+    ],
+    "example_sentence": "Tutoring disadvantaged students through Tutor Trust gave me measurable, outcome-evidenced teaching experience.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o17",
+    "organisation_id": "",
+    "organisation_name": "Tutor Trust",
+    "role": "Volunteer Tutor (Always Open)",
+    "courses": [
+      "physics",
+      "engineering",
+      "mathematics"
+    ],
+    "description": "Tutor Trust recruits volunteer tutors year-round to support disadvantaged pupils in core academic subjects.",
+    "why_it_helps": "Structured one-to-one tutoring with measurable outcomes is strong, specific evidence for Education and subject-specialist applications.",
+    "skills": [
+      "Subject tutoring",
+      "Lesson planning",
+      "Progress tracking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://tutortrust.org/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did tracking a pupil's progress week-to-week teach you about how learning actually works?"
+    ],
+    "example_sentence": "Tutoring disadvantaged students through Tutor Trust gave me measurable, outcome-evidenced teaching experience.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o18",
+    "organisation_id": "",
+    "organisation_name": "RSPB",
+    "role": "Nature Reserve Volunteer",
+    "courses": [
+      "chemistry",
+      "biology-life-sciences",
+      "pharmacy",
+      "medicine"
+    ],
+    "description": "RSPB nature reserves recruit volunteers year-round for species surveys, habitat management and visitor engagement.",
+    "why_it_helps": "Working on a managed nature reserve provides the kind of documented field experience that biology and environmental science tutors prioritise.",
+    "skills": [
+      "Species identification",
+      "Survey methods",
+      "Visitor engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.rspb.org.uk/get-involved/volunteering-fundraising/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What species data did you collect and what did it indicate about the reserve's health?"
+    ],
+    "example_sentence": "Regular RSPB volunteer surveys gave me documented fieldwork evidence with real conservation outcomes.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o19",
+    "organisation_id": "",
+    "organisation_name": "Artfundi",
+    "role": "Arts Outreach Volunteer",
+    "courses": [
+      "politics",
+      "economics",
+      "law",
+      "history"
+    ],
+    "description": "Artfundi connects arts volunteers with schools and community organisations year-round, across all art forms.",
+    "why_it_helps": "Sustained community arts involvement is the most persuasive evidence of genuine subject commitment for arts applications.",
+    "skills": [
+      "Arts facilitation",
+      "Creative workshop delivery",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.a-n.co.uk/jobs/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did facilitating art for a non-arts audience teach you about your own creative practice?"
+    ],
+    "example_sentence": "Sustained arts outreach volunteering showed me how creativity functions differently when it serves a community rather than an audience.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o20",
+    "organisation_id": "",
+    "organisation_name": "Citizens Advice",
+    "role": "Trainee Adviser (Rolling Intake)",
+    "courses": [
+      "politics",
+      "law",
+      "social-work",
+      "history"
+    ],
+    "description": "Citizens Advice runs rolling volunteer intakes year-round — train as an adviser helping the public with legal, financial and welfare issues.",
+    "why_it_helps": "Client-facing legal and social welfare advice is among the most impactful and evidential experience for Law and Social Work applications.",
+    "skills": [
+      "Legal information delivery",
+      "Client communication",
+      "Case recording"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "6 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.amnesty.org.uk/join-amnesty-students",
+    "achievements": [],
+    "reflection_prompts": [
+      "What case revealed most starkly the gap between rights on paper and access in practice?"
+    ],
+    "example_sentence": "Advising real clients at Citizens Advice showed me that legal knowledge only has value when it reaches the people who need it.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o21",
+    "organisation_id": "",
+    "organisation_name": "Artfundi",
+    "role": "Arts Outreach Volunteer",
+    "courses": [
+      "business",
+      "economics",
+      "english-literature",
+      "history"
+    ],
+    "description": "Artfundi connects arts volunteers with schools and community organisations year-round, across all art forms.",
+    "why_it_helps": "Sustained community arts involvement is the most persuasive evidence of genuine subject commitment for arts applications.",
+    "skills": [
+      "Arts facilitation",
+      "Creative workshop delivery",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.oxfam.org.uk/get-involved/volunteer-with-us/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did facilitating art for a non-arts audience teach you about your own creative practice?"
+    ],
+    "example_sentence": "Sustained arts outreach volunteering showed me how creativity functions differently when it serves a community rather than an audience.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o22",
+    "organisation_id": "",
+    "organisation_name": "Artfundi",
+    "role": "Arts Outreach Volunteer",
+    "courses": [
+      "english-literature",
+      "journalism",
+      "film-media-studies"
+    ],
+    "description": "Artfundi connects arts volunteers with schools and community organisations year-round, across all art forms.",
+    "why_it_helps": "Sustained community arts involvement is the most persuasive evidence of genuine subject commitment for arts applications.",
+    "skills": [
+      "Arts facilitation",
+      "Creative workshop delivery",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.a-n.co.uk/jobs/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did facilitating art for a non-arts audience teach you about your own creative practice?"
+    ],
+    "example_sentence": "Sustained arts outreach volunteering showed me how creativity functions differently when it serves a community rather than an audience.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o23",
+    "organisation_id": "",
+    "organisation_name": "Artfundi",
+    "role": "Arts Outreach Volunteer",
+    "courses": [
+      "film-media-studies",
+      "journalism",
+      "english-literature"
+    ],
+    "description": "Artfundi connects arts volunteers with schools and community organisations year-round, across all art forms.",
+    "why_it_helps": "Sustained community arts involvement is the most persuasive evidence of genuine subject commitment for arts applications.",
+    "skills": [
+      "Arts facilitation",
+      "Creative workshop delivery",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.a-n.co.uk/jobs/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did facilitating art for a non-arts audience teach you about your own creative practice?"
+    ],
+    "example_sentence": "Sustained arts outreach volunteering showed me how creativity functions differently when it serves a community rather than an audience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o24",
+    "organisation_id": "",
+    "organisation_name": "Do-it.org",
+    "role": "Volunteer (Search by Course)",
+    "courses": [
+      "art-design",
+      "architecture",
+      "film-media-studies"
+    ],
+    "description": "Search the UK's largest volunteering database for opportunities that match your course, location and availability.",
+    "why_it_helps": "Do-it lists thousands of active roles updated in real time — you can filter by interest, location and commitment.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 14,
+    "town": "Anywhere (online)",
+    "apply_url": "https://www.tate.org.uk/tate-collective/producers",
+    "achievements": [],
+    "reflection_prompts": [
+      "What role matched your course interest most closely?"
+    ],
+    "example_sentence": "Finding a placement through Do-it helped me target exactly the experience my application needed.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o25",
+    "organisation_name": "Sound Connections",
+    "role": "Community Music Workshop Helper",
+    "courses": [
+      "music",
+      "education",
+      "social-work"
+    ],
+    "description": "Support professional musicians running inclusive music workshops for children with disabilities.",
+    "why_it_helps": "Facilitation experience in inclusive settings is distinctive evidence for Music and Education applications.",
+    "skills": [
+      "Musical facilitation",
+      "Adaptive communication",
+      "Inclusivity in practice"
+    ],
+    "mode": "in-person",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.sound-connections.org.uk/get-involved/",
+    "achievements": [
+      "Supported a 10-week programme for children with hearing impairments"
+    ],
+    "reflection_prompts": [
+      "How did you have to rethink what 'music-making' actually means?"
+    ],
+    "example_sentence": "Helping run music sessions for children with disabilities completely changed my understanding of what musical participation looks like.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o26",
+    "organisation_id": "",
+    "organisation_name": "Volunteering Matters",
+    "role": "Volunteer (Always Open)",
+    "courses": [
+      "sports-science",
+      "physiotherapy",
+      "education"
+    ],
+    "description": "Volunteering Matters runs year-round programmes across health, community, sport and education — always accepting new volunteers.",
+    "why_it_helps": "A trusted national charity with structured roles across most subject areas.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.englandathletics.org/coaches-and-officials/coaching-journey/how-you-can-get-into-coaching/",
+    "achievements": [],
+    "reflection_prompts": [
+      "Which programme aligned best with your target course?"
+    ],
+    "example_sentence": "Volunteering through Volunteering Matters gave me structured, evidenced experience I could speak to at interview.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o27",
+    "organisation_name": "PDSA Animal Charity",
+    "role": "Veterinary Practice Volunteer",
+    "courses": [
+      "veterinary-science",
+      "biology-life-sciences",
+      "chemistry"
+    ],
+    "description": "Shadow veterinary nurses and support reception and post-treatment care at a PDSA Pet Hospital.",
+    "why_it_helps": "Vet schools require substantial hours of observed animal handling and clinical exposure before applying.",
+    "skills": [
+      "Animal handling",
+      "Clinical observation",
+      "Client communication"
+    ],
+    "mode": "in-person",
+    "weekly_commitment": "Half-day/week",
+    "min_age": 16,
+    "town": "Leeds",
+    "apply_url": "https://www.pdsa.org.uk/get-involved/volunteer/",
+    "achievements": [
+      "Logged 60+ hours of observed clinical practice",
+      "Assisted in post-op recovery care"
+    ],
+    "reflection_prompts": [
+      "How did the team communicate risk to worried pet owners?"
+    ],
+    "example_sentence": "Spending months in a veterinary hospital showed me that caring for animals means first caring for the people who love them.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o28",
+    "organisation_name": "Wildlife Trust",
+    "role": "Biodiversity Survey Volunteer",
+    "courses": [
+      "environmental-science",
+      "biology-life-sciences",
+      "veterinary-science"
+    ],
+    "description": "Assist ecologists on seasonal biodiversity surveys — recording species, mapping habitats and collecting soil samples.",
+    "why_it_helps": "Field ecology experience with real data outputs is exactly what Environmental Science admissions tutors look for.",
+    "skills": [
+      "Species identification",
+      "Field data recording",
+      "Ecological analysis"
+    ],
+    "mode": "in-person",
+    "weekly_commitment": "4 hrs/month",
+    "min_age": 14,
+    "town": "Norwich",
+    "apply_url": "https://www.wildlifetrusts.org/get-involved/volunteer",
+    "achievements": [
+      "Contributed data to a county-level bat population survey"
+    ],
+    "reflection_prompts": [
+      "What did the species data reveal about the health of the local habitat?"
+    ],
+    "example_sentence": "Recording bat activity at dusk for a county survey taught me how much ecological insight lives in a single dataset.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o29",
+    "organisation_name": "DataKind UK",
+    "role": "Junior Data Volunteer",
+    "courses": [
+      "data-science-ai",
+      "computer-science",
+      "mathematics",
+      "economics"
+    ],
+    "description": "Help charities clean, analyse and visualise data to support their decision-making and campaigns.",
+    "why_it_helps": "Applied data work for real organisations demonstrates technical skill with tangible impact.",
+    "skills": [
+      "Data cleaning",
+      "Python/R analysis",
+      "Data visualisation"
+    ],
+    "mode": "online",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere (online)",
+    "apply_url": "https://www.datakind.org/get-involved/volunteer/",
+    "achievements": [
+      "Built a dashboard used by a charity to track service demand"
+    ],
+    "reflection_prompts": [
+      "What question did the data allow the charity to answer that they couldn't before?"
+    ],
+    "example_sentence": "Cleaning and visualising a homeless charity's data showed me that data science only matters if it answers a real question.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o30",
+    "organisation_name": "Coders Trust",
+    "role": "AI Ethics Workshop Facilitator",
+    "courses": [
+      "data-science-ai",
+      "computer-science",
+      "philosophy",
+      "politics"
+    ],
+    "description": "Co-deliver workshops on AI ethics, algorithmic bias and digital responsibility in schools and colleges.",
+    "why_it_helps": "Critical engagement with tech ethics distinguishes applications to AI and Computer Science courses.",
+    "skills": [
+      "Ethical reasoning",
+      "Workshop design",
+      "Tech communication"
+    ],
+    "mode": "hybrid",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "Manchester",
+    "apply_url": "https://www.theiet.org/get-involved/volunteering/",
+    "achievements": [
+      "Delivered 6 workshops to 200+ sixth-formers"
+    ],
+    "reflection_prompts": [
+      "What example made algorithmic bias feel real to students?"
+    ],
+    "example_sentence": "Teaching AI ethics workshops forced me to articulate why the tools I was learning to build actually matter.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o31",
+    "organisation_id": "",
+    "organisation_name": "Reach Volunteering",
+    "role": "Skills-Based Volunteer",
+    "courses": [
+      "philosophy",
+      "politics",
+      "english-literature",
+      "history"
+    ],
+    "description": "Match your academic skills to charities and non-profits that need them — from data analysis to legal research to design.",
+    "why_it_helps": "Skills-based volunteering is especially compelling evidence because it shows your subject knowledge being applied to real problems.",
+    "skills": [
+      "Varies by skill area"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 18,
+    "town": "Anywhere (online)",
+    "apply_url": "https://reachvolunteering.org.uk/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What professional skill did this role let you apply for the first time?"
+    ],
+    "example_sentence": "Using my subject skills to help a charity through Reach Volunteering gave my application concrete, real-world evidence.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o32",
+    "organisation_id": "",
+    "organisation_name": "Do-it.org",
+    "role": "Volunteer (Search by Course)",
+    "courses": [
+      "history",
+      "art-design",
+      "architecture",
+      "english-literature"
+    ],
+    "description": "Search the UK's largest volunteering database for opportunities that match your course, location and availability.",
+    "why_it_helps": "Do-it lists thousands of active roles updated in real time — you can filter by interest, location and commitment.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 14,
+    "town": "Anywhere (online)",
+    "apply_url": "https://do-it.org/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What role matched your course interest most closely?"
+    ],
+    "example_sentence": "Finding a placement through Do-it helped me target exactly the experience my application needed.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o33",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "history",
+      "politics",
+      "journalism",
+      "social-work"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://blackculturalarchives.org/become-a-volunteer",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o34",
+    "organisation_id": "",
+    "organisation_name": "Volunteering Matters",
+    "role": "Volunteer (Always Open)",
+    "courses": [
+      "philosophy",
+      "psychology",
+      "politics"
+    ],
+    "description": "Volunteering Matters runs year-round programmes across health, community, sport and education — always accepting new volunteers.",
+    "why_it_helps": "A trusted national charity with structured roles across most subject areas.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://volunteeringmatters.org.uk/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "Which programme aligned best with your target course?"
+    ],
+    "example_sentence": "Volunteering through Volunteering Matters gave me structured, evidenced experience I could speak to at interview.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o35",
+    "organisation_id": "",
+    "organisation_name": "Conservation Volunteers (TCV)",
+    "role": "Green Volunteer (Always Open)",
+    "courses": [
+      "space-science",
+      "physics",
+      "mathematics",
+      "engineering"
+    ],
+    "description": "TCV runs weekly green volunteering sessions nationwide — habitat management, planting, river work and biodiversity projects.",
+    "why_it_helps": "Regular fieldwork with a professional conservation organisation builds exactly the practical evidence science courses want.",
+    "skills": [
+      "Habitat management",
+      "Field ecology",
+      "Teamwork outdoors"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 day/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.tcv.org.uk/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did regular practical conservation work reveal about ecosystems that a lecture couldn't?"
+    ],
+    "example_sentence": "Weekly TCV sessions gave me sustained, fieldwork-based evidence I could reference throughout my application.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o36",
+    "organisation_name": "British Astronomical Association",
+    "role": "Junior Observer & Section Volunteer",
+    "courses": [
+      "space-science",
+      "physics",
+      "mathematics"
+    ],
+    "description": "Join a BAA observing section, contributing telescope observations, helping log data and assisting at public stargazing events.",
+    "why_it_helps": "Documented observational work and contribution to a professional society's data sets is strong evidence for Space Science applications.",
+    "skills": [
+      "Telescope operation",
+      "Data logging",
+      "Astronomical measurement"
+    ],
+    "mode": "in-person",
+    "weekly_commitment": "3-4 hrs/week",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.britastro.org/node/8",
+    "achievements": [
+      "Contributed variable star observations to the BAA database",
+      "Co-ran a public stargazing night attended by 80 people"
+    ],
+    "reflection_prompts": [
+      "What did repeated observation of the same object reveal that a single session couldn't?"
+    ],
+    "example_sentence": "Logging variable star brightness over months showed me that astronomy is fundamentally a discipline of patience and precision.",
+    "region": "UK",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o37",
+    "organisation_id": "",
+    "organisation_name": "Conservation Volunteers (TCV)",
+    "role": "Green Volunteer (Always Open)",
+    "courses": [
+      "space-science",
+      "physics",
+      "engineering",
+      "data-science-ai"
+    ],
+    "description": "TCV runs weekly green volunteering sessions nationwide — habitat management, planting, river work and biodiversity projects.",
+    "why_it_helps": "Regular fieldwork with a professional conservation organisation builds exactly the practical evidence science courses want.",
+    "skills": [
+      "Habitat management",
+      "Field ecology",
+      "Teamwork outdoors"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 day/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.esa.int/Education",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did regular practical conservation work reveal about ecosystems that a lecture couldn't?"
+    ],
+    "example_sentence": "Weekly TCV sessions gave me sustained, fieldwork-based evidence I could reference throughout my application.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o38",
+    "organisation_name": "American Red Cross",
+    "role": "Disaster Services Volunteer",
+    "courses": [
+      "nursing",
+      "medicine",
+      "social-work",
+      "psychology"
+    ],
+    "description": "Support local Red Cross chapters with disaster preparedness training, community outreach, and emergency shelter operations.",
+    "why_it_helps": "Large-scale humanitarian work experience is highly valued in US medical and social work applications.",
+    "skills": [
+      "Emergency response",
+      "Community outreach",
+      "Team coordination"
+    ],
+    "mode": "in-person",
+    "region": "US",
+    "weekly_commitment": "3-4 hrs/week",
+    "min_age": 16,
+    "town": "New York, NY",
+    "apply_url": "https://www.redcross.org/volunteer/volunteer-opportunities.html",
+    "achievements": [
+      "Assisted at a community emergency shelter drill",
+      "Trained 20 residents in basic first aid"
+    ],
+    "reflection_prompts": [
+      "What did the scale of the operation reveal about coordination?"
+    ],
+    "example_sentence": "Volunteering with the Red Cross showed me that emergency care is as much about logistics as medicine.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o39",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "space-science",
+      "physics",
+      "engineering",
+      "data-science-ai"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "US",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://www.nasa.gov/learning-resources/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o40",
+    "organisation_name": "Habitat for Humanity USA",
+    "role": "Construction Site Volunteer",
+    "courses": [
+      "architecture",
+      "engineering",
+      "social-work"
+    ],
+    "description": "Join weekend build teams constructing affordable housing in underserved US communities.",
+    "why_it_helps": "Hands-on construction work alongside professionals is distinctive evidence for Architecture and Engineering applications.",
+    "skills": [
+      "Construction basics",
+      "Teamwork",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "US",
+    "weekly_commitment": "Weekend builds (2/month)",
+    "min_age": 16,
+    "town": "Atlanta, GA",
+    "apply_url": "https://www.habitat.org/volunteer",
+    "achievements": [
+      "Contributed to framing and roofing on two completed homes"
+    ],
+    "reflection_prompts": [
+      "What design compromise did you observe being made on site and why?"
+    ],
+    "example_sentence": "Building homes with Habitat for Humanity showed me that architecture is ultimately about who gets to live somewhere safe.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o41",
+    "organisation_id": "",
+    "organisation_name": "Code Club (Raspberry Pi Foundation)",
+    "role": "Code Club Volunteer (Always Open)",
+    "courses": [
+      "space-science",
+      "physics",
+      "engineering",
+      "mathematics"
+    ],
+    "description": "The Raspberry Pi Foundation recruits Code Club volunteers year-round — run a weekly coding club for 9-13 year-olds at a local school or library.",
+    "why_it_helps": "Teaching programming with measurable curriculum outcomes gives technical and communication evidence simultaneously.",
+    "skills": [
+      "Python/Scratch teaching",
+      "Curriculum delivery",
+      "Debugging"
+    ],
+    "mode": "in-person",
+    "region": "Japan",
+    "weekly_commitment": "1 hr/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://global.jaxa.jp/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What programming concept required the most creative explanation to make it click for a child?"
+    ],
+    "example_sentence": "Running a Code Club gave me continuous, outcome-measured teaching and technical evidence across my whole application period.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o42",
+    "organisation_id": "",
+    "organisation_name": "NHS Volunteer Responders",
+    "role": "Community Volunteer (Always Open)",
+    "courses": [
+      "medicine",
+      "nursing",
+      "pharmacy"
+    ],
+    "description": "The NHS national volunteer programme accepts new volunteers year-round across a range of community and remote support roles.",
+    "why_it_helps": "An NHS-branded healthcare role carries immediate credibility in medical and allied health applications.",
+    "skills": [
+      "Patient communication",
+      "Reliability",
+      "Safeguarding awareness"
+    ],
+    "mode": "hybrid",
+    "region": "Japan",
+    "weekly_commitment": "Flexible",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.u-tokyo.ac.jp/en/",
+    "achievements": [],
+    "reflection_prompts": [
+      "How did your NHS volunteer role connect to your target career?"
+    ],
+    "example_sentence": "Volunteering with the NHS gave me direct, credible healthcare exposure throughout my application year.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o43",
+    "organisation_id": "",
+    "organisation_name": "Volunteering Matters",
+    "role": "Volunteer (Always Open)",
+    "courses": [
+      "social-work",
+      "education",
+      "psychology"
+    ],
+    "description": "Volunteering Matters runs year-round programmes across health, community, sport and education — always accepting new volunteers.",
+    "why_it_helps": "A trusted national charity with structured roles across most subject areas.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "hybrid",
+    "region": "Japan",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://volunteeringmatters.org.uk/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "Which programme aligned best with your target course?"
+    ],
+    "example_sentence": "Volunteering through Volunteering Matters gave me structured, evidenced experience I could speak to at interview.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o44",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "education",
+      "social-work",
+      "psychology"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "Malaysia",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://www.jica.go.jp/volunteer/index.html",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o45",
+    "organisation_id": "",
+    "organisation_name": "RSPB",
+    "role": "Nature Reserve Volunteer",
+    "courses": [
+      "environmental-science",
+      "biology-life-sciences",
+      "veterinary-science"
+    ],
+    "description": "RSPB nature reserves recruit volunteers year-round for species surveys, habitat management and visitor engagement.",
+    "why_it_helps": "Working on a managed nature reserve provides the kind of documented field experience that biology and environmental science tutors prioritise.",
+    "skills": [
+      "Species identification",
+      "Survey methods",
+      "Visitor engagement"
+    ],
+    "mode": "in-person",
+    "region": "Malaysia",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.rspb.org.uk/get-involved/volunteering-fundraising/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What species data did you collect and what did it indicate about the reserve's health?"
+    ],
+    "example_sentence": "Regular RSPB volunteer surveys gave me documented fieldwork evidence with real conservation outcomes.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o46",
+    "organisation_id": "",
+    "organisation_name": "Tutor Trust",
+    "role": "Volunteer Tutor (Always Open)",
+    "courses": [
+      "education",
+      "mathematics",
+      "english-literature"
+    ],
+    "description": "Tutor Trust recruits volunteer tutors year-round to support disadvantaged pupils in core academic subjects.",
+    "why_it_helps": "Structured one-to-one tutoring with measurable outcomes is strong, specific evidence for Education and subject-specialist applications.",
+    "skills": [
+      "Subject tutoring",
+      "Lesson planning",
+      "Progress tracking"
+    ],
+    "mode": "in-person",
+    "region": "Malaysia",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://tutortrust.org/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did tracking a pupil's progress week-to-week teach you about how learning actually works?"
+    ],
+    "example_sentence": "Tutoring disadvantaged students through Tutor Trust gave me measurable, outcome-evidenced teaching experience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o47",
+    "organisation_id": "",
+    "organisation_name": "Conservation Volunteers (TCV)",
+    "role": "Green Volunteer (Always Open)",
+    "courses": [
+      "mathematics",
+      "physics",
+      "chemistry",
+      "data-science-ai"
+    ],
+    "description": "TCV runs weekly green volunteering sessions nationwide — habitat management, planting, river work and biodiversity projects.",
+    "why_it_helps": "Regular fieldwork with a professional conservation organisation builds exactly the practical evidence science courses want.",
+    "skills": [
+      "Habitat management",
+      "Field ecology",
+      "Teamwork outdoors"
+    ],
+    "mode": "in-person",
+    "region": "Korea",
+    "weekly_commitment": "1 day/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.ksa.hs.kr/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did regular practical conservation work reveal about ecosystems that a lecture couldn't?"
+    ],
+    "example_sentence": "Weekly TCV sessions gave me sustained, fieldwork-based evidence I could reference throughout my application.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o48",
+    "organisation_id": "",
+    "organisation_name": "Volunteering Matters",
+    "role": "Volunteer (Always Open)",
+    "courses": [
+      "medicine",
+      "nursing",
+      "physiotherapy"
+    ],
+    "description": "Volunteering Matters runs year-round programmes across health, community, sport and education — always accepting new volunteers.",
+    "why_it_helps": "A trusted national charity with structured roles across most subject areas.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "hybrid",
+    "region": "Korea",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://volunteeringmatters.org.uk/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "Which programme aligned best with your target course?"
+    ],
+    "example_sentence": "Volunteering through Volunteering Matters gave me structured, evidenced experience I could speak to at interview.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o49",
+    "organisation_id": "",
+    "organisation_name": "Do-it.org",
+    "role": "Volunteer (Search by Course)",
+    "courses": [
+      "art-design",
+      "music",
+      "education"
+    ],
+    "description": "Search the UK's largest volunteering database for opportunities that match your course, location and availability.",
+    "why_it_helps": "Do-it lists thousands of active roles updated in real time — you can filter by interest, location and commitment.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "online",
+    "region": "Korea",
+    "weekly_commitment": "Flexible",
+    "min_age": 14,
+    "town": "Anywhere (online)",
+    "apply_url": "https://do-it.org/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What role matched your course interest most closely?"
+    ],
+    "example_sentence": "Finding a placement through Do-it helped me target exactly the experience my application needed.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o50",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "education",
+      "social-work",
+      "english-literature"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "China",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://www.cydf.org.cn/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o51",
+    "organisation_id": "",
+    "organisation_name": "RSPB",
+    "role": "Nature Reserve Volunteer",
+    "courses": [
+      "space-science",
+      "physics",
+      "chemistry",
+      "biology-life-sciences",
+      "data-science-ai"
+    ],
+    "description": "RSPB nature reserves recruit volunteers year-round for species surveys, habitat management and visitor engagement.",
+    "why_it_helps": "Working on a managed nature reserve provides the kind of documented field experience that biology and environmental science tutors prioritise.",
+    "skills": [
+      "Species identification",
+      "Survey methods",
+      "Visitor engagement"
+    ],
+    "mode": "in-person",
+    "region": "China",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://english.cas.cn/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What species data did you collect and what did it indicate about the reserve's health?"
+    ],
+    "example_sentence": "Regular RSPB volunteer surveys gave me documented fieldwork evidence with real conservation outcomes.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o52",
+    "organisation_name": "Roots & Shoots China (Jane Goodall Institute)",
+    "role": "Environmental Action Volunteer",
+    "courses": [
+      "environmental-science",
+      "biology-life-sciences",
+      "social-work"
+    ],
+    "description": "Lead and coordinate environmental action projects in schools and communities across China under the Roots & Shoots programme.",
+    "why_it_helps": "Coordinating structured environmental campaigns shows initiative and leadership alongside environmental subject knowledge.",
+    "skills": [
+      "Environmental campaign planning",
+      "School outreach",
+      "Team leadership"
+    ],
+    "mode": "in-person",
+    "region": "China",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 15,
+    "town": "Shanghai",
+    "apply_url": "https://www.rootsandshoots.org.cn/",
+    "achievements": [
+      "Led a school recycling campaign that diverted 200kg of waste",
+      "Trained 15 student environmental champions"
+    ],
+    "reflection_prompts": [
+      "What made students take environmental action seriously rather than treating it as a box-ticking exercise?"
+    ],
+    "example_sentence": "Coordinating Roots & Shoots campaigns in Shanghai taught me that environmental action only sticks when students feel ownership over it.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o53",
+    "organisation_name": "Oral Health Foundation",
+    "role": "Community Smile Ambassador",
+    "courses": [
+      "dentistry",
+      "medicine",
+      "pharmacy"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Run supervised oral health education sessions in schools and care homes, teaching brushing technique and diet advice.",
+    "why_it_helps": "Community oral health outreach is a distinctive, mission-aligned activity that dental schools actively look for.",
+    "skills": [
+      "Health education",
+      "Public communication",
+      "Preventative care awareness"
+    ],
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "Nottingham",
+    "apply_url": "https://www.dentalhealth.org/support-us",
+    "achievements": [
+      "Delivered sessions to 4 primary school classes",
+      "Created a take-home brushing guide used by 80 families"
+    ],
+    "reflection_prompts": [
+      "What barrier to good oral health surprised you most?"
+    ],
+    "example_sentence": "Running oral health workshops in schools showed me that prevention is always more effective than cure.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o54",
+    "organisation_name": "Bridge2Aid",
+    "role": "Dental Access Campaign Volunteer",
+    "courses": [
+      "dentistry",
+      "social-work",
+      "medicine"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "description": "Support campaigns raising awareness of dental access inequality, helping produce materials and organise community drop-in events.",
+    "why_it_helps": "Engaging with access and equity issues in dentistry demonstrates the social awareness dental schools increasingly require.",
+    "skills": [
+      "Campaign coordination",
+      "Health equity awareness",
+      "Community engagement"
+    ],
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 17,
+    "town": "Leeds",
+    "apply_url": "https://www.bridge2aid.org/get-involved/",
+    "achievements": [
+      "Helped organise a dental access drop-in attended by 60 residents"
+    ],
+    "reflection_prompts": [
+      "What systemic factor most limits dental access in low-income communities?"
+    ],
+    "example_sentence": "Working on a dental access campaign showed me how much oral health is shaped by postcode rather than personal choice.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o55",
+    "organisation_id": "",
+    "organisation_name": "Citizens Advice",
+    "role": "Trainee Adviser (Rolling Intake)",
+    "courses": [
+      "dentistry",
+      "business",
+      "journalism"
+    ],
+    "description": "Citizens Advice runs rolling volunteer intakes year-round — train as an adviser helping the public with legal, financial and welfare issues.",
+    "why_it_helps": "Client-facing legal and social welfare advice is among the most impactful and evidential experience for Law and Social Work applications.",
+    "skills": [
+      "Legal information delivery",
+      "Client communication",
+      "Case recording"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "6 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.citizensadvice.org.uk/about-us/support-us/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What case revealed most starkly the gap between rights on paper and access in practice?"
+    ],
+    "example_sentence": "Advising real clients at Citizens Advice showed me that legal knowledge only has value when it reaches the people who need it.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o56",
+    "organisation_name": "StreetGames",
+    "role": "Doorstep Sport Activator",
+    "courses": [
+      "sports-science",
+      "education",
+      "social-work"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Deliver accessible sport and activity sessions in disadvantaged urban communities, working alongside StreetGames coaches.",
+    "why_it_helps": "Delivering sport in complex social settings shows both practical coaching skill and community awareness valued by Sports Science courses.",
+    "skills": [
+      "Activity leadership",
+      "Inclusive coaching",
+      "Youth engagement"
+    ],
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 16,
+    "town": "Manchester",
+    "apply_url": "https://www.streetgames.org/for-community-partners/",
+    "achievements": [
+      "Led weekly sessions for 20+ young people over a full term"
+    ],
+    "reflection_prompts": [
+      "How did you adapt sessions for participants with very different ability levels?"
+    ],
+    "example_sentence": "Delivering sport sessions in a deprived area taught me that physical activity is as much about belonging as fitness.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o57",
+    "organisation_name": "British Heart Foundation",
+    "role": "Physical Activity Promoter",
+    "courses": [
+      "sports-science",
+      "medicine",
+      "nursing",
+      "physiotherapy"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Promote physical activity as a health intervention at community events, GP surgeries and workplace wellness days.",
+    "why_it_helps": "Understanding exercise as medicine sits at the intersection of Sports Science, Physiotherapy and Medicine applications.",
+    "skills": [
+      "Exercise prescription basics",
+      "Health promotion",
+      "Public communication"
+    ],
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "Birmingham",
+    "apply_url": "https://www.bhf.org.uk/get-involved/volunteer",
+    "achievements": [
+      "Staffed 6 community health events",
+      "Produced a physical activity leaflet distributed to 300 households"
+    ],
+    "reflection_prompts": [
+      "What was the most common barrier people cited to being more active?"
+    ],
+    "example_sentence": "Promoting physical activity at GP surgeries showed me how exercise sits at the boundary of medicine and behaviour change.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o58",
+    "organisation_id": "",
+    "organisation_name": "Volunteering Matters",
+    "role": "Volunteer (Always Open)",
+    "courses": [
+      "sports-science",
+      "physiotherapy",
+      "nursing"
+    ],
+    "description": "Volunteering Matters runs year-round programmes across health, community, sport and education — always accepting new volunteers.",
+    "why_it_helps": "A trusted national charity with structured roles across most subject areas.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://volunteeringmatters.org.uk/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "Which programme aligned best with your target course?"
+    ],
+    "example_sentence": "Volunteering through Volunteering Matters gave me structured, evidenced experience I could speak to at interview.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o59",
+    "organisation_id": "",
+    "organisation_name": "Citizens Advice",
+    "role": "Trainee Adviser (Rolling Intake)",
+    "courses": [
+      "music",
+      "nursing",
+      "social-work",
+      "psychology"
+    ],
+    "description": "Citizens Advice runs rolling volunteer intakes year-round — train as an adviser helping the public with legal, financial and welfare issues.",
+    "why_it_helps": "Client-facing legal and social welfare advice is among the most impactful and evidential experience for Law and Social Work applications.",
+    "skills": [
+      "Legal information delivery",
+      "Client communication",
+      "Case recording"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "6 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.citizensadvice.org.uk/about-us/support-us/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What case revealed most starkly the gap between rights on paper and access in practice?"
+    ],
+    "example_sentence": "Advising real clients at Citizens Advice showed me that legal knowledge only has value when it reaches the people who need it.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o60",
+    "organisation_name": "Noise Solution",
+    "role": "Music Mentoring Support Volunteer",
+    "courses": [
+      "music",
+      "education",
+      "psychology",
+      "social-work"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Support music mentors working with disengaged young people, using music production as a therapeutic and educational tool.",
+    "why_it_helps": "Music-as-intervention experience in a youth context is highly distinctive for Music and Education applications.",
+    "skills": [
+      "Music production basics",
+      "Youth engagement",
+      "Mentoring support"
+    ],
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 17,
+    "town": "Bristol",
+    "apply_url": "https://www.noisesolution.org/get-involved/",
+    "achievements": [
+      "Supported a young person completing their first produced track"
+    ],
+    "reflection_prompts": [
+      "What did music give this young person that a traditional classroom couldn't?"
+    ],
+    "example_sentence": "Supporting a disengaged teenager through music production showed me that creativity can be a way back into education.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o61",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "music",
+      "education",
+      "social-work"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://www.jica.go.jp/volunteer/index.html",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o62",
+    "organisation_id": "",
+    "organisation_name": "Do-it.org",
+    "role": "Volunteer (Search by Course)",
+    "courses": [
+      "physiotherapy",
+      "medicine",
+      "nursing",
+      "sports-science"
+    ],
+    "description": "Search the UK's largest volunteering database for opportunities that match your course, location and availability.",
+    "why_it_helps": "Do-it lists thousands of active roles updated in real time — you can filter by interest, location and commitment.",
+    "skills": [
+      "Varies by role"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 14,
+    "town": "Anywhere (online)",
+    "apply_url": "https://do-it.org/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What role matched your course interest most closely?"
+    ],
+    "example_sentence": "Finding a placement through Do-it helped me target exactly the experience my application needed.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o63",
+    "organisation_name": "SportsAid",
+    "role": "Young Athlete Support Volunteer",
+    "courses": [
+      "physiotherapy",
+      "sports-science",
+      "medicine"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Support SportsAid's welfare and development programme for talented young athletes, assisting at training camps and events.",
+    "why_it_helps": "Combining sports performance and welfare gives well-rounded evidence across the physiotherapy-sports science boundary.",
+    "skills": [
+      "Athlete welfare",
+      "Performance support",
+      "Sports injury awareness"
+    ],
+    "weekly_commitment": "Event-based (monthly)",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.sportsaid.org.uk/get-involved/",
+    "achievements": [
+      "Assisted at two national training camps",
+      "Supported an athlete through a minor injury management protocol"
+    ],
+    "reflection_prompts": [
+      "How did athletes manage the psychological side of injury differently from the physical?"
+    ],
+    "example_sentence": "Watching a young athlete manage a setback showed me how inseparable physical and mental recovery are.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o64",
+    "organisation_name": "Pharmacist Support",
+    "role": "Wellbeing Outreach Volunteer",
+    "courses": [
+      "pharmacy",
+      "medicine",
+      "nursing"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "description": "Support pharmacy professionals' wellbeing charity at awareness events and online campaigns tackling stress and burnout in the profession.",
+    "why_it_helps": "Understanding the professional and human side of pharmacy life shows the reflective awareness pharmacy schools value.",
+    "skills": [
+      "Wellbeing communication",
+      "Campaign support",
+      "Peer support awareness"
+    ],
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://www.pharmacistsupport.org/get-involved/",
+    "achievements": [
+      "Staffed three awareness stands at pharmacy conferences"
+    ],
+    "reflection_prompts": [
+      "What did the wellbeing issues reveal about pressures in the pharmacy profession?"
+    ],
+    "example_sentence": "Volunteering for a pharmacy wellbeing charity showed me that caring for those who dispense care is just as important.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o65",
+    "organisation_id": "",
+    "organisation_name": "Conservation Volunteers (TCV)",
+    "role": "Green Volunteer (Always Open)",
+    "courses": [
+      "pharmacy",
+      "chemistry",
+      "biology-life-sciences"
+    ],
+    "description": "TCV runs weekly green volunteering sessions nationwide — habitat management, planting, river work and biodiversity projects.",
+    "why_it_helps": "Regular fieldwork with a professional conservation organisation builds exactly the practical evidence science courses want.",
+    "skills": [
+      "Habitat management",
+      "Field ecology",
+      "Teamwork outdoors"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 day/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.tcv.org.uk/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did regular practical conservation work reveal about ecosystems that a lecture couldn't?"
+    ],
+    "example_sentence": "Weekly TCV sessions gave me sustained, fieldwork-based evidence I could reference throughout my application.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o66",
+    "organisation_name": "Doc/Fest Sheffield",
+    "role": "Festival Volunteer",
+    "courses": [
+      "film-media-studies",
+      "journalism",
+      "english-literature"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Support one of the world's leading documentary festivals — front of house, filmmaker hospitality, press room and screening logistics.",
+    "why_it_helps": "Working inside a major international film festival gives direct industry exposure that stands out in Film applications.",
+    "skills": [
+      "Festival operations",
+      "Press liaison",
+      "Audience management"
+    ],
+    "weekly_commitment": "Full festival week (June)",
+    "min_age": 16,
+    "town": "Sheffield",
+    "apply_url": "https://www.sheffdocfest.com/volunteer-roles",
+    "achievements": [
+      "Worked across press screenings and filmmaker Q&As"
+    ],
+    "reflection_prompts": [
+      "What did working behind the scenes reveal about how films reach audiences?"
+    ],
+    "example_sentence": "Volunteering at DocFest showed me that the gap between a film being made and being seen is filled by a thousand logistical decisions.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o67",
+    "organisation_name": "Into Film",
+    "role": "Film Club Leader",
+    "courses": [
+      "film-media-studies",
+      "education",
+      "english-literature"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Set up and run a school film club, selecting films, facilitating post-screening discussions and submitting annual reviews.",
+    "why_it_helps": "Running a film club demonstrates curatorial confidence, critical engagement and leadership — all valued in Film applications.",
+    "skills": [
+      "Film curation",
+      "Discussion facilitation",
+      "Critical analysis"
+    ],
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 15,
+    "town": "Anywhere",
+    "apply_url": "https://www.intofilm.org/film-clubs/register",
+    "achievements": [
+      "Led a 30-member school film club for a full academic year"
+    ],
+    "reflection_prompts": [
+      "What film provoked the most unexpected reaction from your audience?"
+    ],
+    "example_sentence": "Running a school film club taught me that choosing what other people watch is itself an act of critical argument.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o68",
+    "organisation_name": "SAPERE",
+    "role": "Philosophy for Children Facilitator",
+    "courses": [
+      "philosophy",
+      "education",
+      "psychology"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Train in and deliver Philosophy for Children (P4C) inquiry sessions in primary and secondary classrooms.",
+    "why_it_helps": "Facilitating structured philosophical inquiry with children demonstrates both subject mastery and exceptional communication skill.",
+    "skills": [
+      "Philosophical facilitation",
+      "Socratic questioning",
+      "Child-appropriate reasoning"
+    ],
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.sapere.org.uk/get-involved/",
+    "achievements": [
+      "Delivered a 6-week P4C programme in a Year 5 classroom",
+      "Trained in Level 1 P4C facilitation"
+    ],
+    "reflection_prompts": [
+      "What question from a child made you reconsider a philosophical position you held?"
+    ],
+    "example_sentence": "Facilitating philosophy with 10-year-olds showed me that rigorous argument is a natural behaviour we often train out of people.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o69",
+    "organisation_name": "Institute of Art and Ideas",
+    "role": "Festival Debate Volunteer",
+    "courses": [
+      "philosophy",
+      "politics",
+      "english-literature"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Support the HowTheLightGetsIn philosophy and music festival — stewarding debates, assisting speakers and supporting the programme team.",
+    "why_it_helps": "Working inside a major public philosophy festival signals serious intellectual engagement beyond the classroom.",
+    "skills": [
+      "Debate logistics",
+      "Public intellectual engagement",
+      "Speaker liaison"
+    ],
+    "weekly_commitment": "Festival week (May/Sept)",
+    "min_age": 17,
+    "town": "Hay-on-Wye",
+    "apply_url": "https://howthelightgetsin.org/volunteer",
+    "achievements": [
+      "Stewarded 8 headline debates including sessions with leading philosophers"
+    ],
+    "reflection_prompts": [
+      "Which debate changed your position on something you had considered settled?"
+    ],
+    "example_sentence": "Stewarding philosophy debates at HowTheLightGetsIn showed me that the best arguments are those that make you uncomfortable.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o70",
+    "organisation_id": "",
+    "organisation_name": "Volunteer It Yourself (VIY)",
+    "role": "Youth Build Volunteer",
+    "courses": [
+      "art-design",
+      "education",
+      "social-work"
+    ],
+    "description": "VIY recruits volunteers year-round to help young people renovate community spaces, developing both practical and social skills.",
+    "why_it_helps": "Combining design, construction and youth development makes this distinctive evidence for Architecture and Engineering applications.",
+    "skills": [
+      "Construction skills",
+      "Youth engagement",
+      "Spatial problem-solving"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Project-based weekends",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.viy.org.uk/get-involved/",
+    "achievements": [],
+    "reflection_prompts": [
+      "How did working alongside young people change how you approached the design decisions?"
+    ],
+    "example_sentence": "Helping young people renovate a community space showed me that architecture is inseparable from the lives of the people who use it.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o71",
+    "organisation_name": "Graffiti Life",
+    "role": "Street Art Education Assistant",
+    "courses": [
+      "art-design",
+      "architecture",
+      "film-media-studies"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Help professional street artists deliver urban art workshops in schools and community spaces across London.",
+    "why_it_helps": "Urban art education bridges fine art practice and public engagement — distinctive evidence for Art & Design and Architecture courses.",
+    "skills": [
+      "Urban art techniques",
+      "Workshop assistance",
+      "Public space design"
+    ],
+    "weekly_commitment": "3 hrs/fortnight",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://graffitilife.co.uk/",
+    "achievements": [
+      "Assisted on a community mural project for a youth centre"
+    ],
+    "reflection_prompts": [
+      "How does designing for a public wall differ from designing for a private viewer?"
+    ],
+    "example_sentence": "Assisting a street art workshop showed me that public art is always in negotiation with the space and community around it.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o72",
+    "organisation_id": "",
+    "organisation_name": "Reach Volunteering",
+    "role": "Skills-Based Volunteer",
+    "courses": [
+      "journalism",
+      "politics",
+      "english-literature"
+    ],
+    "description": "Match your academic skills to charities and non-profits that need them — from data analysis to legal research to design.",
+    "why_it_helps": "Skills-based volunteering is especially compelling evidence because it shows your subject knowledge being applied to real problems.",
+    "skills": [
+      "Varies by skill area"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 18,
+    "town": "Anywhere (online)",
+    "apply_url": "https://reachvolunteering.org.uk/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What professional skill did this role let you apply for the first time?"
+    ],
+    "example_sentence": "Using my subject skills to help a charity through Reach Volunteering gave my application concrete, real-world evidence.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o73",
+    "organisation_name": "Reuters Institute for the Study of Journalism",
+    "role": "Research Support Volunteer",
+    "courses": [
+      "journalism",
+      "politics",
+      "data-science-ai"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "description": "Assist researchers at Oxford's Reuters Institute with data coding, literature reviews and report production for journalism studies.",
+    "why_it_helps": "Research exposure at a world-leading journalism think tank is exceptional evidence for competitive Journalism applications.",
+    "skills": [
+      "Research methodology",
+      "Data coding",
+      "Academic writing support"
+    ],
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 17,
+    "town": "Oxford",
+    "apply_url": "https://reutersinstitute.politics.ox.ac.uk/",
+    "achievements": [
+      "Coded media trust survey data for a cross-country study"
+    ],
+    "reflection_prompts": [
+      "What finding surprised you about how people actually consume news?"
+    ],
+    "example_sentence": "Coding survey data at the Reuters Institute showed me that journalism research is as important to the health of the press as the journalism itself.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o74",
+    "organisation_id": "",
+    "organisation_name": "Code Club (Raspberry Pi Foundation)",
+    "role": "Code Club Volunteer (Always Open)",
+    "courses": [
+      "computer-science",
+      "education",
+      "data-science-ai"
+    ],
+    "description": "The Raspberry Pi Foundation recruits Code Club volunteers year-round — run a weekly coding club for 9-13 year-olds at a local school or library.",
+    "why_it_helps": "Teaching programming with measurable curriculum outcomes gives technical and communication evidence simultaneously.",
+    "skills": [
+      "Python/Scratch teaching",
+      "Curriculum delivery",
+      "Debugging"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 hr/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://codeclub.org/en/volunteer",
+    "achievements": [],
+    "reflection_prompts": [
+      "What programming concept required the most creative explanation to make it click for a child?"
+    ],
+    "example_sentence": "Running a Code Club gave me continuous, outcome-measured teaching and technical evidence across my whole application period.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o75",
+    "organisation_id": "",
+    "organisation_name": "Tutor Trust",
+    "role": "Volunteer Tutor (Always Open)",
+    "courses": [
+      "computer-science",
+      "data-science-ai",
+      "mathematics"
+    ],
+    "description": "Tutor Trust recruits volunteer tutors year-round to support disadvantaged pupils in core academic subjects.",
+    "why_it_helps": "Structured one-to-one tutoring with measurable outcomes is strong, specific evidence for Education and subject-specialist applications.",
+    "skills": [
+      "Subject tutoring",
+      "Lesson planning",
+      "Progress tracking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://tutortrust.org/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did tracking a pupil's progress week-to-week teach you about how learning actually works?"
+    ],
+    "example_sentence": "Tutoring disadvantaged students through Tutor Trust gave me measurable, outcome-evidenced teaching experience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o76",
+    "organisation_name": "Citizens Advice",
+    "role": "Trainee Adviser Volunteer",
+    "courses": [
+      "law",
+      "social-work",
+      "politics",
+      "economics"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "description": "Train as an adviser and help members of the public understand their legal rights on housing, employment, benefits and debt.",
+    "why_it_helps": "Giving legal information to real people in high-stakes situations is among the most valuable evidence for Law applications.",
+    "skills": [
+      "Legal information delivery",
+      "Client interview skills",
+      "Case recording"
+    ],
+    "weekly_commitment": "6 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.citizensadvice.org.uk/about-us/support-us/volunteering/",
+    "achievements": [
+      "Qualified as a generalist adviser after 3-month training",
+      "Helped 40+ clients with housing and debt queries"
+    ],
+    "reflection_prompts": [
+      "What case made you most aware of the gap between legal rights on paper and access in practice?"
+    ],
+    "example_sentence": "Advising clients at Citizens Advice taught me that the law only protects people who know it exists.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o77",
+    "organisation_name": "Advocate (Bar Pro Bono Unit)",
+    "role": "Case Preparation Volunteer",
+    "courses": [
+      "law",
+      "politics"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "description": "Help barristers prepare pro bono cases by conducting legal research, drafting summaries and organising case files.",
+    "why_it_helps": "Working directly in a barrister's pro bono practice is highly competitive and carries significant weight in Law applications.",
+    "skills": [
+      "Legal research",
+      "Case file organisation",
+      "Drafting summaries"
+    ],
+    "weekly_commitment": "3-4 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://weareadvocate.org.uk/volunteer.html",
+    "achievements": [
+      "Produced legal research used in a successful housing appeal"
+    ],
+    "reflection_prompts": [
+      "What legal argument did the research reveal that wasn't immediately obvious from the facts?"
+    ],
+    "example_sentence": "Preparing research for a pro bono barrister showed me that legal argument is only as strong as the evidence behind it.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o78",
+    "organisation_id": "",
+    "organisation_name": "RSPB",
+    "role": "Nature Reserve Volunteer",
+    "courses": [
+      "veterinary-science",
+      "biology-life-sciences"
+    ],
+    "description": "RSPB nature reserves recruit volunteers year-round for species surveys, habitat management and visitor engagement.",
+    "why_it_helps": "Working on a managed nature reserve provides the kind of documented field experience that biology and environmental science tutors prioritise.",
+    "skills": [
+      "Species identification",
+      "Survey methods",
+      "Visitor engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.rspb.org.uk/get-involved/volunteering-fundraising/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What species data did you collect and what did it indicate about the reserve's health?"
+    ],
+    "example_sentence": "Regular RSPB volunteer surveys gave me documented fieldwork evidence with real conservation outcomes.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o79",
+    "organisation_id": "",
+    "organisation_name": "Conservation Volunteers (TCV)",
+    "role": "Green Volunteer (Always Open)",
+    "courses": [
+      "veterinary-science",
+      "biology-life-sciences",
+      "environmental-science"
+    ],
+    "description": "TCV runs weekly green volunteering sessions nationwide — habitat management, planting, river work and biodiversity projects.",
+    "why_it_helps": "Regular fieldwork with a professional conservation organisation builds exactly the practical evidence science courses want.",
+    "skills": [
+      "Habitat management",
+      "Field ecology",
+      "Teamwork outdoors"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 day/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.tcv.org.uk/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did regular practical conservation work reveal about ecosystems that a lecture couldn't?"
+    ],
+    "example_sentence": "Weekly TCV sessions gave me sustained, fieldwork-based evidence I could reference throughout my application.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o80",
+    "organisation_name": "Cats Protection",
+    "role": "Fostering & Socialisation Volunteer",
+    "courses": [
+      "veterinary-science",
+      "biology-life-sciences",
+      "psychology"
+    ],
+    "description": "Foster rescue cats at home, socialising them and monitoring their health and behaviour ahead of rehoming.",
+    "why_it_helps": "Long-term individual animal monitoring builds the observational and behavioural skills vet schools actively want to see.",
+    "skills": [
+      "Animal behaviour observation",
+      "Health monitoring",
+      "Record keeping"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Ongoing (foster placement)",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.cats.org.uk/support-us/volunteering",
+    "achievements": [
+      "Successfully fostered and rehomed 6 cats",
+      "Monitored and reported a respiratory condition early"
+    ],
+    "reflection_prompts": [
+      "What did sustained daily observation of the same animal reveal that a single clinic visit couldn't?"
+    ],
+    "example_sentence": "Fostering rescue cats showed me how much clinical observation depends on knowing an individual's baseline.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o81",
+    "organisation_id": "",
+    "organisation_name": "RSPB",
+    "role": "Nature Reserve Volunteer",
+    "courses": [
+      "environmental-science",
+      "biology-life-sciences",
+      "politics"
+    ],
+    "description": "RSPB nature reserves recruit volunteers year-round for species surveys, habitat management and visitor engagement.",
+    "why_it_helps": "Working on a managed nature reserve provides the kind of documented field experience that biology and environmental science tutors prioritise.",
+    "skills": [
+      "Species identification",
+      "Survey methods",
+      "Visitor engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.rspb.org.uk/get-involved/volunteering-fundraising/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What species data did you collect and what did it indicate about the reserve's health?"
+    ],
+    "example_sentence": "Regular RSPB volunteer surveys gave me documented fieldwork evidence with real conservation outcomes.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o82",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "environmental-science",
+      "biology-life-sciences",
+      "chemistry"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://www.jica.go.jp/volunteer/index.html",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o83",
+    "organisation_id": "",
+    "organisation_name": "JICA Volunteer Programme",
+    "role": "Japan International Cooperation Volunteer",
+    "courses": [
+      "dentistry",
+      "medicine",
+      "social-work"
+    ],
+    "description": "JICA recruits volunteers year-round to work on development projects across Asia — including education, healthcare and engineering.",
+    "why_it_helps": "International development experience in Asia is distinctive and highly valued for ambitious applications.",
+    "skills": [
+      "Cross-cultural communication",
+      "Project support",
+      "Subject-specific skills"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Full-time placement",
+    "min_age": 20,
+    "town": "Various locations across Asia",
+    "apply_url": "https://www.jica.go.jp/volunteer/index.html",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did the development context reveal about your subject that a domestic setting couldn't?"
+    ],
+    "example_sentence": "A JICA placement showed me how my subject knowledge translates — and sometimes fails to translate — into real-world impact.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o84",
+    "organisation_id": "",
+    "organisation_name": "St John Ambulance",
+    "role": "First Aid Volunteer (Ongoing)",
+    "courses": [
+      "dentistry",
+      "nursing",
+      "medicine"
+    ],
+    "description": "Train and practise first aid at events, schools and community venues — St John Ambulance recruits volunteers continuously.",
+    "why_it_helps": "Practical clinical skills and real emergency situations make this highly evidential for any health application.",
+    "skills": [
+      "First aid",
+      "Emergency response",
+      "Patient assessment"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2-4 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.sja.org.uk/get-involved/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What real emergency situation required you to apply your first aid training?"
+    ],
+    "example_sentence": "Responding to real first aid incidents as a St John volunteer gave me clinical confidence no textbook could.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o85",
+    "organisation_id": "",
+    "organisation_name": "Reach Volunteering",
+    "role": "Skills-Based Volunteer",
+    "courses": [
+      "business",
+      "economics",
+      "law"
+    ],
+    "description": "Match your academic skills to charities and non-profits that need them — from data analysis to legal research to design.",
+    "why_it_helps": "Skills-based volunteering is especially compelling evidence because it shows your subject knowledge being applied to real problems.",
+    "skills": [
+      "Varies by skill area"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 18,
+    "town": "Anywhere (online)",
+    "apply_url": "https://reachvolunteering.org.uk/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What professional skill did this role let you apply for the first time?"
+    ],
+    "example_sentence": "Using my subject skills to help a charity through Reach Volunteering gave my application concrete, real-world evidence.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o86",
+    "organisation_name": "Social Enterprise UK",
+    "role": "Social Enterprise Network Volunteer",
+    "courses": [
+      "business",
+      "economics",
+      "social-work",
+      "politics"
+    ],
+    "description": "Support a social enterprise in your community — helping with marketing, operations, customer engagement or impact measurement.",
+    "why_it_helps": "Social enterprise blends commercial rigour with social purpose — a distinctive angle that stands out in Business applications.",
+    "skills": [
+      "Social enterprise operations",
+      "Impact measurement",
+      "Marketing basics"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.socialenterprise.org.uk/get-involved/",
+    "achievements": [
+      "Designed a social media campaign that increased a social enterprise's reach by 40%"
+    ],
+    "reflection_prompts": [
+      "Where did the social mission create a tension with commercial sustainability?"
+    ],
+    "example_sentence": "Working with a social enterprise showed me that the hardest business decisions are the ones where profit and purpose pull in opposite directions.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o87",
+    "organisation_name": "Sage Gateshead",
+    "role": "Young Musicians Programme Assistant",
+    "courses": [
+      "music",
+      "education",
+      "social-work"
+    ],
+    "description": "Support Sage Gateshead's community music education team running programmes for young people from low-income backgrounds.",
+    "why_it_helps": "Working at a major music venue's education programme demonstrates institutional engagement and community music practice.",
+    "skills": [
+      "Music education support",
+      "Youth engagement",
+      "Programme coordination"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 16,
+    "town": "Gateshead",
+    "apply_url": "https://www.sagegateshead.com/take-part/",
+    "achievements": [
+      "Supported a 12-week young musicians programme",
+      "Helped organise an end-of-programme showcase performance"
+    ],
+    "reflection_prompts": [
+      "What barrier to musical participation did you observe that you hadn't expected?"
+    ],
+    "example_sentence": "Assisting Sage Gateshead's youth programme showed me that musical access is a social justice issue as much as a cultural one.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o88",
+    "organisation_name": "National Youth Jazz Orchestra",
+    "role": "NYJO Community Outreach Assistant",
+    "courses": [
+      "music",
+      "education"
+    ],
+    "description": "Support NYJO's schools and community outreach programme — assisting at workshops, jazz education sessions and public events.",
+    "why_it_helps": "Jazz outreach work demonstrates specialist musical knowledge and community engagement in a distinctive idiom.",
+    "skills": [
+      "Jazz music knowledge",
+      "Workshop facilitation",
+      "Audience development"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Event-based (1-2/month)",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.nyjo.org.uk/get-involved",
+    "achievements": [
+      "Assisted at 6 school jazz workshops",
+      "Supported a public open day reaching 200 young people"
+    ],
+    "reflection_prompts": [
+      "What did improvisation teach workshop participants about musical risk-taking?"
+    ],
+    "example_sentence": "Supporting jazz education workshops showed me that improvisation is as much a way of thinking as a musical technique.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "volunteering"
+  },
+  {
+    "id": "o89",
+    "organisation_id": "",
+    "organisation_name": "Citizens Advice",
+    "role": "Trainee Adviser (Rolling Intake)",
+    "courses": [
+      "philosophy",
+      "law",
+      "politics"
+    ],
+    "description": "Citizens Advice runs rolling volunteer intakes year-round — train as an adviser helping the public with legal, financial and welfare issues.",
+    "why_it_helps": "Client-facing legal and social welfare advice is among the most impactful and evidential experience for Law and Social Work applications.",
+    "skills": [
+      "Legal information delivery",
+      "Client communication",
+      "Case recording"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "6 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.citizensadvice.org.uk/about-us/support-us/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What case revealed most starkly the gap between rights on paper and access in practice?"
+    ],
+    "example_sentence": "Advising real clients at Citizens Advice showed me that legal knowledge only has value when it reaches the people who need it.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o90",
+    "organisation_id": "",
+    "organisation_name": "Artfundi",
+    "role": "Arts Outreach Volunteer",
+    "courses": [
+      "philosophy",
+      "english-literature",
+      "history",
+      "politics"
+    ],
+    "description": "Artfundi connects arts volunteers with schools and community organisations year-round, across all art forms.",
+    "why_it_helps": "Sustained community arts involvement is the most persuasive evidence of genuine subject commitment for arts applications.",
+    "skills": [
+      "Arts facilitation",
+      "Creative workshop delivery",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.a-n.co.uk/jobs/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did facilitating art for a non-arts audience teach you about your own creative practice?"
+    ],
+    "example_sentence": "Sustained arts outreach volunteering showed me how creativity functions differently when it serves a community rather than an audience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o91",
+    "organisation_id": "",
+    "organisation_name": "Tutor Trust",
+    "role": "Volunteer Tutor (Always Open)",
+    "courses": [
+      "mathematics",
+      "physics",
+      "economics",
+      "computer-science",
+      "data-science-ai"
+    ],
+    "description": "Tutor Trust recruits volunteer tutors year-round to support disadvantaged pupils in core academic subjects.",
+    "why_it_helps": "Structured one-to-one tutoring with measurable outcomes is strong, specific evidence for Education and subject-specialist applications.",
+    "skills": [
+      "Subject tutoring",
+      "Lesson planning",
+      "Progress tracking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://tutortrust.org/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did tracking a pupil's progress week-to-week teach you about how learning actually works?"
+    ],
+    "example_sentence": "Tutoring disadvantaged students through Tutor Trust gave me measurable, outcome-evidenced teaching experience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o92",
+    "organisation_name": "British Physics Olympiad",
+    "role": "Physics Challenge & Olympiad",
+    "courses": [
+      "physics",
+      "engineering",
+      "mathematics",
+      "space-science"
+    ],
+    "description": "Enter the British Physics Olympiad — a series of challenges testing physics problem-solving from first principles, culminating in national and international rounds.",
+    "why_it_helps": "Physics Olympiad participation signals the kind of problem-solving depth that Physics and Engineering admissions tutors actively look for.",
+    "skills": [
+      "Physics problem-solving",
+      "Mathematical modelling",
+      "First-principles thinking"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.bpho.org.uk/",
+    "achievements": [
+      "Silver medal in Round 1",
+      "Qualified for British Physics Olympiad Round 2"
+    ],
+    "reflection_prompts": [
+      "Which Olympiad problem required you to derive a result from scratch that you'd only ever been given as a formula?"
+    ],
+    "example_sentence": "Competing in the Physics Olympiad taught me that real physics problems don't come with a list of equations at the front.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o93",
+    "organisation_name": "UK Chemistry Olympiad",
+    "role": "Chemistry Olympiad Competition",
+    "courses": [
+      "chemistry",
+      "medicine",
+      "pharmacy",
+      "biology-life-sciences"
+    ],
+    "description": "Take part in the UK Chemistry Olympiad — a challenging national competition testing understanding, problem-solving and practical chemistry knowledge.",
+    "why_it_helps": "Chemistry Olympiad results demonstrate subject depth and competition-level thinking highly valued in Chemistry and Medicine applications.",
+    "skills": [
+      "Chemical problem-solving",
+      "Mechanism reasoning",
+      "Quantitative analysis"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://edu.rsc.org/enrichment/uk-chemistry-olympiad",
+    "achievements": [
+      "Bronze medal in UK Chemistry Olympiad Round 1"
+    ],
+    "reflection_prompts": [
+      "What chemistry concept did the Olympiad expose that your A-level hadn't yet covered?"
+    ],
+    "example_sentence": "The Chemistry Olympiad showed me how much deeper chemical reasoning goes than A-level reaction memorisation.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o94",
+    "organisation_id": "",
+    "organisation_name": "Conservation Volunteers (TCV)",
+    "role": "Green Volunteer (Always Open)",
+    "courses": [
+      "biology-life-sciences",
+      "medicine",
+      "veterinary-science",
+      "environmental-science"
+    ],
+    "description": "TCV runs weekly green volunteering sessions nationwide — habitat management, planting, river work and biodiversity projects.",
+    "why_it_helps": "Regular fieldwork with a professional conservation organisation builds exactly the practical evidence science courses want.",
+    "skills": [
+      "Habitat management",
+      "Field ecology",
+      "Teamwork outdoors"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 day/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.tcv.org.uk/volunteering/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did regular practical conservation work reveal about ecosystems that a lecture couldn't?"
+    ],
+    "example_sentence": "Weekly TCV sessions gave me sustained, fieldwork-based evidence I could reference throughout my application.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o95",
+    "organisation_name": "UK Informatics Olympiad",
+    "role": "British Informatics Olympiad (BIO)",
+    "courses": [
+      "computer-science",
+      "mathematics",
+      "data-science-ai",
+      "engineering"
+    ],
+    "description": "Compete in the British Informatics Olympiad — a national algorithmic problem-solving competition for the UK's top computing students.",
+    "why_it_helps": "BIO results are exceptional evidence of algorithmic thinking and are specifically referenced by Oxbridge Computer Science admissions.",
+    "skills": [
+      "Algorithm design",
+      "Competitive programming",
+      "Computational thinking"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://www.olympiad.org.uk/",
+    "achievements": [
+      "Qualified for BIO Round 2",
+      "Solved 3/3 Round 1 problems in competition time"
+    ],
+    "reflection_prompts": [
+      "What algorithmic technique did you learn from the Olympiad that you'd never encountered in class?"
+    ],
+    "example_sentence": "Reaching the BIO finals taught me that competitive programming is as much about mathematical proof as code.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o96",
+    "organisation_name": "John Locke Institute",
+    "role": "John Locke Essay Competition",
+    "courses": [
+      "philosophy",
+      "politics",
+      "economics",
+      "law",
+      "history",
+      "english-literature"
+    ],
+    "description": "Write an extended essay on a philosophical, political, economic or legal question for the prestigious John Locke Essay Competition.",
+    "why_it_helps": "John Locke success is one of the most recognised essay competition results for Oxbridge humanities and social science applications.",
+    "skills": [
+      "Extended essay writing",
+      "Philosophical argument",
+      "Critical reading"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 15,
+    "town": "Anywhere",
+    "apply_url": "https://www.johnlockeinstitute.com/essay-competition",
+    "achievements": [
+      "Shortlisted in Philosophy category",
+      "Highly commended in Politics category"
+    ],
+    "reflection_prompts": [
+      "What did writing a 2000-word essay under competition conditions teach you that coursework doesn't?"
+    ],
+    "example_sentence": "Writing for the John Locke competition taught me that a strong argument is built on anticipating counterarguments, not avoiding them.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o97",
+    "organisation_id": "",
+    "organisation_name": "Reach Volunteering",
+    "role": "Skills-Based Volunteer",
+    "courses": [
+      "politics",
+      "law",
+      "history",
+      "economics",
+      "journalism"
+    ],
+    "description": "Match your academic skills to charities and non-profits that need them — from data analysis to legal research to design.",
+    "why_it_helps": "Skills-based volunteering is especially compelling evidence because it shows your subject knowledge being applied to real problems.",
+    "skills": [
+      "Varies by skill area"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 18,
+    "town": "Anywhere (online)",
+    "apply_url": "https://reachvolunteering.org.uk/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What professional skill did this role let you apply for the first time?"
+    ],
+    "example_sentence": "Using my subject skills to help a charity through Reach Volunteering gave my application concrete, real-world evidence.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o98",
+    "organisation_id": "",
+    "organisation_name": "Artfundi",
+    "role": "Arts Outreach Volunteer",
+    "courses": [
+      "economics",
+      "politics",
+      "business",
+      "history",
+      "philosophy"
+    ],
+    "description": "Artfundi connects arts volunteers with schools and community organisations year-round, across all art forms.",
+    "why_it_helps": "Sustained community arts involvement is the most persuasive evidence of genuine subject commitment for arts applications.",
+    "skills": [
+      "Arts facilitation",
+      "Creative workshop delivery",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.a-n.co.uk/jobs/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did facilitating art for a non-arts audience teach you about your own creative practice?"
+    ],
+    "example_sentence": "Sustained arts outreach volunteering showed me how creativity functions differently when it serves a community rather than an audience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o99",
+    "organisation_name": "BBC Young Writers' Award",
+    "role": "BBC Young Writers' Award Competition",
+    "courses": [
+      "english-literature",
+      "journalism",
+      "film-media-studies",
+      "creative-writing"
+    ],
+    "description": "Submit original fiction, poetry or non-fiction to the BBC Young Writers' Award — one of the UK's most prestigious writing competitions for under-18s.",
+    "why_it_helps": "BBC recognition as a young writer is strong, tangible evidence of writing quality for English and Journalism applications.",
+    "skills": [
+      "Creative writing",
+      "Editing",
+      "Narrative craft"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://www.bbc.co.uk/programmes/b006qshd",
+    "achievements": [
+      "Shortlisted in fiction category",
+      "Piece broadcast on BBC Radio"
+    ],
+    "reflection_prompts": [
+      "What did the editorial feedback reveal about your writing that self-assessment couldn't?"
+    ],
+    "example_sentence": "Being shortlisted by the BBC taught me that good writing is rewriting — the first draft is just permission to write a better second one.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o100",
+    "organisation_name": "Royal Photographic Society",
+    "role": "Young Photographer of the Year",
+    "courses": [
+      "art-design",
+      "film-media-studies",
+      "journalism"
+    ],
+    "description": "Enter the RPS Young Photographer of the Year competition with a portfolio showcasing your photographic work and creative vision.",
+    "why_it_helps": "RPS recognition demonstrates technical skill and creative vision — strong evidence for Art, Film and Journalism applications.",
+    "skills": [
+      "Photography",
+      "Portfolio curation",
+      "Visual storytelling"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 12,
+    "town": "Anywhere",
+    "apply_url": "https://rps.org/",
+    "achievements": [
+      "Highly commended in documentary category",
+      "Portfolio exhibited at RPS gallery"
+    ],
+    "reflection_prompts": [
+      "What did curating a competition portfolio teach you about your photographic voice?"
+    ],
+    "example_sentence": "Entering RPS taught me that a strong portfolio is a conversation, not a collection.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o101",
+    "organisation_id": "",
+    "organisation_name": "Artfundi",
+    "role": "Arts Outreach Volunteer",
+    "courses": [
+      "art-design",
+      "history",
+      "english-literature",
+      "film-media-studies"
+    ],
+    "description": "Artfundi connects arts volunteers with schools and community organisations year-round, across all art forms.",
+    "why_it_helps": "Sustained community arts involvement is the most persuasive evidence of genuine subject commitment for arts applications.",
+    "skills": [
+      "Arts facilitation",
+      "Creative workshop delivery",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.a-n.co.uk/jobs/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did facilitating art for a non-arts audience teach you about your own creative practice?"
+    ],
+    "example_sentence": "Sustained arts outreach volunteering showed me how creativity functions differently when it serves a community rather than an audience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o102",
+    "organisation_id": "",
+    "organisation_name": "NHS Volunteer Responders",
+    "role": "Community Volunteer (Always Open)",
+    "courses": [
+      "medicine",
+      "nursing",
+      "physiotherapy",
+      "dentistry"
+    ],
+    "description": "The NHS national volunteer programme accepts new volunteers year-round across a range of community and remote support roles.",
+    "why_it_helps": "An NHS-branded healthcare role carries immediate credibility in medical and allied health applications.",
+    "skills": [
+      "Patient communication",
+      "Reliability",
+      "Safeguarding awareness"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Flexible",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://nhsvolunteerresponders.org.uk/become-a-volunteer",
+    "achievements": [],
+    "reflection_prompts": [
+      "How did your NHS volunteer role connect to your target career?"
+    ],
+    "example_sentence": "Volunteering with the NHS gave me direct, credible healthcare exposure throughout my application year.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o103",
+    "organisation_name": "Cambridge Chemistry Challenge",
+    "role": "Cambridge Chemistry Challenge (C3)",
+    "courses": [
+      "chemistry",
+      "medicine",
+      "pharmacy",
+      "chemical-engineering"
+    ],
+    "description": "Take the Cambridge Chemistry Challenge — an extension paper for top chemistry students testing university-level thinking.",
+    "why_it_helps": "C3 results specifically appear in Oxbridge Chemistry and Medicine offer-holder profiles and signal readiness for degree-level content.",
+    "skills": [
+      "Advanced chemistry",
+      "University-level problem-solving",
+      "Chemical reasoning"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.c3l6.com/",
+    "achievements": [
+      "Gold award in C3",
+      "Scored in top 10% nationally"
+    ],
+    "reflection_prompts": [
+      "Which C3 question required chemistry thinking you hadn't yet developed at A-level?"
+    ],
+    "example_sentence": "The Cambridge Chemistry Challenge showed me that university chemistry is about reasoning from principles, not applying memorised rules.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o104",
+    "organisation_id": "",
+    "organisation_name": "UN Volunteers (Online)",
+    "role": "Online UN Volunteer",
+    "courses": [
+      "business",
+      "economics",
+      "computer-science",
+      "engineering"
+    ],
+    "description": "The UN Volunteers programme offers fully remote volunteer assignments year-round in areas including data, communications, research and education.",
+    "why_it_helps": "UN-affiliated volunteering carries global credibility and demonstrates the kind of international perspective that competitive applications need.",
+    "skills": [
+      "Varies by assignment"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "10-20 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere (online)",
+    "apply_url": "https://www.onlinevolunteering.org/en",
+    "achievements": [],
+    "reflection_prompts": [
+      "How did working on a global challenge change your understanding of your subject?"
+    ],
+    "example_sentence": "An online UN volunteer assignment gave my application genuine international experience without leaving my desk.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o105",
+    "organisation_id": "",
+    "organisation_name": "Tutor Trust",
+    "role": "Volunteer Tutor (Always Open)",
+    "courses": [
+      "economics",
+      "business",
+      "mathematics",
+      "data-science-ai"
+    ],
+    "description": "Tutor Trust recruits volunteer tutors year-round to support disadvantaged pupils in core academic subjects.",
+    "why_it_helps": "Structured one-to-one tutoring with measurable outcomes is strong, specific evidence for Education and subject-specialist applications.",
+    "skills": [
+      "Subject tutoring",
+      "Lesson planning",
+      "Progress tracking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://tutortrust.org/volunteer/",
+    "achievements": [],
+    "reflection_prompts": [
+      "What did tracking a pupil's progress week-to-week teach you about how learning actually works?"
+    ],
+    "example_sentence": "Tutoring disadvantaged students through Tutor Trust gave me measurable, outcome-evidenced teaching experience.",
+    "is_active": true,
+    "last_checked": "2026-07-21"
+  },
+  {
+    "id": "o106",
+    "organisation_name": "International Linguistics Olympiad",
+    "role": "Linguistics Olympiad (UK Team Selection)",
+    "courses": [
+      "english-literature",
+      "philosophy",
+      "computer-science",
+      "mathematics",
+      "linguistics"
+    ],
+    "description": "Compete in the UK Linguistics Olympiad — solving problems in unfamiliar languages and linguistic systems to win a place on the UK team for the International Linguistics Olympiad.",
+    "why_it_helps": "Linguistics Olympiad success demonstrates analytical reasoning, pattern recognition and problem-solving that's distinctive for both humanities and STEM applications.",
+    "skills": [
+      "Linguistic analysis",
+      "Pattern recognition",
+      "Logical reasoning"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 13,
+    "town": "Anywhere",
+    "apply_url": "https://www.uklo.org/",
+    "achievements": [
+      "Qualified for UK team for International Linguistics Olympiad",
+      "Gold medal in UK Linguistics Olympiad"
+    ],
+    "reflection_prompts": [
+      "What did solving linguistic puzzles teach you about how language works as a system?"
+    ],
+    "example_sentence": "Competing in the Linguistics Olympiad showed me that language is a mathematical structure as much as a cultural one.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  },
+  {
+    "id": "o107",
+    "organisation_name": "Model United Nations",
+    "role": "International Model UN Conferences",
+    "courses": [
+      "politics",
+      "law",
+      "history",
+      "economics",
+      "international-relations"
+    ],
+    "description": "Represent countries in Model United Nations conferences — debating global policy, drafting resolutions and negotiating with delegates from around the world.",
+    "why_it_helps": "Model UN demonstrates international awareness, negotiation skills and political engagement — strong for Politics, Law and IR applications.",
+    "skills": [
+      "International relations",
+      "Negotiation",
+      "Public speaking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Conference-based",
+    "min_age": 14,
+    "town": "London",
+    "apply_url": "https://www.mun.org.uk/",
+    "achievements": [
+      "Best delegate award at London Model UN",
+      "Co-authored resolution adopted by committee"
+    ],
+    "reflection_prompts": [
+      "What did negotiating as a country reveal about the gap between national interest and global cooperation?"
+    ],
+    "example_sentence": "Competing at Model UN taught me that international politics is a negotiation between competing interests, not a search for objective justice.",
+    "is_active": true,
+    "last_checked": "2026-07-21",
+    "type": "competition"
+  }
+]

@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Groundwork — Volunteering that builds your personal statement</title>
+<meta name="description" content="Find volunteering opportunities that strengthen your university personal statement." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+:root{
+  --paper:#F5F7FC;
+  --paper-raised:#FFFFFF;
+  --ink:#121A2B;
+  --ink-soft:#3C4A63;
+  --slate:#64738C;
+  --line:#DFE5F0;
+  --blue:#2C57E0;
+  --blue-dim:#1F3FA8;
+  --blue-soft:#E7EDFF;
+  --blue-soft-2:#F0F4FF;
+  --mint:#158A62;
+  --mint-soft:#DEF5EC;
+  --amber:#C97A1E;
+  --amber-soft:#FCEBD4;
+  --radius:16px;
+  --radius-sm:10px;
+  --shadow:0 1px 2px rgba(18,26,43,0.04), 0 8px 24px -12px rgba(18,26,43,0.12);
+  --shadow-lg:0 20px 60px -20px rgba(18,26,43,0.35);
+}
+html.dark{
+  --paper:#0C1220;
+  --paper-raised:#131B2C;
+  --ink:#EAF0FF;
+  --ink-soft:#B9C4DC;
+  --slate:#8493B0;
+  --line:#232E47;
+  --blue:#5B84F5;
+  --blue-dim:#7B9CFA;
+  --blue-soft:#1B2748;
+  --blue-soft-2:#161F38;
+  --mint:#3FCC9C;
+  --mint-soft:#132A24;
+  --amber:#F0A94C;
+  --amber-soft:#2C2213;
+  --shadow:0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  --shadow-lg:0 20px 60px -20px rgba(0,0,0,0.7);
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;transition:background .25s ease,color .25s ease;}
+h1,h2,h3,.display{font-family:'Fraunces',serif;letter-spacing:-0.01em;}
+.mono{font-family:'IBM Plex Mono',monospace;}
+a{color:inherit;}
+button{font-family:inherit;cursor:pointer;}
+::selection{background:var(--blue-soft);}
+
+/* layout helpers */
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:600;}
+
+/* header */
+header.top{position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--paper) 88%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+.topbar{display:flex;align-items:center;justify-content:space-between;height:68px;}
+.brand{display:flex;align-items:center;gap:10px;font-family:'Fraunces',serif;font-weight:600;font-size:20px;}
+.brand .mark{width:30px;height:30px;border-radius:8px;background:linear-gradient(155deg,var(--blue),#7CA0FF);display:flex;align-items:center;justify-content:center;color:white;font-family:'Fraunces',serif;font-weight:600;font-size:15px;box-shadow:var(--shadow);}
+nav.tabs{display:flex;gap:4px;background:var(--blue-soft-2);padding:4px;border-radius:12px;}
+nav.tabs button{padding:8px 16px;border:none;background:transparent;border-radius:9px;font-size:13.5px;font-weight:600;color:var(--slate);transition:all .15s;}
+nav.tabs button.active{background:var(--paper-raised);color:var(--blue);box-shadow:var(--shadow);}
+.icon-btn{width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--paper-raised);display:flex;align-items:center;justify-content:center;color:var(--ink-soft);}
+.icon-btn:hover{border-color:var(--blue);color:var(--blue);}
+
+/* hero */
+.hero{padding:56px 0 40px;}
+.hero h1{font-size:44px;line-height:1.05;margin:0 0 14px;font-weight:600;max-width:680px;}
+.hero p.lede{color:var(--slate);font-size:16.5px;max-width:560px;line-height:1.6;margin:0 0 28px;}
+.course-search{position:relative;max-width:640px;}
+.course-search input{width:100%;padding:16px 18px 16px 48px;border-radius:14px;border:1.5px solid var(--line);background:var(--paper-raised);font-size:15.5px;color:var(--ink);outline:none;box-shadow:var(--shadow);}
+.course-search input:focus{border-color:var(--blue);}
+.course-search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--slate);}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+.chip{padding:8px 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--paper-raised);font-size:13.5px;font-weight:600;color:var(--ink-soft);transition:all .15s;}
+.chip:hover{border-color:var(--blue);color:var(--blue);}
+.chip.selected{background:var(--blue);border-color:var(--blue);color:white;}
+
+.gauge-card{background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);}
+
+/* main grid */
+.board{display:grid;grid-template-columns:260px 1fr;gap:28px;padding-bottom:80px;align-items:flex-start;}
+@media (max-width:860px){.board{grid-template-columns:1fr;}}
+
+.panel{background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);}
+.panel + .panel{margin-top:16px;}
+.panel h3{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--slate);margin:0 0 12px;font-family:'Inter';font-weight:700;}
+.filter-row{display:flex;align-items:center;gap:9px;padding:7px 0;font-size:14px;color:var(--ink-soft);}
+.filter-row input{accent-color:var(--blue);width:16px;height:16px;}
+.filter-row label{flex:1;cursor:pointer;}
+.count-badge{font-size:11px;background:var(--blue-soft);color:var(--blue);padding:1px 7px;border-radius:999px;font-weight:700;}
+
+.loc-input{width:100%;padding:10px 12px;border-radius:9px;border:1.5px solid var(--line);background:var(--paper);font-size:13.5px;color:var(--ink);margin-bottom:8px;}
+.loc-btn{width:100%;padding:9px;border-radius:9px;border:none;background:var(--blue);color:white;font-weight:600;font-size:13.5px;}
+.loc-note{font-size:11.5px;color:var(--slate);margin-top:6px;line-height:1.5;}
+
+.results-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px;}
+.results-head input.search{padding:11px 14px 11px 38px;border-radius:11px;border:1.5px solid var(--line);background:var(--paper-raised);font-size:14px;width:280px;max-width:60vw;position:relative;}
+.search-wrap{position:relative;}
+.search-wrap svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--slate);}
+select.sort{padding:10px 12px;border-radius:11px;border:1.5px solid var(--line);background:var(--paper-raised);font-size:13.5px;color:var(--ink-soft);font-weight:600;}
+
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+@media (max-width:700px){.cards{grid-template-columns:1fr;}}
+.card{background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;transition:transform .15s, box-shadow .15s;cursor:pointer;}
+.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:var(--blue-dim);}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+.org{font-size:12px;color:var(--slate);font-weight:600;letter-spacing:.02em;}
+.role{font-size:17px;font-weight:700;font-family:'Fraunces',serif;margin:2px 0 0;line-height:1.25;}
+.mode-badge{font-size:10.5px;font-weight:700;padding:4px 9px;border-radius:999px;white-space:nowrap;text-transform:uppercase;letter-spacing:.04em;}
+.mode-online{background:var(--mint-soft);color:var(--mint);}
+.mode-inperson{background:var(--amber-soft);color:var(--amber);}
+.mode-hybrid{background:var(--blue-soft);color:var(--blue);}
+.desc{font-size:13.5px;color:var(--ink-soft);line-height:1.55;}
+.skill-tags{display:flex;flex-wrap:wrap;gap:6px;}
+.tag{font-size:11px;background:var(--paper);border:1px solid var(--line);padding:4px 9px;border-radius:7px;color:var(--ink-soft);font-weight:600;}
+.card-meta{display:flex;gap:14px;font-size:12px;color:var(--slate);border-top:1px dashed var(--line);padding-top:10px;margin-top:2px;}
+.card-meta span{display:flex;align-items:center;gap:5px;}
+.card-actions{display:flex;gap:8px;margin-top:4px;}
+.btn{padding:9px 14px;border-radius:9px;border:none;font-size:13px;font-weight:700;flex:1;text-align:center;}
+.btn-primary{background:var(--blue);color:white;}
+.btn-ghost{background:var(--paper);color:var(--ink-soft);border:1px solid var(--line);}
+.btn-ghost.saved{background:var(--mint-soft);color:var(--mint);border-color:transparent;}
+
+.empty{padding:60px 20px;text-align:center;color:var(--slate);}
+.empty .display{font-size:22px;color:var(--ink);margin-bottom:8px;}
+
+/* modal */
+.overlay{position:fixed;inset:0;background:rgba(10,14,24,0.55);backdrop-filter:blur(3px);z-index:100;display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;overflow-y:auto;}
+.hidden{display:none !important;}
+.modal{background:var(--paper-raised);max-width:760px;width:100%;border-radius:20px;box-shadow:var(--shadow-lg);overflow:hidden;margin-bottom:40px;}
+.modal-head{padding:26px 28px 18px;border-bottom:1px solid var(--line);position:relative;}
+.modal-close{position:absolute;top:20px;right:22px;background:var(--paper);border:1px solid var(--line);width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:var(--slate);}
+.modal-body{padding:24px 28px 30px;display:flex;flex-direction:column;gap:22px;}
+.modal-section h4{font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);margin:0 0 10px;font-weight:700;}
+.sentence{background:var(--blue-soft-2);border-left:3px solid var(--blue);padding:12px 14px;border-radius:0 10px 10px 0;font-size:13.5px;line-height:1.6;color:var(--ink-soft);font-style:italic;margin-bottom:8px;}
+.pill-list{display:flex;flex-direction:column;gap:8px;}
+.pill-list li{font-size:13.5px;color:var(--ink-soft);line-height:1.5;list-style:none;padding-left:18px;position:relative;}
+.pill-list li:before{content:"";position:absolute;left:0;top:7px;width:6px;height:6px;border-radius:50%;background:var(--blue);}
+
+/* portfolio / dashboard */
+.dash-grid{display:grid;grid-template-columns:1fr 340px;gap:28px;align-items:flex-start;}
+@media (max-width:900px){.dash-grid{grid-template-columns:1fr;}}
+.saved-item{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid var(--line);}
+.saved-item:last-child{border-bottom:none;}
+.saved-item .role{font-size:15px;}
+.status-toggle{font-size:11.5px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--slate);}
+.status-toggle.done{background:var(--mint-soft);color:var(--mint);border-color:transparent;}
+.remove-x{color:var(--slate);border:none;background:transparent;font-size:18px;line-height:1;padding:4px;}
+
+.radial-wrap{display:flex;flex-direction:column;align-items:center;text-align:center;}
+.radial-score{font-family:'Fraunces',serif;font-size:36px;font-weight:600;margin-top:-92px;}
+.radial-label{font-size:12px;color:var(--slate);margin-top:2px;margin-bottom:14px;}
+.strength-breakdown{width:100%;display:flex;flex-direction:column;gap:10px;margin-top:6px;}
+.sb-row{display:flex;align-items:center;gap:10px;font-size:12px;}
+.sb-row .lbl{width:92px;color:var(--slate);text-align:left;flex-shrink:0;}
+.sb-bar{flex:1;height:6px;background:var(--paper);border-radius:99px;overflow:hidden;border:1px solid var(--line);}
+.sb-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--blue-dim));}
+
+.cv-preview{background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow);font-size:13px;}
+.cv-preview h2{font-size:20px;margin:0 0 2px;}
+.cv-preview .cv-sub{color:var(--slate);font-size:12.5px;margin-bottom:18px;}
+.cv-preview h4{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);border-bottom:1px solid var(--line);padding-bottom:6px;margin:18px 0 10px;}
+.cv-entry{margin-bottom:12px;}
+.cv-entry .t{font-weight:700;font-size:13.5px;}
+.cv-entry .o{color:var(--slate);font-size:12px;margin-bottom:3px;}
+.cv-entry .s{font-size:12.5px;color:var(--ink-soft);}
+
+.footer-note{text-align:center;color:var(--slate);font-size:12px;padding:30px 0 50px;}
+.badge-empty-icon{width:52px;height:52px;border-radius:14px;background:var(--blue-soft);display:flex;align-items:center;justify-content:center;color:var(--blue);margin:0 auto 14px;}
+
+@media print{
+  header.top,.no-print{display:none !important;}
+  body{background:white;}
+}
+</style>
+</head>
+<body>
+
+<header class="top no-print">
+  <div class="wrap topbar">
+    <div class="brand"><div class="mark">G</div>Groundwork</div>
+    <nav class="tabs">
+      <button class="active" data-view="discover">Discover</button>
+      <button data-view="dashboard">My Portfolio</button>
+    </nav>
+    <div style="display:flex;gap:8px;">
+      <button class="icon-btn" id="darkToggle" title="Toggle dark mode">
+        <svg id="darkIcon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- DISCOVER VIEW -->
+<section id="view-discover">
+  <div class="wrap hero">
+    <span class="eyebrow">Volunteering with purpose</span>
+    <h1>Volunteering that actually strengthens your personal statement.</h1>
+    <p class="lede">Tell us the course or career you're aiming for. We'll surface opportunities that build the right experience — and help you turn them into strong personal statement material.</p>
+    <div class="course-search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="courseInput" placeholder="Search for a course — e.g. Medicine, Law, Computer Science…" autocomplete="off"/>
+    </div>
+    <div class="chips" id="courseChips"></div>
+  </div>
+
+  <div class="wrap board">
+    <aside>
+      <div class="panel">
+        <h3>Mode</h3>
+        <div id="modeFilters"></div>
+      </div>
+      <div class="panel">
+        <h3>Reach</h3>
+        <div class="filter-row"><input type="checkbox" id="f-walk"><label for="f-walk">Walking distance (≤25 min)</label></div>
+        <div class="filter-row"><input type="checkbox" id="f-transport"><label for="f-transport">Reachable by public transport</label></div>
+      </div>
+      <div class="panel">
+        <h3>Your location</h3>
+        <input class="loc-input" id="locInput" placeholder="Postcode or town, e.g. Bristol"/>
+        <button class="loc-btn" id="locBtn">Find distances</button>
+        <div class="loc-note" id="locNote">Demo location matching — distances are illustrative, not live geodata.</div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="results-head">
+        <div>
+          <div class="display" style="font-size:19px;font-weight:600;" id="resultsTitle">All opportunities</div>
+          <div style="font-size:12.5px;color:var(--slate);margin-top:2px;" id="resultsSub">Select a course above to see tailored matches</div>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <div class="search-wrap">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            <input class="search" id="freeSearch" placeholder="Search by skill, org or location"/>
+          </div>
+          <select class="sort" id="sortSelect">
+            <option value="relevance">Sort: Relevance</option>
+            <option value="commitment">Sort: Lowest commitment</option>
+            <option value="age">Sort: Minimum age</option>
+          </select>
+        </div>
+      </div>
+      <div class="cards" id="cardGrid"></div>
+    </main>
+  </div>
+</section>
+
+<!-- DASHBOARD VIEW -->
+<section id="view-dashboard" class="hidden">
+  <div class="wrap" style="padding:40px 0 80px;">
+    <span class="eyebrow">Your portfolio</span>
+    <h1 class="display" style="font-size:32px;margin:6px 0 26px;">Build your experience — and your statement.</h1>
+    <div class="dash-grid">
+      <div>
+        <div class="panel" style="padding:22px;">
+          <h3 style="margin-bottom:4px;">Saved & completed opportunities</h3>
+          <div id="savedList"></div>
+        </div>
+
+        <div class="panel" style="padding:22px;margin-top:20px;" id="cvSection">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+            <h3 style="margin:0;">CV preview</h3>
+            <button class="btn btn-primary" style="flex:none;padding:9px 16px;" id="exportPdfBtn">Export as PDF</button>
+          </div>
+          <div class="cv-preview" id="cvPreview"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="panel gauge-card" style="padding:24px;">
+          <h3>Personal statement strength</h3>
+          <div class="radial-wrap">
+            <svg width="180" height="110" viewBox="0 0 180 110" id="gaugeSvg"></svg>
+            <div class="radial-score" id="gaugeScore">0</div>
+            <div class="radial-label">out of 100</div>
+          </div>
+          <div class="strength-breakdown" id="strengthBreakdown"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OPPORTUNITY MODAL -->
+<div class="overlay hidden no-print" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-head">
+      <button class="modal-close" id="modalClose">✕</button>
+      <span class="eyebrow" id="modalOrg"></span>
+      <h2 class="display" style="margin:6px 0 0;font-size:24px;" id="modalRole"></h2>
+      <div style="display:flex;gap:8px;margin-top:10px;" id="modalBadges"></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <h4>About the role</h4>
+        <p style="font-size:14px;color:var(--ink-soft);line-height:1.6;margin:0;" id="modalDesc"></p>
+      </div>
+      <div class="modal-section">
+        <h4>Why it strengthens your application</h4>
+        <p style="font-size:14px;color:var(--ink-soft);line-height:1.6;margin:0;" id="modalWhy"></p>
+      </div>
+      <div class="modal-section">
+        <h4>Skills you'll develop</h4>
+        <div class="skill-tags" id="modalSkills"></div>
+      </div>
+      <div class="modal-section">
+        <h4>Personal statement assistant</h4>
+        <div style="font-size:12.5px;color:var(--slate);margin-bottom:10px;">Example achievements to reflect on</div>
+        <ul class="pill-list" id="modalAchievements"></ul>
+        <div style="font-size:12.5px;color:var(--slate);margin:16px 0 10px;">Reflection prompts</div>
+        <ul class="pill-list" id="modalReflection"></ul>
+        <div style="font-size:12.5px;color:var(--slate);margin:16px 0 10px;">Sentences you could adapt</div>
+        <div id="modalSentences"></div>
+      </div>
+      <div class="card-actions" style="margin-top:4px;">
+        <a class="btn btn-primary" target="_blank" id="modalApply" style="text-decoration:none;">Visit application page</a>
+        <button class="btn btn-ghost" id="modalSave">Save to portfolio</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer-note no-print">Groundwork · Demo build with sample data — not connected to live volunteering providers. Distances and PDF export are illustrative.</div>
+
+<script>
+/* ---------------- DATA ---------------- */
+const COURSES = ["Medicine","Computer Science","Psychology","Law","Engineering","Education","Business","Nursing","Architecture","Biology / Life Sciences","Journalism"];
+
+const OPPS = [
+ {id:1,org:"St. Aldwyn Community Hospice",role:"Ward Support Volunteer",courses:["Medicine","Nursing"],
+  desc:"Support nursing staff on the day ward — chatting with patients, helping at mealtimes and assisting with light admin.",
+  why:"Direct patient contact is one of the most valued forms of evidence for Medicine and Nursing applications — it shows you understand the realities of care, not just the idea of it.",
+  skills:["Patient communication","Empathy under pressure","Team working","Confidentiality"],
+  mode:"in-person",hrs:"2–3 hrs/week",minAge:16,town:"Bristol",apply:"https://example.org/apply/hospice-ward",
+  achievements:["Supported patients and families through difficult conversations, developing sensitivity and composure","Worked alongside a multidisciplinary care team, observing how clinical and pastoral roles interact"],
+  reflection:["What surprised you about how care teams communicate with patients?","Describe a moment you had to adapt your approach for a specific patient."],
+  sentence:"Volunteering weekly on a hospice ward taught me that clinical competence means little without the ability to communicate with compassion under pressure — an insight that has shaped how I now think about the practice of medicine."},
+
+ {id:2,org:"CodeBridge Youth",role:"Junior Coding Mentor (Online)",courses:["Computer Science","Engineering"],
+  desc:"Run weekly online sessions teaching Scratch and Python basics to 10–13 year-olds from under-resourced schools.",
+  why:"Shows you can translate technical understanding into clear explanations — a skill admissions tutors for Computer Science specifically look for, alongside evidence of giving back to the discipline.",
+  skills:["Explaining technical concepts","Lesson planning","Python","Patience & mentoring"],
+  mode:"online",hrs:"1.5 hrs/week",minAge:16,town:"Anywhere (online)",apply:"https://example.org/apply/codebridge",
+  achievements:["Designed a 6-week beginner curriculum, adapting explanations for learners with no prior coding experience","Debugged learner code live, developing a structured way of talking through logic errors"],
+  reflection:["What's the difference between knowing something and being able to teach it?","Which misconception came up most, and why do you think it's common?"],
+  sentence:"Mentoring younger students in Python each week forced me to break down concepts I'd taken for granted, deepening my own understanding of computational thinking in the process."},
+
+ {id:3,org:"Mind Together Helpline",role:"Listening Volunteer (Trained)",courses:["Psychology","Nursing","Education"],
+  desc:"After training, staff a supervised text-based listening service supporting young people experiencing anxiety or low mood.",
+  why:"Gives grounded, ethical exposure to mental health support — exactly the kind of first-hand insight that separates a generic interest in psychology from a demonstrated one.",
+  skills:["Active listening","Safeguarding awareness","Emotional regulation","Written communication"],
+  mode:"online",hrs:"2 hrs/week",minAge:17,town:"Anywhere (online)",apply:"https://example.org/apply/mindtogether",
+  achievements:["Completed accredited safeguarding and active-listening training before taking live shifts","Supported service users through structured, non-directive conversations under supervision"],
+  reflection:["What did the training teach you about the limits of what a volunteer should say?","How did you notice your own biases showing up, and how did you manage them?"],
+  sentence:"Training as a listening volunteer showed me how much psychological support depends on restraint — resisting the urge to advise, and instead creating space for someone to think aloud."},
+
+ {id:4,org:"Fair Trial Watch",role:"Case Research Assistant",courses:["Law"],
+  desc:"Support a small legal charity by researching background case law and summarising it for caseworkers preparing appeals.",
+  why:"Legal research experience — even at a supporting level — demonstrates the analytical reading and precision that Law admissions tutors want to see evidenced outside the classroom.",
+  skills:["Legal research","Summarising complex text","Attention to detail","Working to deadlines"],
+  mode:"hybrid",hrs:"3 hrs/week",minAge:17,town:"Manchester",apply:"https://example.org/apply/fairtrial",
+  achievements:["Produced case summaries later used directly in caseworker appeal preparation","Cross-referenced statute and precedent to flag inconsistencies in case files"],
+  reflection:["Which case made you reconsider an assumption about how the justice system works?","Where did you find the line between summarising and interpreting?"],
+  sentence:"Researching case files for a legal charity taught me to read with precision — separating what a judgment actually establishes from what it merely implies."},
+
+ {id:5,org:"GreenLine Rivers Trust",role:"Habitat & Water Quality Volunteer",courses:["Biology / Life Sciences","Engineering","Architecture"],
+  desc:"Join monthly river health surveys — testing water quality, recording species data and helping restore riverbank habitats.",
+  why:"Fieldwork and real data collection give Biology applicants tangible, specific material to discuss — far stronger than describing an interest in 'nature' in the abstract.",
+  skills:["Data collection","Field survey methods","Environmental analysis","Working outdoors in a team"],
+  mode:"in-person",hrs:"4 hrs/month",minAge:14,town:"Leeds",apply:"https://example.org/apply/greenline",
+  achievements:["Logged water-quality data later used in the Trust's public river health report","Helped design a simple bank-erosion monitoring method using recycled materials"],
+  reflection:["What did the raw data show that surprised you compared to what you expected?","How did small, repeated measurements build a bigger picture over time?"],
+  sentence:"Monthly river surveys gave me first-hand experience of how unglamorous, repeated measurement is what real environmental data is built from — a lesson no textbook communicated as clearly."},
+
+ {id:6,org:"Bright Start Primary Partnership",role:"Classroom Reading Helper",courses:["Education","Psychology"],
+  desc:"Support a Year 3 classroom one morning a week, hearing children read and helping with small-group literacy activities.",
+  why:"Sustained classroom experience is close to essential for Education applications — it shows commitment beyond a single taster day and gives real examples of managing group dynamics.",
+  skills:["Classroom management","Communication with children","Patience","Lesson support"],
+  mode:"in-person",hrs:"3 hrs/week",minAge:16,town:"Bristol",apply:"https://example.org/apply/brightstart",
+  achievements:["Supported a small reading group over a full term, tracking visible progress in fluency","Adapted explanations for a child with additional learning needs alongside the class teacher"],
+  reflection:["What did you change about your approach once you saw what wasn't working?","How did the class teacher's approach differ from what you expected?"],
+  sentence:"A term spent supporting a Year 3 reading group showed me that effective teaching is less about explaining well once and more about noticing, each week, what a specific child needs next."},
+
+ {id:7,org:"StreetWise Enterprise Hub",role:"Young Enterprise Business Mentor Assistant",courses:["Business"],
+  desc:"Assist mentors supporting teams of teenagers running a real micro-business, from budgeting through to a final trade fair.",
+  why:"Direct exposure to how a small enterprise operates — budgeting, pitching, problem-solving under constraints — gives Business applicants concrete stories beyond a Saturday job.",
+  skills:["Budgeting support","Public speaking coaching","Problem-solving","Stakeholder communication"],
+  mode:"hybrid",hrs:"2 hrs/week",minAge:16,town:"Manchester",apply:"https://example.org/apply/streetwise",
+  achievements:["Helped a student team revise their pricing model after their first trade fair ran at a loss","Coached two students on pitch delivery ahead of a regional final"],
+  reflection:["What commercial assumption did the student team get wrong at first, and why?","What's the difference between giving advice and letting a team make its own mistake?"],
+  sentence:"Mentoring a student enterprise team through a real trading loss taught me more about margin and pricing than any classroom simulation could — and about the discipline of letting people learn it themselves."},
+
+ {id:8,org:"NHS Volunteer Responders",role:"Community Wellbeing Caller",courses:["Medicine","Nursing","Psychology"],
+  desc:"Make scheduled friendly phone calls to isolated or recently-discharged patients to check on wellbeing and signpost support.",
+  why:"A recognised, structured healthcare-adjacent role that's flexible enough to sustain long-term — sustained duration matters more to admissions tutors than a single intense week.",
+  skills:["Telephone communication","Safeguarding awareness","Reliability","Signposting support services"],
+  mode:"online",hrs:"1–2 hrs/week",minAge:18,town:"Anywhere (online)",apply:"https://example.org/apply/nhsvr",
+  achievements:["Maintained a consistent weekly calling rota over several months, building trust with returning patients","Identified and escalated a wellbeing concern to a supervising coordinator, following safeguarding protocol"],
+  reflection:["What did a 'small' weekly phone call end up meaning to the people you spoke with?","Describe a moment you had to judge whether something needed escalating."],
+  sentence:"Regular wellbeing calls for discharged patients showed me that continuity of care doesn't end at the hospital door — a quiet insight that has stayed with me since."},
+
+ {id:9,org:"Open Studio Collective",role:"Community Build Volunteer",courses:["Architecture","Engineering"],
+  desc:"Help a community design collective build small public installations — from measuring and cutting materials to on-site assembly.",
+  why:"Hands-on construction experience grounds abstract design interest in physical reality — reviewers of Architecture portfolios respond well to evidence you understand how things are actually made.",
+  skills:["Practical construction skills","Reading technical drawings","Health & safety awareness","Teamwork on site"],
+  mode:"in-person",hrs:"4 hrs/fortnight",minAge:16,town:"Leeds",apply:"https://example.org/apply/openstudio",
+  achievements:["Helped translate a design drawing into a cut-list and assembled the final structure on site","Identified a structural flaw in an early prototype before installation"],
+  reflection:["Where did the built object diverge from the drawing, and why?","What trade-off did the team make between design ambition and material reality?"],
+  sentence:"Helping build a community installation from a technical drawing taught me how much of design happens in the gap between a plan and the physical constraints of materials."},
+
+ {id:10,org:"Second Chance Advice Centre",role:"Digital Inclusion Volunteer",courses:["Computer Science","Business","Education"],
+  desc:"Support older or digitally-excluded adults one-to-one with basic device skills — email, online banking safety, video calls.",
+  why:"Shows you can apply technical skill in service of real people, not just systems — a distinguishing note for Computer Science personal statements that otherwise read as purely technical.",
+  skills:["Patient tech support","Communicating jargon-free","One-to-one teaching","Digital safety awareness"],
+  mode:"in-person",hrs:"2 hrs/week",minAge:16,town:"Bristol",apply:"https://example.org/apply/secondchance",
+  achievements:["Helped a regular attendee go from no email account to confidently managing online banking","Wrote a simple one-page jargon-free guide now used by other volunteers"],
+  reflection:["What technical term did you have to find three different ways to explain?","What did this teach you about who technology is actually designed for?"],
+  sentence:"Teaching digital skills to adults with no technical background taught me that good design, like good teaching, is measured by who gets left out — a question I now bring to my own coding."},
+
+ {id:11,org:"Campus Voice Magazine",role:"Trainee Reporter (Remote)",courses:["Journalism","Business","Law"],
+  desc:"Pitch, research and write short local-interest articles for a youth-run online magazine, working with an editor.",
+  why:"Published writing under editorial deadlines is exactly the portfolio evidence Journalism courses ask for — and demonstrates research and interviewing skills relevant well beyond the subject.",
+  skills:["Interviewing","Research & fact-checking","Writing to deadline","Editing feedback"],
+  mode:"online",hrs:"2–4 hrs/week",minAge:15,town:"Anywhere (online)",apply:"https://example.org/apply/campusvoice",
+  achievements:["Published four bylined articles, one of which was shared by the local council's newsletter","Rewrote an article three times after editor feedback, tightening the argument each pass"],
+  reflection:["What did an editor's rejection teach you that praise didn't?","How did you verify a claim a source made that you weren't sure was accurate?"],
+  sentence:"Having a published article rewritten three times by an editor taught me that clarity is a discipline, not a talent — the piece only worked once I stopped protecting my first draft."},
+
+ {id:12,org:"Riverside Youth Physio Support",role:"Rehab Session Assistant",courses:["Medicine","Nursing","Engineering"],
+  desc:"Assist qualified physiotherapists during group rehab sessions for young sports injury patients — setting up equipment and encouraging participants.",
+  why:"Rare, structured clinical-adjacent exposure that lets you observe a multidisciplinary allied health team — strong evidence for Medicine, Nursing or biomedical Engineering interest.",
+  skills:["Observing clinical practice","Encouraging patients through discomfort","Equipment setup","Working under professional supervision"],
+  mode:"in-person",hrs:"2 hrs/week",minAge:16,town:"Manchester",apply:"https://example.org/apply/riverside-physio",
+  achievements:["Observed how physiotherapists adapted a rehab plan in real time when a patient reported pain","Motivated a hesitant young patient through a full session, building visible confidence"],
+  reflection:["What did you notice about how the physiotherapist balanced encouragement with caution?","Describe a moment where the plan on paper had to change on the day."],
+  sentence:"Assisting physiotherapy sessions showed me that clinical plans are living documents, constantly renegotiated with the patient in front of you rather than followed to the letter."}
+];
+
+/* ---------------- STATE ---------------- */
+let state = {
+  course: null,
+  modeFilters: new Set(),
+  walkOnly: false,
+  transportOnly: false,
+  search: "",
+  sort: "relevance",
+  userTown: null,
+  saved: JSON.parse(localStorage.getItem('gw_saved')||'{}')
+};
+
+function persistSaved(){ localStorage.setItem('gw_saved', JSON.stringify(state.saved)); }
+
+/* fake deterministic distance generator for demo location search */
+function fakeDistance(oppTown, seedId){
+  if(!state.userTown) return null;
+  let seed = (oppTown.length*7 + seedId*13 + state.userTown.length*3) % 47;
+  const km = (seed/10 + 0.4).toFixed(1);
+  const walkMin = Math.round(km*12);
+  return {km:parseFloat(km), walkMin};
+}
+
+/* ---------------- RENDER: chips ---------------- */
+const chipWrap = document.getElementById('courseChips');
+COURSES.forEach(c=>{
+  const b = document.createElement('button');
+  b.className='chip'; b.textContent=c;
+  b.onclick=()=>{ state.course = (state.course===c)? null : c; document.getElementById('courseInput').value = state.course||''; renderChips(); renderResults(); };
+  chipWrap.appendChild(b);
+});
+function renderChips(){
+  [...chipWrap.children].forEach(b=> b.classList.toggle('selected', b.textContent===state.course));
+}
+document.getElementById('courseInput').addEventListener('input', e=>{
+  const v = e.target.value.trim();
+  state.course = v.length ? v : null;
+  renderChips(); renderResults();
+});
+
+/* mode filters */
+const modeFilterWrap = document.getElementById('modeFilters');
+[["online","Online"],["in-person","In-person"],["hybrid","Hybrid"]].forEach(([val,label])=>{
+  const row=document.createElement('div'); row.className='filter-row';
+  row.innerHTML = `<input type="checkbox" id="fm-${val}"><label for="fm-${val}">${label}</label>`;
+  modeFilterWrap.appendChild(row);
+  row.querySelector('input').addEventListener('change', e=>{
+    if(e.target.checked) state.modeFilters.add(val); else state.modeFilters.delete(val);
+    renderResults();
+  });
+});
+document.getElementById('f-walk').addEventListener('change', e=>{ state.walkOnly=e.target.checked; renderResults(); });
+document.getElementById('f-transport').addEventListener('change', e=>{ state.transportOnly=e.target.checked; renderResults(); });
+document.getElementById('freeSearch').addEventListener('input', e=>{ state.search=e.target.value.toLowerCase(); renderResults(); });
+document.getElementById('sortSelect').addEventListener('change', e=>{ state.sort=e.target.value; renderResults(); });
+document.getElementById('locBtn').addEventListener('click', ()=>{
+  const v = document.getElementById('locInput').value.trim();
+  state.userTown = v.length? v : null;
+  document.getElementById('locNote').textContent = state.userTown ? `Showing approximate distance from "${state.userTown}".` : 'Demo location matching — distances are illustrative, not live geodata.';
+  renderResults();
+});
+
+/* ---------------- FILTER + RENDER RESULTS ---------------- */
+function matches(o){
+  if(state.course){
+    const q = state.course.toLowerCase();
+    const inCourse = o.courses.some(c=>c.toLowerCase().includes(q)) ;
+    if(!inCourse) return false;
+  }
+  if(state.modeFilters.size && !state.modeFilters.has(o.mode)) return false;
+  if(state.search){
+    const hay = (o.org+' '+o.role+' '+o.skills.join(' ')+' '+o.town).toLowerCase();
+    if(!hay.includes(state.search)) return false;
+  }
+  if(state.userTown && state.walkOnly){
+    const d = fakeDistance(o.town, o.id);
+    if(!d || d.walkMin>25) return false;
+  }
+  if(state.userTown && state.transportOnly){
+    const d = fakeDistance(o.town, o.id);
+    if(!d || d.km>15) return false;
+  }
+  return true;
+}
+
+function sortOpps(list){
+  if(state.sort==='commitment'){
+    const num = s=> parseFloat(s.match(/[\d.]+/)?.[0]||99);
+    return [...list].sort((a,b)=>num(a.hrs)-num(b.hrs));
+  }
+  if(state.sort==='age') return [...list].sort((a,b)=>a.minAge-b.minAge);
+  return list;
+}
+
+function modeBadge(mode){
+  const map = {online:['mode-online','Online'],'in-person':['mode-inperson','In-person'],hybrid:['mode-hybrid','Hybrid']};
+  const [cls,label] = map[mode];
+  return `<span class="mode-badge ${cls}">${label}</span>`;
+}
+
+function renderResults(){
+  const grid = document.getElementById('cardGrid');
+  let list = OPPS.filter(matches);
+  list = sortOpps(list);
+  document.getElementById('resultsTitle').textContent = state.course ? `Matches for ${state.course}` : 'All opportunities';
+  document.getElementById('resultsSub').textContent = state.course
+    ? `${list.length} opportunit${list.length===1?'y':'ies'} chosen to strengthen a ${state.course} application`
+    : 'Select a course above to see tailored matches';
+
+  grid.innerHTML='';
+  if(!list.length){
+    grid.innerHTML = `<div class="empty" style="grid-column:1/-1;">
+      <div class="badge-empty-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+      <div class="display">No matches yet</div>
+      <div>Try a different course, clear a filter, or widen your search.</div>
+    </div>`;
+    return;
+  }
+  list.forEach(o=>{
+    const d = fakeDistance(o.town, o.id);
+    const isSaved = !!state.saved[o.id];
+    const card = document.createElement('div');
+    card.className='card';
+    card.innerHTML = `
+      <div class="card-top">
+        <div><div class="org">${o.org}</div><div class="role">${o.role}</div></div>
+        ${modeBadge(o.mode)}
+      </div>
+      <div class="desc">${o.desc}</div>
+      <div class="skill-tags">${o.skills.slice(0,3).map(s=>`<span class="tag">${s}</span>`).join('')}</div>
+      <div class="card-meta">
+        <span>⏱ ${o.hrs}</span>
+        <span>🎂 ${o.minAge}+</span>
+        <span>📍 ${o.town}${d? ` · ${d.km}km · ${d.walkMin} min walk`:''}</span>
+      </div>
+      <div class="card-actions">
+        <button class="btn btn-primary" data-open="${o.id}">View & get statement help</button>
+        <button class="btn btn-ghost ${isSaved?'saved':''}" data-save="${o.id}">${isSaved?'✓ Saved':'Save'}</button>
+      </div>
+    `;
+    card.querySelector('[data-open]').addEventListener('click', (e)=>{ e.stopPropagation(); openModal(o.id); });
+    card.querySelector('[data-save]').addEventListener('click', (e)=>{ e.stopPropagation(); toggleSave(o.id); });
+    card.addEventListener('click', ()=> openModal(o.id));
+    grid.appendChild(card);
+  });
+}
+
+function toggleSave(id){
+  if(state.saved[id]) delete state.saved[id];
+  else state.saved[id] = {completed:false, savedAt:Date.now()};
+  persistSaved();
+  renderResults();
+  renderDashboard();
+}
+
+/* ---------------- MODAL ---------------- */
+let currentModalId = null;
+function openModal(id){
+  const o = OPPS.find(x=>x.id===id);
+  currentModalId = id;
+  document.getElementById('modalOrg').textContent = o.org;
+  document.getElementById('modalRole').textContent = o.role;
+  document.getElementById('modalBadges').innerHTML = modeBadge(o.mode) + `<span class="tag">⏱ ${o.hrs}</span><span class="tag">🎂 ${o.minAge}+</span>`;
+  document.getElementById('modalDesc').textContent = o.desc;
+  document.getElementById('modalWhy').textContent = o.why;
+  document.getElementById('modalSkills').innerHTML = o.skills.map(s=>`<span class="tag">${s}</span>`).join('');
+  document.getElementById('modalAchievements').innerHTML = o.achievements.map(a=>`<li>${a}</li>`).join('');
+  document.getElementById('modalReflection').innerHTML = o.reflection.map(r=>`<li>${r}</li>`).join('');
+  document.getElementById('modalSentences').innerHTML = `<div class="sentence">"${o.sentence}"</div>`;
+  document.getElementById('modalApply').href = o.apply;
+  const saveBtn = document.getElementById('modalSave');
+  saveBtn.textContent = state.saved[id] ? '✓ Saved to portfolio' : 'Save to portfolio';
+  saveBtn.onclick = ()=>{ toggleSave(id); saveBtn.textContent = state.saved[id] ? '✓ Saved to portfolio' : 'Save to portfolio'; };
+  document.getElementById('modalOverlay').classList.remove('hidden');
+}
+document.getElementById('modalClose').addEventListener('click', ()=> document.getElementById('modalOverlay').classList.add('hidden'));
+document.getElementById('modalOverlay').addEventListener('click', e=>{ if(e.target.id==='modalOverlay') e.currentTarget.classList.add('hidden'); });
+
+/* ---------------- NAV ---------------- */
+document.querySelectorAll('nav.tabs button').forEach(b=>{
+  b.addEventListener('click', ()=>{
+    document.querySelectorAll('nav.tabs button').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    const v = b.dataset.view;
+    document.getElementById('view-discover').classList.toggle('hidden', v!=='discover');
+    document.getElementById('view-dashboard').classList.toggle('hidden', v!=='dashboard');
+    if(v==='dashboard') renderDashboard();
+  });
+});
+
+/* ---------------- DASHBOARD ---------------- */
+function renderDashboard(){
+  const list = document.getElementById('savedList');
+  const ids = Object.keys(state.saved);
+  if(!ids.length){
+    list.innerHTML = `<div class="empty">
+      <div class="badge-empty-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
+      <div class="display" style="font-size:17px;">Nothing saved yet</div>
+      <div style="font-size:13.5px;">Head to Discover and save opportunities to start building your portfolio.</div>
+    </div>`;
+  } else {
+    list.innerHTML = ids.map(id=>{
+      const o = OPPS.find(x=>x.id==id);
+      const done = state.saved[id].completed;
+      return `<div class="saved-item">
+        <div>
+          <div class="org">${o.org}</div>
+          <div class="role">${o.role}</div>
+          <div class="skill-tags" style="margin-top:6px;">${o.skills.slice(0,2).map(s=>`<span class="tag">${s}</span>`).join('')}</div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;">
+          <button class="status-toggle ${done?'done':''}" data-toggle="${id}">${done?'✓ Completed':'Mark completed'}</button>
+          <button class="remove-x" data-remove="${id}" title="Remove">✕</button>
+        </div>
+      </div>`;
+    }).join('');
+    list.querySelectorAll('[data-toggle]').forEach(btn=> btn.addEventListener('click', ()=>{
+      const id = btn.dataset.toggle;
+      state.saved[id].completed = !state.saved[id].completed;
+      persistSaved(); renderDashboard();
+    }));
+    list.querySelectorAll('[data-remove]').forEach(btn=> btn.addEventListener('click', ()=>{
+      delete state.saved[btn.dataset.remove]; persistSaved(); renderDashboard(); renderResults();
+    }));
+  }
+
+  renderCV();
+  renderGauge();
+}
+
+function renderCV(){
+  const ids = Object.keys(state.saved);
+  const box = document.getElementById('cvPreview');
+  if(!ids.length){ box.innerHTML = `<div style="color:var(--slate);">Your CV will build itself here as you save experiences.</div>`; return; }
+  const entries = ids.map(id=>{
+    const o = OPPS.find(x=>x.id==id);
+    return `<div class="cv-entry">
+      <div class="t">${o.role} ${state.saved[id].completed? '<span style="color:var(--mint);font-weight:600;">· Completed</span>' : '<span style="color:var(--amber);font-weight:600;">· Ongoing</span>'}</div>
+      <div class="o">${o.org} — ${o.hrs} — ${o.town}</div>
+      <div class="s">${o.skills.join(', ')}</div>
+    </div>`;
+  }).join('');
+  box.innerHTML = `
+    <h2>Volunteering &amp; Extracurricular Experience</h2>
+    <div class="cv-sub">Compiled from Groundwork portfolio</div>
+    <h4>Experience</h4>
+    ${entries}
+    <h4>Skills summary</h4>
+    <div class="s">${[...new Set(ids.flatMap(id=>OPPS.find(x=>x.id==id).skills))].join(' · ')}</div>
+  `;
+}
+
+function computeStrength(){
+  const ids = Object.keys(state.saved);
+  const opps = ids.map(id=>OPPS.find(x=>x.id==id));
+  const count = opps.length;
+  const completedCount = opps.filter(o=>state.saved[o.id].completed).length;
+  const skillSet = new Set(opps.flatMap(o=>o.skills));
+  const modeSet = new Set(opps.map(o=>o.mode));
+
+  const commitment = Math.min(100, count*22);
+  const reflection = Math.min(100, completedCount*30 + (count?10:0));
+  const range = Math.min(100, skillSet.size*9);
+  const relevance = count ? Math.min(100, Math.round((opps.filter(o=> state.course? o.courses.some(c=>c.toLowerCase().includes((state.course||'').toLowerCase())): true).length / count)*100)) : 0;
+
+  const overall = Math.round((commitment*0.25 + reflection*0.3 + range*0.25 + relevance*0.2));
+  return {overall, commitment, reflection, range, relevance};
+}
+
+function renderGauge(){
+  const s = computeStrength();
+  document.getElementById('gaugeScore').textContent = s.overall;
+  const svg = document.getElementById('gaugeSvg');
+  const cx=90, cy=100, r=76;
+  const startAngle = Math.PI, endAngle = 0;
+  const frac = s.overall/100;
+  const angle = Math.PI - frac*Math.PI;
+  const x1 = cx + r*Math.cos(startAngle), y1 = cy + r*Math.sin(startAngle);
+  const x2 = cx + r*Math.cos(angle), y2 = cy + r*Math.sin(angle);
+  const largeArc = frac>0.5?1:0;
+  const trackEndX = cx + r*Math.cos(endAngle), trackEndY = cy + r*Math.sin(endAngle);
+  svg.innerHTML = `
+    <path d="M ${x1} ${y1} A ${r} ${r} 0 1 1 ${trackEndX} ${trackEndY}" fill="none" stroke="var(--line)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M ${x1} ${y1} A ${r} ${r} 0 ${largeArc} 1 ${x2} ${y2}" fill="none" stroke="var(--blue)" stroke-width="14" stroke-linecap="round"/>
+  `;
+  const rows = [["Commitment",s.commitment],["Reflection",s.reflection],["Skill range",s.range],["Relevance",s.relevance]];
+  document.getElementById('strengthBreakdown').innerHTML = rows.map(([lbl,val])=>`
+    <div class="sb-row"><div class="lbl">${lbl}</div><div class="sb-bar"><div class="sb-fill" style="width:${val}%"></div></div></div>
+  `).join('');
+}
+
+/* ---------------- PDF EXPORT ---------------- */
+document.getElementById('exportPdfBtn').addEventListener('click', ()=>{
+  const ids = Object.keys(state.saved);
+  if(!ids.length){ alert('Save at least one opportunity first.'); return; }
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({unit:'pt', format:'a4'});
+  let y = 56;
+  doc.setFont('helvetica','bold'); doc.setFontSize(18);
+  doc.text('Volunteering & Extracurricular Experience', 48, y); y+=22;
+  doc.setFont('helvetica','normal'); doc.setFontSize(10); doc.setTextColor(110);
+  doc.text('Compiled from Groundwork portfolio', 48, y); y+=28;
+  doc.setTextColor(20);
+  ids.forEach(id=>{
+    const o = OPPS.find(x=>x.id==id);
+    if(y>740){ doc.addPage(); y=56; }
+    doc.setFont('helvetica','bold'); doc.setFontSize(12);
+    doc.text(`${o.role}${state.saved[id].completed?' (Completed)':' (Ongoing)'}`, 48, y); y+=15;
+    doc.setFont('helvetica','normal'); doc.setFontSize(10); doc.setTextColor(90);
+    doc.text(`${o.org} — ${o.hrs} — ${o.town}`, 48, y); y+=14;
+    doc.setTextColor(20);
+    const skillLine = doc.splitTextToSize(`Skills: ${o.skills.join(', ')}`, 500);
+    doc.text(skillLine, 48, y); y += skillLine.length*13 + 16;
+  });
+  const s = computeStrength();
+  if(y>700){ doc.addPage(); y=56; }
+  y+=6;
+  doc.setFont('helvetica','bold'); doc.setFontSize(12); doc.text('Personal statement strength', 48, y); y+=16;
+  doc.setFont('helvetica','normal'); doc.setFontSize(10);
+  doc.text(`Overall: ${s.overall}/100  ·  Commitment ${s.commitment}  ·  Reflection ${s.reflection}  ·  Skill range ${s.range}  ·  Relevance ${s.relevance}`, 48, y);
+  doc.save('groundwork-cv.pdf');
+});
+
+/* ---------------- DARK MODE ---------------- */
+document.getElementById('darkToggle').addEventListener('click', ()=>{
+  document.documentElement.classList.toggle('dark');
+  localStorage.setItem('gw_dark', document.documentElement.classList.contains('dark')?'1':'0');
+  renderGauge();
+});
+if(localStorage.getItem('gw_dark')==='1') document.documentElement.classList.add('dark');
+
+/* ---------------- INIT ---------------- */
+renderChips();
+renderResults();
+renderDashboard();
+</script>
+</body>
+</html>
