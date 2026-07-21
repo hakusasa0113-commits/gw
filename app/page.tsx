@@ -47,7 +47,7 @@ export default function DiscoverPage() {
     if (course && !o.courses.includes(course)) return false;
     if (modes.size && !modes.has(o.mode)) return false;
     if (regions.size && !regions.has(o.region)) return false;
-    if (types.size && !types.has(o.type)) return false;
+    if (types.size && (!o.type || !types.has(o.type))) return false;
     if (search) {
       const hay = `${o.organisation_name} ${o.role} ${o.skills.join(" ")} ${o.town} ${o.region}`.toLowerCase();
       if (!hay.includes(search.toLowerCase())) return false;
