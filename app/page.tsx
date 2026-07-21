@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { CourseSelector } from "@/components/CourseSelector";
 import { OpportunityCard } from "@/components/OpportunityCard";
+import { useTheme } from "@/components/ThemeProvider";
 import sampleOpportunities from "@/data/sample-opportunities.json";
 import type { Opportunity, Region } from "@/types";
 
@@ -24,6 +25,7 @@ export default function DiscoverPage() {
   const [showSaved, setShowSaved] = useState(false);
   const [refreshStatus, setRefreshStatus] = useState<"idle"|"checking"|"done">("idle");
   const [mounted, setMounted]   = useState(false);
+  const { theme, toggle: toggleTheme } = useTheme();
   const lastRefresh = useRef<number>(0);
   const REFRESH_MS = 6 * 60 * 60 * 1000;
 
@@ -97,6 +99,21 @@ export default function DiscoverPage() {
                 <span className="h-1.5 w-1.5 rounded-full bg-mint" /> Updated
               </span>
             )}
+            <button
+              onClick={toggleTheme}
+              title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-line bg-paper-raised text-[16px] transition-all duration-200 hover:border-blue hover:shadow-glow"
+            >
+              {theme === "dark" ? "☀️" : "🌙"}
+            </button>
+
+            <a
+              href="/login"
+              className="hidden items-center gap-1.5 rounded-full border border-line bg-paper-raised px-4 py-1.5 text-[12px] font-bold text-slate transition-all duration-200 hover:border-purple hover:text-purple sm:flex"
+            >
+              Sign in
+            </a>
+
             <button
               onClick={() => setShowSaved(true)}
               className={`relative flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-[12px] font-bold transition-all duration-200 ${

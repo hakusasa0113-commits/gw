@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter, IBM_Plex_Mono } from "next/font/google";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -31,11 +32,39 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      {/*
+        suppressHydrationWarning on <html> prevents React from warning
+        when the ThemeProvider adds/removes the "dark" class on the client,
+        which would otherwise mismatch the server-rendered HTML.
+
+        The inline script below runs synchronously before React hydrates,
+        so the correct class is applied before any paint — eliminating
+        the flash of wrong theme (FOWT).
+      */}
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+(function() {
+  try {
+    var stored = localStorage.getItem('gw-theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (stored === 'dark' || (!stored && prefersDark)) {
+      document.documentElement.classList.add('dark');
+    }
+  } catch(e) {}
+})();
+            `.trim(),
+          }}
+        />
+      </head>
       <body
         className={`${fraunces.variable} ${inter.variable} ${plexMono.variable} font-body`}
       >
-        {children}
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

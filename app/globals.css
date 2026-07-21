@@ -41,6 +41,45 @@
   --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #e8449a 100%);
 }
 
+.dark {
+  --paper: #0d1117;
+  --paper-raised: #161b22;
+  --paper-subtle: #1c2128;
+  --ink: #e6edf3;
+  --ink-soft: #8b949e;
+  --slate: #6e7681;
+  --line: #30363d;
+
+  --blue: #58a6ff;
+  --blue-dim: #388bfd;
+  --blue-soft: #0d1f3c;
+  --blue-glow: rgba(88,166,255,0.2);
+
+  --purple: #bc8cff;
+  --purple-dim: #a371f7;
+  --purple-soft: #1a0f2e;
+
+  --mint: #3fb950;
+  --mint-dim: #2ea043;
+  --mint-soft: #0d2a13;
+
+  --amber: #d29922;
+  --amber-dim: #b8881c;
+  --amber-soft: #2a1f06;
+
+  --pink: #f778ba;
+  --pink-soft: #2d0f1e;
+
+  --red: #f85149;
+  --red-soft: #2d0f0f;
+
+  --gradient-primary: linear-gradient(135deg, #58a6ff 0%, #bc8cff 100%);
+  --gradient-cool: linear-gradient(135deg, #58a6ff 0%, #bc8cff 100%);
+  --gradient-warm: linear-gradient(135deg, #d29922 0%, #f778ba 100%);
+  --gradient-success: linear-gradient(135deg, #3fb950 0%, #2ea043 100%);
+  --gradient-hero: linear-gradient(135deg, #58a6ff 0%, #bc8cff 50%, #f778ba 100%);
+}
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
