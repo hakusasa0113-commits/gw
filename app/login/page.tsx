@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
@@ -53,8 +53,8 @@ function PasswordInput({
 // ── Steps ─────────────────────────────────────────────────────────────
 type Step = "signin" | "forgot" | "sent";
 
-// ── Page ─────────────────────────────────────────────────────────────
-export default function LoginPage() {
+// ── Inner component: everything that uses useSearchParams ───────────
+function LoginPageInner() {
   const searchParams = useSearchParams();
   const [email, setEmail]     = useState("");
   const [password, setPassword] = useState("");
@@ -239,5 +239,15 @@ export default function LoginPage() {
         </p>
       </div>
     </AuthLayout>
+  );
+}
+
+// ── Page: wraps the inner component in Suspense (required by Next.js
+// whenever a page uses useSearchParams) ──────────────────────────────
+export default function LoginPage() {
+  return (
+    <Suspense fallback={null}>
+      <LoginPageInner />
+    </Suspense>
   );
 }
