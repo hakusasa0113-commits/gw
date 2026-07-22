@@ -3457,5 +3457,1184 @@
     "is_active": true,
     "last_checked": "2026-07-21",
     "type": "competition"
+  },
+  {
+    "id": "cw1",
+    "organisation_name": "Penguin Random House",
+    "role": "WriteNow Mentee Programme",
+    "courses": [
+      "creative-writing",
+      "english-literature"
+    ],
+    "description": "Apply to PRH WriteNow — a free mentoring programme pairing underrepresented writers with industry editors and agents.",
+    "why_it_helps": "WriteNow is the most prestigious pathway into UK publishing and is specifically referenced by creative writing tutors.",
+    "skills": [
+      "Manuscript development",
+      "Editorial feedback",
+      "Publishing industry knowledge"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Programme year",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.penguinrandomhouse.co.uk/writing/writenow/",
+    "achievements": [
+      "Received direct manuscript feedback from a PRH editor"
+    ],
+    "reflection_prompts": [
+      "What did editorial feedback reveal about assumptions you made for the reader?"
+    ],
+    "example_sentence": "Receiving manuscript notes from a PRH editor showed me that every word choice is also a choice about the reader.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "cw2",
+    "organisation_name": "National Flash Fiction Day",
+    "role": "Flash Fiction Competition",
+    "courses": [
+      "creative-writing",
+      "english-literature"
+    ],
+    "description": "Enter the annual National Flash Fiction Day competition — one of the UK's leading short-form writing contests.",
+    "why_it_helps": "Competition recognition in a national literary contest is concrete, citable evidence for creative writing applications.",
+    "skills": [
+      "Flash fiction",
+      "Economy of language",
+      "Narrative compression"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://nationalflashfictionday.co.uk/competitions/",
+    "achievements": [
+      "Longlisted in the National Flash Fiction Day competition"
+    ],
+    "reflection_prompts": [
+      "What did the word limit force you to cut, and what did that teach you about your prose?"
+    ],
+    "example_sentence": "Entering flash fiction competitions showed me that every word must earn its place.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "cw3",
+    "organisation_name": "Spread the Word",
+    "role": "Life Writing Prize",
+    "courses": [
+      "creative-writing",
+      "english-literature",
+      "journalism"
+    ],
+    "description": "Enter the Spread the Word Life Writing Prize — celebrating creative non-fiction and memoir from underrepresented voices.",
+    "why_it_helps": "Life writing competition recognition signals both craft and the personal voice that creative writing programmes develop.",
+    "skills": [
+      "Creative non-fiction",
+      "Memoir writing",
+      "Voice and perspective"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.spreadtheword.org.uk/programmes-overview/life-writing-prize/",
+    "achievements": [
+      "Shortlisted in the Spread the Word Life Writing Prize"
+    ],
+    "reflection_prompts": [
+      "What truth did writing from your own life reveal that fiction couldn't?"
+    ],
+    "example_sentence": "Being shortlisted for a life writing prize showed me that memoir is not confession — it's argument made personal.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "cw4",
+    "organisation_name": "Commonword",
+    "role": "Community Writing Workshop Facilitator",
+    "courses": [
+      "creative-writing",
+      "education",
+      "english-literature"
+    ],
+    "description": "Support Commonword's community creative writing workshops for adults in Manchester — co-facilitating sessions and helping participants develop their work.",
+    "why_it_helps": "Facilitating creative writing for real audiences deepens craft understanding and shows the teaching dimension creative writing degrees value.",
+    "skills": [
+      "Workshop facilitation",
+      "Creative feedback",
+      "Group dynamics"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Manchester",
+    "apply_url": "https://www.cultureword.org.uk/get-involved/",
+    "achievements": [
+      "Helped a participant develop a short story from first draft to final version"
+    ],
+    "reflection_prompts": [
+      "What feedback approach opened up someone's writing rather than shutting it down?"
+    ],
+    "example_sentence": "Facilitating community writing workshops taught me that the best creative feedback asks questions rather than offering answers.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "che1",
+    "organisation_name": "IChemE",
+    "role": "Schools Chemical Engineering Challenge",
+    "courses": [
+      "chemical-engineering",
+      "chemistry",
+      "engineering"
+    ],
+    "description": "Compete in the IChemE Schools Challenge — designing a process solution to a real industrial brief.",
+    "why_it_helps": "IChemE competition is specifically recognised by chemical engineering departments as evidence of process thinking beyond A-level.",
+    "skills": [
+      "Process design",
+      "Chemical calculations",
+      "Team problem-solving"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.icheme.org/education/whychemeng/schools-challenge/",
+    "achievements": [
+      "Team reached national IChemE Schools Challenge final"
+    ],
+    "reflection_prompts": [
+      "What design constraint forced you to abandon your first solution?"
+    ],
+    "example_sentence": "Competing in the IChemE challenge showed me that process design is always a negotiation between chemistry and economics.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "che2",
+    "organisation_name": "Catalyst Science Discovery Centre",
+    "role": "STEM Volunteer",
+    "courses": [
+      "chemical-engineering",
+      "chemistry",
+      "engineering"
+    ],
+    "description": "Volunteer at Catalyst — the only museum dedicated to the chemical and process industries — delivering demonstrations and guiding visitors.",
+    "why_it_helps": "Engagement with the chemical industry's public face demonstrates the professional awareness chemical engineering courses want.",
+    "skills": [
+      "Chemical process communication",
+      "Museum education",
+      "Industrial chemistry knowledge"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Half-day/week",
+    "min_age": 16,
+    "town": "Widnes",
+    "apply_url": "https://www.catalyst.org.uk/get-involved/volunteering/",
+    "achievements": [
+      "Delivered chemical process demonstrations to 200+ school visitors"
+    ],
+    "reflection_prompts": [
+      "What aspect of the chemical industry surprised visitors most?"
+    ],
+    "example_sentence": "Volunteering at Catalyst showed me that the chemical industry underpins almost everything people take for granted.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "che3",
+    "organisation_name": "RSC UK Chemistry Olympiad",
+    "role": "Chemistry Olympiad Advanced Round",
+    "courses": [
+      "chemical-engineering",
+      "chemistry",
+      "medicine"
+    ],
+    "description": "Work through the UK Chemistry Olympiad advanced rounds, focusing on physical chemistry and industrial process problems.",
+    "why_it_helps": "Advanced olympiad engagement is strong evidence of the mathematical and chemical depth chemical engineering requires.",
+    "skills": [
+      "Advanced stoichiometry",
+      "Thermodynamics",
+      "Industrial process chemistry"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Self-paced",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://edu.rsc.org/enrichment/uk-chemistry-olympiad",
+    "achievements": [
+      "Completed all three UK ChemOlympiad rounds",
+      "Scored in top 20% nationally"
+    ],
+    "reflection_prompts": [
+      "Which problem required you to apply chemistry from a context you'd never studied?"
+    ],
+    "example_sentence": "Working through olympiad problems taught me that chemistry at university is about reasoning, not recall.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "che4",
+    "organisation_name": "IChemE",
+    "role": "Young Researcher Showcase",
+    "courses": [
+      "chemical-engineering",
+      "chemistry",
+      "biology-life-sciences"
+    ],
+    "description": "Enter the IChemE Young Researchers Showcase — presenting a project related to chemical, biochemical or process engineering.",
+    "why_it_helps": "Presenting research to a professional engineering audience signals the academic confidence chemical engineering admissions want.",
+    "skills": [
+      "Research presentation",
+      "Technical communication",
+      "Process engineering awareness"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.icheme.org/education/awards/",
+    "achievements": [
+      "Presented research to a panel of IChemE Fellows"
+    ],
+    "reflection_prompts": [
+      "What question from a professional engineer revealed a gap in your methodology?"
+    ],
+    "example_sentence": "Presenting to IChemE Fellows showed me that chemical engineering is as much about justifying your process as running it.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "li1",
+    "organisation_name": "UK Linguistics Olympiad",
+    "role": "UKLO Competition",
+    "courses": [
+      "linguistics",
+      "mathematics",
+      "computer-science",
+      "english-literature"
+    ],
+    "description": "Compete in the UK Linguistics Olympiad — solving language puzzles requiring only analytical reasoning, no prior linguistics knowledge.",
+    "why_it_helps": "UKLO is the primary route to the International Linguistics Olympiad and is recognised by every UK linguistics department.",
+    "skills": [
+      "Language pattern analysis",
+      "Morphological reasoning",
+      "Cross-language comparison"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://www.uklo.org/",
+    "achievements": [
+      "Qualified for UKLO Round 2",
+      "Gold medal at UKLO Round 1"
+    ],
+    "reflection_prompts": [
+      "What language feature in the puzzle contradicted what you expected from English?"
+    ],
+    "example_sentence": "Competing in the UKLO showed me that language is a system, and systems can be decoded.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "li2",
+    "organisation_name": "Translators Without Borders",
+    "role": "Volunteer Translator",
+    "courses": [
+      "linguistics",
+      "english-literature",
+      "international-relations"
+    ],
+    "description": "Volunteer as a translator or proofreader for TWB, helping translate humanitarian content into underserved languages.",
+    "why_it_helps": "Applied translation work for a global NGO demonstrates real linguistic precision and cross-cultural communication skills.",
+    "skills": [
+      "Translation accuracy",
+      "Cross-cultural meaning",
+      "Proofreading"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://translatorswithoutborders.org/get-involved/volunteer/",
+    "achievements": [
+      "Translated three public health documents for a humanitarian campaign"
+    ],
+    "reflection_prompts": [
+      "Where did a direct translation fail, and how did you solve it?"
+    ],
+    "example_sentence": "Translating health documents for TWB showed me that language is never just words — it's the culture those words carry.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "li3",
+    "organisation_name": "Plain English Campaign",
+    "role": "Volunteer Drafter",
+    "courses": [
+      "linguistics",
+      "journalism",
+      "law",
+      "english-literature"
+    ],
+    "description": "Help the Plain English Campaign simplify real documents — government forms, healthcare leaflets and legal notices.",
+    "why_it_helps": "Linguistic simplification work demonstrates applied understanding of grammar, register and audience that linguistics courses develop.",
+    "skills": [
+      "Register analysis",
+      "Plain language drafting",
+      "Readability assessment"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.plainenglish.co.uk/our-work/volunteer.html",
+    "achievements": [
+      "Simplified three NHS patient information leaflets",
+      "Reduced average sentence length by 40%"
+    ],
+    "reflection_prompts": [
+      "What grammatical structure was hardest to simplify without losing meaning?"
+    ],
+    "example_sentence": "Simplifying NHS documents taught me that clarity is a form of respect for the reader.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "li4",
+    "organisation_name": "Language Gym",
+    "role": "Community Language Tutor",
+    "courses": [
+      "linguistics",
+      "education",
+      "english-literature"
+    ],
+    "description": "Tutor community members in English as a foreign language, applying linguistic knowledge to help real learners.",
+    "why_it_helps": "Teaching language to non-native speakers requires you to make implicit grammatical rules explicit — exactly what linguistics trains.",
+    "skills": [
+      "EFL pedagogy",
+      "Grammar metalanguage",
+      "Learner error analysis"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.languagegym.app/",
+    "achievements": [
+      "Tutored three adult learners from A2 to B1 level over six months"
+    ],
+    "reflection_prompts": [
+      "What grammatical rule did a learner's error reveal that you had never consciously noticed?"
+    ],
+    "example_sentence": "Teaching EFL forced me to articulate grammatical rules I had always used but never examined.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "ir1",
+    "organisation_name": "Foreign Policy Centre",
+    "role": "Research & Comms Volunteer",
+    "courses": [
+      "international-relations",
+      "politics",
+      "law"
+    ],
+    "description": "Support the FPC — a leading London think tank — with research, social media and writing for their foreign policy publications.",
+    "why_it_helps": "Think tank engagement demonstrates the policy-level IR thinking competitive applications require.",
+    "skills": [
+      "Foreign policy analysis",
+      "Think tank writing",
+      "Policy communication"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://fpc.org.uk/get-involved/",
+    "achievements": [
+      "Contributed research to an FPC briefing on UK-EU relations"
+    ],
+    "reflection_prompts": [
+      "What foreign policy argument did the research complicate that seemed clear-cut before?"
+    ],
+    "example_sentence": "Researching for the Foreign Policy Centre showed me that every foreign policy position has a domestic political logic behind it.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "ir2",
+    "organisation_name": "UN Association UK",
+    "role": "Youth Branch Member",
+    "courses": [
+      "international-relations",
+      "politics",
+      "law"
+    ],
+    "description": "Join a UNA-UK Youth Branch — campaigning on global issues, organising events and engaging with the UN system.",
+    "why_it_helps": "UNA-UK is the direct route into understanding how the UN actually works — essential grounding for IR and international law applications.",
+    "skills": [
+      "UN systems knowledge",
+      "Campaign organisation",
+      "International advocacy"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://una.org.uk/get-involved",
+    "achievements": [
+      "Co-organised a Model UN preparation event for 50 sixth-formers",
+      "Led a campaign on SDG implementation"
+    ],
+    "reflection_prompts": [
+      "Where did the gap between UN ideals and UN reality become most visible to you?"
+    ],
+    "example_sentence": "Working with UNA-UK showed me that international cooperation is built on procedural compromise, not shared values.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "ir3",
+    "organisation_name": "Wilton Park",
+    "role": "Youth Ambassador Programme",
+    "courses": [
+      "international-relations",
+      "politics",
+      "economics"
+    ],
+    "description": "Attend Wilton Park's international policy conferences and contribute to cross-border dialogue on global challenges.",
+    "why_it_helps": "Wilton Park engagement is rare and highly distinctive, signalling genuine international policy ambition for IR applications.",
+    "skills": [
+      "International dialogue",
+      "Multilateral diplomacy",
+      "Policy debate"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Event-based",
+    "min_age": 18,
+    "town": "West Sussex",
+    "apply_url": "https://www.wiltonpark.org.uk/get-involved/",
+    "achievements": [
+      "Attended a Wilton Park conference on climate diplomacy",
+      "Contributed a position paper to conference conclusions"
+    ],
+    "reflection_prompts": [
+      "What did direct dialogue with foreign delegates reveal about the limits of multilateral diplomacy?"
+    ],
+    "example_sentence": "Attending a Wilton Park conference showed me that international agreements are built in corridor conversations, not formal sessions.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "ir4",
+    "organisation_name": "National Model United Nations",
+    "role": "NMUN New York Delegate",
+    "courses": [
+      "international-relations",
+      "law",
+      "politics",
+      "economics"
+    ],
+    "description": "Represent a country at the National Model United Nations conference in New York — debating global policy and drafting resolutions.",
+    "why_it_helps": "NMUN New York is the world's largest MUN conference and is directly cited by IR admissions tutors as exceptional evidence.",
+    "skills": [
+      "UN diplomacy",
+      "Resolution drafting",
+      "International negotiation"
+    ],
+    "mode": "in-person",
+    "region": "US",
+    "weekly_commitment": "Conference week",
+    "min_age": 16,
+    "town": "New York",
+    "apply_url": "https://www.nmun.org/conferences/new-york.html",
+    "achievements": [
+      "Best delegate award at NMUN New York",
+      "Co-authored a resolution adopted by committee"
+    ],
+    "reflection_prompts": [
+      "What position did you have to defend that you personally disagreed with, and how did it change your thinking?"
+    ],
+    "example_sentence": "Representing a country at NMUN New York showed me that diplomacy is not about being right — it's about building a coalition.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "ar1",
+    "organisation_name": "RIBA",
+    "role": "Student Design Competition",
+    "courses": [
+      "architecture",
+      "art-design",
+      "engineering"
+    ],
+    "description": "Enter the RIBA Student Design Competition — designing a building or space in response to a brief set by the Royal Institute of British Architects.",
+    "why_it_helps": "RIBA competition participation is the gold standard of pre-university architecture engagement and universally recognised at interview.",
+    "skills": [
+      "Architectural design",
+      "Technical drawing",
+      "Brief interpretation"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.architecture.com/education-cpd-and-careers/competitions",
+    "achievements": [
+      "Commended in RIBA student competition",
+      "Design featured in RIBA student showcase"
+    ],
+    "reflection_prompts": [
+      "What constraint in the brief forced you to abandon your initial design concept?"
+    ],
+    "example_sentence": "Entering a RIBA competition taught me that architecture is always a response to constraints, not an expression of freedom.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "ar2",
+    "organisation_name": "Open City",
+    "role": "Open House Festival Volunteer",
+    "courses": [
+      "architecture",
+      "history",
+      "art-design"
+    ],
+    "description": "Volunteer at the Open House Festival — guiding public tours of London's most significant buildings.",
+    "why_it_helps": "Open House volunteering demonstrates subject passion and communication skill in a nationally recognised architectural context.",
+    "skills": [
+      "Architectural history",
+      "Public speaking",
+      "Building analysis"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Festival weekend",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://openhouselondon.open-city.org.uk/get-involved",
+    "achievements": [
+      "Guided 15 public tours of a Grade II listed building",
+      "Researched and wrote a new tour script"
+    ],
+    "reflection_prompts": [
+      "What detail of a building's design only became visible when you started explaining it to others?"
+    ],
+    "example_sentence": "Guiding architectural tours showed me that you don't really understand a building until you have to describe it to someone who's never noticed it.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "ar3",
+    "organisation_name": "Architecture Foundation",
+    "role": "Young Architects Programme",
+    "courses": [
+      "architecture",
+      "art-design",
+      "product-design"
+    ],
+    "description": "Join the Architecture Foundation's Young Architects programme — attending studio critiques, site visits and design workshops.",
+    "why_it_helps": "Sustained engagement with a major architecture institution is among the most valued pre-university experiences for RIBA-accredited courses.",
+    "skills": [
+      "Design critique",
+      "Site analysis",
+      "Spatial thinking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly sessions",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.architecturefoundation.org.uk/",
+    "achievements": [
+      "Attended 12 studio critique sessions",
+      "Produced a design proposal reviewed by a practising architect"
+    ],
+    "reflection_prompts": [
+      "What did a professional architect's critique reveal about your design assumptions?"
+    ],
+    "example_sentence": "Attending studio critiques at the Architecture Foundation showed me that architecture is a conversation between the designer and the city.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "sp1",
+    "organisation_name": "Royal Observatory Greenwich",
+    "role": "Astronomy Photographer of the Year",
+    "courses": [
+      "space-science",
+      "physics",
+      "art-design"
+    ],
+    "description": "Enter the Royal Observatory Greenwich Astronomy Photographer of the Year — the world's most prestigious astrophotography competition.",
+    "why_it_helps": "APOTY recognition demonstrates scientific engagement with astronomy and a distinctive creative application of the subject.",
+    "skills": [
+      "Astrophotography",
+      "Image processing",
+      "Observational astronomy"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Annual competition",
+    "min_age": 12,
+    "town": "Anywhere",
+    "apply_url": "https://www.rmg.co.uk/whats-on/astronomy-photographer-year",
+    "achievements": [
+      "Shortlisted in the Young Astronomy Photographer category"
+    ],
+    "reflection_prompts": [
+      "What technical challenge in capturing your image deepened your understanding of the physics involved?"
+    ],
+    "example_sentence": "Being shortlisted in APOTY showed me that astronomy is a discipline of patience — the sky doesn't perform on demand.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "sp2",
+    "organisation_name": "NASA",
+    "role": "International Space Apps Challenge",
+    "courses": [
+      "space-science",
+      "computer-science",
+      "data-science-ai",
+      "engineering"
+    ],
+    "description": "Compete in NASA's annual International Space Apps Challenge — building software or data tools to solve real space agency problems.",
+    "why_it_helps": "Space Apps is NASA's own hackathon; participation is cited by space science and engineering programmes as applied technical evidence.",
+    "skills": [
+      "Space data analysis",
+      "Software development",
+      "Mission problem-solving"
+    ],
+    "mode": "online",
+    "region": "US",
+    "weekly_commitment": "48-hour hackathon",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://www.spaceappschallenge.org/",
+    "achievements": [
+      "Team won local Space Apps award",
+      "Solution submitted for global NASA judging"
+    ],
+    "reflection_prompts": [
+      "What space dataset revealed a pattern you hadn't expected when you started building?"
+    ],
+    "example_sentence": "Competing in Space Apps showed me that the most interesting science questions arise from data you didn't know existed.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "sp3",
+    "organisation_name": "Astrobiology Society of Britain",
+    "role": "Public Lecture Volunteer",
+    "courses": [
+      "space-science",
+      "biology-life-sciences",
+      "chemistry"
+    ],
+    "description": "Support ASB's public outreach events — helping run lectures and panel discussions on astrobiology and the search for extraterrestrial life.",
+    "why_it_helps": "Astrobiology outreach demonstrates cross-disciplinary engagement at the chemistry-biology-space science boundary.",
+    "skills": [
+      "Astrobiology communication",
+      "Cross-disciplinary science",
+      "Public engagement"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Monthly events",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.astrobiologysociety.org/",
+    "achievements": [
+      "Helped organise a public lecture attended by 120 people",
+      "Moderated a post-lecture audience Q&A"
+    ],
+    "reflection_prompts": [
+      "What question from the public most revealed the gap between scientific uncertainty and popular expectation?"
+    ],
+    "example_sentence": "Supporting ASB lectures showed me that astrobiology is where chemistry, biology and physics meet the biggest question of all.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "ss1",
+    "organisation_name": "BASES",
+    "role": "UK Sports Science Olympiad",
+    "courses": [
+      "sports-science",
+      "biology-life-sciences",
+      "medicine"
+    ],
+    "description": "Compete in the British Association of Sport and Exercise Sciences student competition — answering questions on physiology, biomechanics, nutrition and sports psychology.",
+    "why_it_helps": "A dedicated sports science competition directly demonstrates the academic depth programmes expect at degree level.",
+    "skills": [
+      "Exercise physiology",
+      "Biomechanics",
+      "Sports nutrition science"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Competition-based",
+    "min_age": 15,
+    "town": "Anywhere",
+    "apply_url": "https://www.bases.org.uk/",
+    "achievements": [
+      "Placed in top 10% nationally"
+    ],
+    "reflection_prompts": [
+      "Which physiology concept did the competition require you to understand at a level your school hadn't covered?"
+    ],
+    "example_sentence": "The sports science competition showed me how much physiology underpins performance that coaches explain in purely intuitive terms.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "ss2",
+    "organisation_name": "English Institute of Sport",
+    "role": "Performance Insight Volunteer",
+    "courses": [
+      "sports-science",
+      "data-science-ai",
+      "mathematics"
+    ],
+    "description": "Assist EIS performance analysts with data collection, wearable tracking and statistical analysis supporting elite athletes.",
+    "why_it_helps": "Hands-on exposure to performance data at the national sports institute is exceptional evidence for sports science applications.",
+    "skills": [
+      "Performance data analysis",
+      "Wearable technology",
+      "Statistical interpretation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 days/month",
+    "min_age": 17,
+    "town": "Sheffield",
+    "apply_url": "https://www.eis2win.co.uk/",
+    "achievements": [
+      "Assisted with GPS tracking data collection across a training cycle",
+      "Contributed to a performance report used by coaching staff"
+    ],
+    "reflection_prompts": [
+      "What did the data reveal about training load that the coaches' gut instinct had missed?"
+    ],
+    "example_sentence": "Assisting EIS analysts showed me that performance sports science is about making the invisible visible to coaches.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "ss3",
+    "organisation_name": "SportsAid",
+    "role": "Athlete Welfare Programme Volunteer",
+    "courses": [
+      "sports-science",
+      "physiotherapy",
+      "psychology"
+    ],
+    "description": "Support SportsAid's welfare programme for talented young athletes — assisting at training weekends and mental health workshops.",
+    "why_it_helps": "Combining sports performance with athlete welfare gives distinctive evidence bridging sports science and psychology.",
+    "skills": [
+      "Athlete welfare",
+      "Mental health in sport",
+      "Performance support"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Event-based",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.sportsaid.org.uk/get-involved/",
+    "achievements": [
+      "Supported mental health workshops for 20 elite junior athletes"
+    ],
+    "reflection_prompts": [
+      "What did athletes' relationship to performance anxiety reveal about the limits of physical training alone?"
+    ],
+    "example_sentence": "Supporting SportsAid's welfare programme showed me that elite sport is as much a psychological discipline as a physical one.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "fm1",
+    "organisation_name": "BFI",
+    "role": "Film Academy Young Programmer",
+    "courses": [
+      "film-media-studies",
+      "english-literature",
+      "journalism"
+    ],
+    "description": "Join the BFI Film Academy Young Programmers strand, curating films for BFI public events and writing programme notes.",
+    "why_it_helps": "BFI Film Academy is the UK's premier youth film education institution — participation is cited by every film studies department.",
+    "skills": [
+      "Film curation",
+      "Critical writing",
+      "Programme note writing"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Seasonal programme",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.bfi.org.uk/get-funding-support/bfi-film-academy",
+    "achievements": [
+      "Curated a short film programme shown at BFI Southbank",
+      "Programme note published in BFI print materials"
+    ],
+    "reflection_prompts": [
+      "What curatorial argument did your selection of films make, even if you hadn't consciously intended it?"
+    ],
+    "example_sentence": "Curating a BFI programme showed me that every screening is an argument about what cinema is for.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "fm2",
+    "organisation_name": "Raindance Film Festival",
+    "role": "Festival Volunteer",
+    "courses": [
+      "film-media-studies",
+      "journalism",
+      "english-literature"
+    ],
+    "description": "Volunteer at Raindance — the UK's largest independent film festival — working across screenings, Q&As and filmmaker liaison.",
+    "why_it_helps": "Raindance volunteer experience puts you inside independent film culture with specific insider knowledge to discuss at interview.",
+    "skills": [
+      "Independent film industry",
+      "Press liaison",
+      "Festival logistics"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Festival week",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.raindance.org/volunteer/",
+    "achievements": [
+      "Worked as filmmaker liaison across 5 days of the festival",
+      "Attended 20+ industry Q&As as session host assistant"
+    ],
+    "reflection_prompts": [
+      "What did a filmmaker's Q&A reveal about a creative decision you had misread watching the film?"
+    ],
+    "example_sentence": "Volunteering at Raindance showed me that independent cinema is kept alive by passion, not infrastructure.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "fm3",
+    "organisation_name": "ScreenSkills",
+    "role": "Screen Industry Work Placement",
+    "courses": [
+      "film-media-studies",
+      "computer-science",
+      "data-science-ai"
+    ],
+    "description": "Apply for a ScreenSkills-funded work placement in a UK production company, broadcaster or post-production house.",
+    "why_it_helps": "A ScreenSkills placement is a formally recognised pathway into the UK screen industries and carries weight at any film school.",
+    "skills": [
+      "Production workflow",
+      "Industry terminology",
+      "Professional screen culture"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2-4 week placement",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.screenskills.com/careers/",
+    "achievements": [
+      "Completed a 2-week placement in a London post-production house",
+      "Sat in on an online edit for a TV documentary"
+    ],
+    "reflection_prompts": [
+      "What aspect of professional production most contradicted what you imagined from watching the finished product?"
+    ],
+    "example_sentence": "My ScreenSkills placement showed me that film and TV production is 90% problem-solving and 10% what ends up on screen.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "vs1",
+    "organisation_name": "Royal Veterinary College",
+    "role": "Open Farm Saturday Volunteer",
+    "courses": [
+      "veterinary-science",
+      "biology-life-sciences",
+      "medicine"
+    ],
+    "description": "Volunteer at RVC's Open Farm Saturday — demonstrating animal handling and explaining vet science careers to the public.",
+    "why_it_helps": "Volunteering at the UK's leading vet school is direct, professional-environment evidence for veterinary applications.",
+    "skills": [
+      "Animal handling communication",
+      "Veterinary career knowledge",
+      "Public engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Event-based",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.rvc.ac.uk/",
+    "achievements": [
+      "Supported Open Farm Saturday with 300+ visitors",
+      "Demonstrated small animal handling techniques to school groups"
+    ],
+    "reflection_prompts": [
+      "What question from a visitor revealed a misconception about veterinary science you hadn't anticipated?"
+    ],
+    "example_sentence": "Volunteering at RVC showed me that public understanding of vet science is mostly shaped by TV — and the reality is far more rigorous.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "vs2",
+    "organisation_name": "RSPCA",
+    "role": "Animal Rescue Support Volunteer",
+    "courses": [
+      "veterinary-science",
+      "biology-life-sciences",
+      "social-work"
+    ],
+    "description": "Support RSPCA rescue centre operations — assisting with welfare assessments, enrichment programmes and rehoming preparation.",
+    "why_it_helps": "RSPCA rescue centre experience combines animal welfare observation with structured case management — both valued by vet schools.",
+    "skills": [
+      "Animal welfare assessment",
+      "Enrichment design",
+      "Rescue centre operations"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Half-day/week",
+    "min_age": 16,
+    "town": "Birmingham",
+    "apply_url": "https://www.rspca.org.uk/getinvolved/volunteer",
+    "achievements": [
+      "Contributed to welfare assessments for 30+ rescue animals",
+      "Designed an enrichment programme for kennelled dogs"
+    ],
+    "reflection_prompts": [
+      "What behavioural indicator revealed welfare status more reliably than physical examination?"
+    ],
+    "example_sentence": "Volunteering at an RSPCA centre taught me that animal welfare is as much about psychology as physiology.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "vs3",
+    "organisation_name": "British Veterinary Association",
+    "role": "Rural Practice Shadowing",
+    "courses": [
+      "veterinary-science",
+      "biology-life-sciences"
+    ],
+    "description": "Shadow large animal vets on farm visits and emergency call-outs, observing TB testing, lambing and herd health programmes.",
+    "why_it_helps": "Large animal shadowing is harder to access than small animal and carries significant weight in vet school applications.",
+    "skills": [
+      "Large animal handling",
+      "Farm health management",
+      "Clinical observation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1 day/fortnight",
+    "min_age": 16,
+    "town": "Gloucester",
+    "apply_url": "https://www.bva.co.uk/for-students/work-experience/",
+    "achievements": [
+      "Observed TB testing across a 200-cow dairy herd",
+      "Assisted with a difficult lambing"
+    ],
+    "reflection_prompts": [
+      "What herd health problem required weighing the welfare of one animal against the economics of the whole farm?"
+    ],
+    "example_sentence": "Shadowing a farm vet showed me that large animal medicine is always practised at the intersection of welfare and livelihoods.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "pd1",
+    "organisation_name": "Design Museum",
+    "role": "Young Designer in Residence Volunteer",
+    "courses": [
+      "product-design",
+      "art-design",
+      "architecture",
+      "engineering"
+    ],
+    "description": "Support the Design Museum Young Designers programme — assisting at workshops, critiques and public events showcasing emerging product design talent.",
+    "why_it_helps": "The Design Museum is the UK's most prestigious product design institution — sustained involvement is compelling evidence for any product design application.",
+    "skills": [
+      "Design critique",
+      "Workshop support",
+      "Material exploration"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://designmuseum.org/learning",
+    "achievements": [
+      "Assisted at 8 design critique sessions",
+      "Helped install a student product design exhibition"
+    ],
+    "reflection_prompts": [
+      "What did a professional designer's critique reveal about a material choice you had taken for granted?"
+    ],
+    "example_sentence": "Assisting at Design Museum critique sessions showed me that product design is always a negotiation between form, material and the person using it.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
+  },
+  {
+    "id": "pd2",
+    "organisation_name": "James Dyson Foundation",
+    "role": "James Dyson Award Entry",
+    "courses": [
+      "product-design",
+      "engineering",
+      "computer-science"
+    ],
+    "description": "Enter the James Dyson Award — an international student design competition that challenges you to design something that solves a problem.",
+    "why_it_helps": "The Dyson Award is globally recognised and is specifically cited by product design and engineering departments as the strongest pre-university design competition.",
+    "skills": [
+      "Problem-solving design",
+      "Prototyping",
+      "Design for manufacture"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.jamesdysonaward.org/",
+    "achievements": [
+      "Reached James Dyson Award national shortlist",
+      "Prototype reviewed by Dyson engineers"
+    ],
+    "reflection_prompts": [
+      "What user insight changed your design in a way you hadn't anticipated?"
+    ],
+    "example_sentence": "Entering the Dyson Award taught me that the best designs are defined by the problem they solve, not the solution the designer fell in love with.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "pd3",
+    "organisation_name": "RSA Student Design Awards",
+    "role": "RSA Design Competition",
+    "courses": [
+      "product-design",
+      "art-design",
+      "architecture"
+    ],
+    "description": "Enter the RSA Student Design Awards — one of the world's longest-running and most prestigious design competitions, with briefs set by real organisations.",
+    "why_it_helps": "RSA recognition carries weight in every design school application and demonstrates ability to respond to a real-world design brief.",
+    "skills": [
+      "Brief interpretation",
+      "User research",
+      "Design communication"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.thersa.org/action-and-research/rsa-projects/design-award",
+    "achievements": [
+      "Commended in RSA Student Design Awards",
+      "Design brief adopted by sponsoring organisation"
+    ],
+    "reflection_prompts": [
+      "How did the real-world brief constrain your design in ways a school project never had?"
+    ],
+    "example_sentence": "Responding to an RSA brief showed me that professional design always starts with understanding the person you are designing for.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "competition"
+  },
+  {
+    "id": "pd4",
+    "organisation_name": "Fixperts",
+    "role": "Fixperts Community Design Volunteer",
+    "courses": [
+      "product-design",
+      "engineering",
+      "social-work"
+    ],
+    "description": "Partner with a community member who has a specific practical need and design a bespoke solution for them through the Fixperts programme.",
+    "why_it_helps": "Fixperts is used by leading design schools as a teaching tool — it demonstrates user-centred design thinking in a real social context.",
+    "skills": [
+      "User-centred design",
+      "Prototyping",
+      "Empathic problem-solving"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://fixperts.org/",
+    "achievements": [
+      "Designed and built a custom assistive device for a community partner",
+      "Project featured on Fixperts global platform"
+    ],
+    "reflection_prompts": [
+      "At what point did listening to your partner change your design entirely?"
+    ],
+    "example_sentence": "Working on a Fixperts project taught me that the best design process starts not with sketching but with genuinely listening.",
+    "is_active": true,
+    "last_checked": "2026-07-22",
+    "type": "volunteering"
   }
 ]

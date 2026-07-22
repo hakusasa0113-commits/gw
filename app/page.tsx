@@ -65,14 +65,14 @@ export default function DiscoverPage() {
     return true;
   }), [course, modes, regions, types, search]);
 
-  const [visibleCount, setVisibleCount] = useState(9);
-  const STEP = 9;
+  const [visibleCount, setVisibleCount] = useState(6);
+  const STEP = 6;
 
   const savedList = useMemo(() => OPPORTUNITIES.filter(o => saved.has(o.id)), [saved]);
   const hasFilters = !!(course || modes.size || regions.size || types.size || search);
 
   // Reset visible count whenever filters change so you always start at 9
-  useEffect(() => { setVisibleCount(9); }, [course, modes, regions, types, search]);
+  useEffect(() => { setVisibleCount(6); }, [course, modes, regions, types, search]);
 
   const toggle = (set: Set<string>, set2: (s: Set<string>) => void, val: string) => {
   const n = new Set(set);
