@@ -125,7 +125,7 @@ export default function SignupPage() {
     if (password.length < 8)  { setError("Password must be at least 8 characters."); return; }
 
     setLoading(true);
-    const { error } = await supabase.auth.signUp({
+    const { data, error } = await supabase.auth.signUp({
       email,
       password,
       options: {
@@ -135,6 +135,15 @@ export default function SignupPage() {
     });
     setLoading(false);
     if (error) { setError(error.message); return; }
+
+    // If email confirmation is disabled in Supabase, signUp returns an
+    // active session immediately — skip the "check your email" screen
+    // and log the user straight in.
+    if (data.session) {
+      window.location.href = "/";
+      return;
+    }
+
     setDone(true);
   }
 
