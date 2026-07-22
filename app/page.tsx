@@ -65,8 +65,14 @@ export default function DiscoverPage() {
     return true;
   }), [course, modes, regions, types, search]);
 
+  const [visibleCount, setVisibleCount] = useState(9);
+  const STEP = 9;
+
   const savedList = useMemo(() => OPPORTUNITIES.filter(o => saved.has(o.id)), [saved]);
   const hasFilters = !!(course || modes.size || regions.size || types.size || search);
+
+  // Reset visible count whenever filters change so you always start at 9
+  useEffect(() => { setVisibleCount(9); }, [course, modes, regions, types, search]);
 
   const toggle = (set: Set<string>, set2: (s: Set<string>) => void, val: string) => {
   const n = new Set(set);
@@ -352,22 +358,74 @@ export default function DiscoverPage() {
                 )}
               </div>
             ) : (
-              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-                {results.map((o, i) => (
-                  <div
-                    key={o.id}
-                    className="animate-fade-up"
-                    style={{ animationDelay: `${Math.min(i * 0.04, 0.4)}s`, opacity: 0 }}
-                  >
-                    <OpportunityCard
-                      opportunity={o}
-                      saved={saved.has(o.id)}
-                      onOpen={id => window.location.assign(`/opportunities/${id}`)}
-                      onToggleSave={id => toggle(saved, setSaved, id)}
-                    />
+              <>
+                {/* Cards grid — only show up to visibleCount */}
+                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                  {results.slice(0, visibleCount).map((o, i) => (
+                    <div
+                      key={o.id}
+                      className="animate-fade-up"
+                      style={{ animationDelay: `${Math.min(i * 0.04, 0.4)}s`, opacity: 0 }}
+                    >
+                      <OpportunityCard
+                        opportunity={o}
+                        saved={saved.has(o.id)}
+                        onOpen={id => window.location.assign(`/opportunities/${id}`)}
+                        onToggleSave={id => toggle(saved, setSaved, id)}
+                      />
+                    </div>
+                  ))}
+                </div>
+
+                {/* Show more / show less row */}
+                {results.length > STEP && (
+                  <div className="mt-8 flex items-center gap-4">
+                    <div className="h-px flex-1 bg-line" />
+
+                    {visibleCount < results.length ? (
+                      /* Show more */
+                      <button
+                        onClick={() => setVisibleCount(c => Math.min(c + STEP, results.length))}
+                        className="flex items-center gap-2 rounded-full border border-blue bg-blue-soft px-5 py-2 text-[13px] font-bold text-blue transition-all duration-200 hover:bg-blue hover:text-white"
+                      >
+                        <span>↓</span>
+                        Show {Math.min(STEP, results.length - visibleCount)} more
+                        <span className="rounded-full bg-blue/10 px-2 py-0.5 text-[11px]">
+                          {visibleCount} / {results.length}
+                        </span>
+                      </button>
+                    ) : (
+                      /* Show less — only when all are showing */
+                      <button
+                        onClick={() => {
+                          setVisibleCount(STEP);
+                          window.scrollTo({ top: 0, behavior: "smooth" });
+                        }}
+                        className="flex items-center gap-2 rounded-full border border-line bg-paper-raised px-5 py-2 text-[13px] font-bold text-slate transition-all duration-200 hover:border-blue hover:text-blue"
+                      >
+                        <span>↑</span> Show less
+                      </button>
+                    )}
+
+                    <div className="h-px flex-1 bg-line" />
                   </div>
-                ))}
-              </div>
+                )}
+
+                {/* Progress indicator */}
+                {results.length > STEP && (
+                  <div className="mt-3 flex items-center justify-center gap-2">
+                    <div className="h-1.5 w-32 overflow-hidden rounded-full bg-line">
+                      <div
+                        className="h-full rounded-full bg-gradient-primary transition-all duration-500"
+                        style={{ width: `${Math.min((visibleCount / results.length) * 100, 100)}%` }}
+                      />
+                    </div>
+                    <span className="text-[11px] font-semibold text-slate">
+                      {Math.min(visibleCount, results.length)} of {results.length}
+                    </span>
+                  </div>
+                )}
+              </>
             )}
           </div>
         </div>
