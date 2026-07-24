@@ -19,6 +19,8 @@ const config: Config = {
         amber: { DEFAULT: "var(--amber)", dim: "var(--amber-dim)", soft: "var(--amber-soft)" },
         pink: { DEFAULT: "var(--pink)", soft: "var(--pink-soft)" },
         red: { DEFAULT: "var(--red)", soft: "var(--red-soft)" },
+        teal: { DEFAULT: "var(--teal)", soft: "var(--teal-soft)" },
+        orange: { DEFAULT: "var(--orange)", soft: "var(--orange-soft)" },
       },
       fontFamily: {
         display: ["var(--font-fraunces)", "serif"],
