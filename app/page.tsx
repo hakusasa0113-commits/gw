@@ -196,7 +196,7 @@ export default function DiscoverPage() {
               {[
                 { value: OPPORTUNITIES.length.toString(), label: "Opportunities", color: "text-blue" },
                 { value: TOTAL_COMPS.toString(), label: "Competitions", color: "text-purple" },
-                { value: "49", label: "Courses", color: "text-mint" },
+                { value: "67", label: "Courses", color: "text-mint" },
                 { value: "6", label: "Regions", color: "text-amber" },
               ].map(({ value, label, color }) => (
                 <div key={label} className="group flex flex-col">

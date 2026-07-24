@@ -7,27 +7,27 @@ const GROUPS: { label: string; color: string; accent: string; slugs: string[] }[
   {
     label: "Health & Medicine", color: "text-pink",
     accent: "border-pink hover:border-pink hover:bg-pink-soft hover:text-pink data-[sel=true]:border-pink data-[sel=true]:bg-pink-soft data-[sel=true]:text-pink",
-    slugs: ["medicine","nursing","dentistry","pharmacy","physiotherapy","veterinary-science","midwifery","occupational-therapy","biomedical-science"],
+    slugs: ["medicine","nursing","dentistry","pharmacy","physiotherapy","veterinary-science","midwifery","occupational-therapy","biomedical-science","optometry","nutrition-dietetics","public-health"],
   },
   {
     label: "Sciences", color: "text-mint",
     accent: "border-mint hover:border-mint hover:bg-mint-soft hover:text-mint data-[sel=true]:border-mint data-[sel=true]:bg-mint-soft data-[sel=true]:text-mint",
-    slugs: ["biology-life-sciences","chemistry","physics","mathematics","environmental-science","space-science","data-science-ai","biochemistry","neuroscience","geography"],
+    slugs: ["biology-life-sciences","chemistry","physics","mathematics","environmental-science","space-science","data-science-ai","biochemistry","neuroscience","geography","marine-biology","forensic-science"],
   },
   {
     label: "Technology", color: "text-blue",
     accent: "border-blue hover:border-blue hover:bg-blue-soft hover:text-blue data-[sel=true]:border-blue data-[sel=true]:bg-blue-soft data-[sel=true]:text-blue",
-    slugs: ["computer-science","engineering","civil-engineering","product-design"],
+    slugs: ["computer-science","engineering","civil-engineering","product-design","robotics-ai","cybersecurity","game-design","animation-vfx"],
   },
   {
     label: "Social Sciences", color: "text-purple",
     accent: "border-purple hover:border-purple hover:bg-purple-soft hover:text-purple data-[sel=true]:border-purple data-[sel=true]:bg-purple-soft data-[sel=true]:text-purple",
-    slugs: ["psychology","sociology","social-work","economics","politics","law","international-relations","anthropology","linguistics"],
+    slugs: ["psychology","sociology","social-work","economics","politics","law","international-relations","anthropology","linguistics","criminology","development-studies","sport-psychology","urban-planning","human-geography"],
   },
   {
     label: "Humanities", color: "text-amber",
     accent: "border-amber hover:border-amber hover:bg-amber-soft hover:text-amber data-[sel=true]:border-amber data-[sel=true]:bg-amber-soft data-[sel=true]:text-amber",
-    slugs: ["history","philosophy","english-literature","journalism","film-media-studies","classics","creative-writing"],
+    slugs: ["history","philosophy","english-literature","journalism","film-media-studies","classics","creative-writing","theology","museum-studies","media-communications"],
   },
   {
     label: "Creative & Design", color: "text-pink",
@@ -37,7 +37,7 @@ const GROUPS: { label: string; color: string; accent: string; slugs: string[] }[
   {
     label: "Business & Finance", color: "text-amber",
     accent: "border-amber hover:border-amber hover:bg-amber-soft hover:text-amber data-[sel=true]:border-amber data-[sel=true]:bg-amber-soft data-[sel=true]:text-amber",
-    slugs: ["business","finance","marketing","education","sports-science"],
+    slugs: ["business","finance","marketing","accounting","education","sports-science"],
   },
 ];
 

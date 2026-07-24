@@ -6500,5 +6500,3092 @@
     "is_active": true,
     "last_checked": "2026-07-24",
     "type": "volunteering"
+  },
+  {
+    "id": "ac1",
+    "organisation_name": "ICAEW",
+    "role": "ICAEW Business Finance Challenge",
+    "courses": [
+      "accounting",
+      "finance",
+      "business",
+      "economics"
+    ],
+    "description": "Compete in the ICAEW Business Finance Challenge — analysing a real company scenario and presenting financial recommendations to a panel of chartered accountants.",
+    "why_it_helps": "ICAEW is the UK's leading accounting body; competition participation is directly cited by accounting departments as the strongest pre-university evidence.",
+    "skills": [
+      "Financial analysis",
+      "Management accounting",
+      "Business case presentation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Competition day",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.icaew.com/learning-and-development/young-professionals",
+    "achievements": [
+      "Team reached ICAEW Business Finance Challenge national final",
+      "Financial recommendation adopted as the winning solution"
+    ],
+    "reflection_prompts": [
+      "What financial assumption in the case study proved most difficult to justify to the judges?"
+    ],
+    "example_sentence": "Competing in the ICAEW challenge showed me that accounting is not about numbers — it is about the decisions numbers make possible.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "ac2",
+    "organisation_name": "ACCA",
+    "role": "ACCA Student Ambassador",
+    "courses": [
+      "accounting",
+      "finance",
+      "business"
+    ],
+    "description": "Become an ACCA Student Ambassador — representing the world's largest accounting body at schools, careers events and university fairs.",
+    "why_it_helps": "ACCA Ambassador status demonstrates professional awareness and communication skill that accounting admissions tutors specifically look for.",
+    "skills": [
+      "Professional networking",
+      "Financial career communication",
+      "Public speaking"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Monthly events",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.accaglobal.com/gb/en/student/student-community/student-ambassador.html",
+    "achievements": [
+      "Represented ACCA at 6 careers events reaching 300+ students"
+    ],
+    "reflection_prompts": [
+      "What question about accounting careers revealed a misconception you hadn't anticipated?"
+    ],
+    "example_sentence": "Representing ACCA at schools events showed me that accounting shapes every business decision, not just the numbers at the end.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ac3",
+    "organisation_name": "Deloitte",
+    "role": "Deloitte BrightStart Insight Day",
+    "courses": [
+      "accounting",
+      "finance",
+      "business",
+      "economics"
+    ],
+    "description": "Attend a Deloitte BrightStart Insight Day — an introduction to professional services, audit and advisory work at one of the Big Four firms.",
+    "why_it_helps": "Big Four insight experience is specifically referenced by accounting departments as evidence of professional awareness and career motivation.",
+    "skills": [
+      "Audit basics",
+      "Professional services awareness",
+      "Business problem-solving"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1-day programme",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www2.deloitte.com/uk/en/pages/careers/articles/bright-start.html",
+    "achievements": [
+      "Completed Deloitte BrightStart Insight Day",
+      "Participated in a live client case study exercise"
+    ],
+    "reflection_prompts": [
+      "What aspect of professional accounting practice was most different from what you had imagined?"
+    ],
+    "example_sentence": "Attending the Deloitte insight day showed me that accounting at a professional level is about exercising judgment, not applying rules.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ac4",
+    "organisation_name": "KPMG",
+    "role": "KPMG School Leaver Programme Insight",
+    "courses": [
+      "accounting",
+      "business",
+      "economics"
+    ],
+    "description": "Apply for the KPMG School Leaver Insight programme — gaining exposure to tax, audit and advisory work at a leading professional services firm.",
+    "why_it_helps": "KPMG insight programmes are listed by accounting tutors as clear evidence of early professional engagement with the discipline.",
+    "skills": [
+      "Tax principles",
+      "Audit methodology",
+      "Advisory thinking"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Programme week",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.kpmgcareers.co.uk/apprentices-and-school-leavers/",
+    "achievements": [
+      "Completed KPMG school leaver insight",
+      "Produced a tax analysis exercise reviewed by KPMG managers"
+    ],
+    "reflection_prompts": [
+      "What did the KPMG insight reveal about the relationship between accounting, law and business strategy?"
+    ],
+    "example_sentence": "The KPMG insight week showed me that professional accounting requires legal, strategic and interpersonal skills in equal measure.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ac5",
+    "organisation_name": "Young Enterprise",
+    "role": "Company Treasurer",
+    "courses": [
+      "accounting",
+      "business",
+      "finance",
+      "economics"
+    ],
+    "description": "Serve as treasurer of a Young Enterprise student company — managing accounts, financial reporting and advising on pricing and profitability throughout a full trading year.",
+    "why_it_helps": "Real financial responsibility in a trading company is the most applied accounting evidence available to sixth-formers.",
+    "skills": [
+      "Bookkeeping",
+      "P&L analysis",
+      "Cash flow forecasting"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly throughout academic year",
+    "min_age": 15,
+    "town": "Anywhere",
+    "apply_url": "https://www.youngenterprise.org.uk/",
+    "achievements": [
+      "Managed company accounts across a full trading year",
+      "Identified a pricing error that would have resulted in a £200 loss"
+    ],
+    "reflection_prompts": [
+      "What accounting decision proved hardest to make without more complete information?"
+    ],
+    "example_sentence": "Managing a Young Enterprise company's accounts showed me that accounting is only as useful as the decisions it informs.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "crim1",
+    "organisation_name": "Victim Support",
+    "role": "Volunteer Caseworker",
+    "courses": [
+      "criminology",
+      "law",
+      "social-work",
+      "psychology"
+    ],
+    "description": "Support Victim Support caseworkers helping victims of crime — providing practical and emotional support, attending court and liaising with police.",
+    "why_it_helps": "Working directly with crime victims is the most specific and evidential experience for Criminology applications.",
+    "skills": [
+      "Victim advocacy",
+      "Court support",
+      "Trauma-informed communication"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Half-day/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.victimsupport.org.uk/get-help-and-information/volunteer-with-us/",
+    "achievements": [
+      "Supported 12 crime victims through the criminal justice process",
+      "Accompanied a victim to a Crown Court hearing"
+    ],
+    "reflection_prompts": [
+      "What did working with crime victims reveal about the criminal justice system's priorities?"
+    ],
+    "example_sentence": "Volunteering with Victim Support showed me that the criminal justice system is designed around processes, not people.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "crim2",
+    "organisation_name": "Prison Reform Trust",
+    "role": "Research Volunteer",
+    "courses": [
+      "criminology",
+      "law",
+      "sociology",
+      "politics"
+    ],
+    "description": "Assist the Prison Reform Trust with research, data analysis and report production on imprisonment, rehabilitation and criminal justice policy.",
+    "why_it_helps": "Research engagement with the UK's leading prison reform charity demonstrates the analytical and policy engagement criminology demands.",
+    "skills": [
+      "Penal policy analysis",
+      "Research support",
+      "Report writing"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.prisonreformtrust.org.uk/",
+    "achievements": [
+      "Contributed research to a PRT briefing on short prison sentences"
+    ],
+    "reflection_prompts": [
+      "What statistic about imprisonment most challenged your assumptions about who goes to prison and why?"
+    ],
+    "example_sentence": "Researching for the Prison Reform Trust showed me that mass imprisonment is a policy choice, not an inevitability.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "crim3",
+    "organisation_name": "St Giles Trust",
+    "role": "Peer Advisor Support Volunteer",
+    "courses": [
+      "criminology",
+      "social-work",
+      "psychology"
+    ],
+    "description": "Support St Giles Trust peer advisors helping people with criminal convictions access housing, employment and community support.",
+    "why_it_helps": "St Giles is unique in using people with lived experience — volunteering here exposes you to peer-led rehabilitation in practice.",
+    "skills": [
+      "Peer support awareness",
+      "Reintegration support",
+      "Community advocacy"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.stgilestrust.org.uk/",
+    "achievements": [
+      "Supported 8 people through housing and employment applications",
+      "Observed peer advisor sessions run by people with lived experience"
+    ],
+    "reflection_prompts": [
+      "What did peer-led support reveal about what professional services sometimes miss?"
+    ],
+    "example_sentence": "Supporting St Giles peer advisors showed me that lived experience is a form of expertise that no qualification can replicate.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "crim4",
+    "organisation_name": "Institute of Criminology Cambridge",
+    "role": "Summer Criminology Essay Prize",
+    "courses": [
+      "criminology",
+      "law",
+      "sociology"
+    ],
+    "description": "Enter the Cambridge Institute of Criminology's essay competition — writing an original criminological analysis of a social or legal issue.",
+    "why_it_helps": "Cambridge Institute recognition is the most prestigious pre-university competition for Criminology and is directly cited by admissions tutors.",
+    "skills": [
+      "Criminological theory",
+      "Academic writing",
+      "Evidence-based argument"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.crim.cam.ac.uk/",
+    "achievements": [
+      "Shortlisted in Cambridge Criminology essay prize"
+    ],
+    "reflection_prompts": [
+      "Which criminological theory best explained the phenomenon you chose to study?"
+    ],
+    "example_sentence": "Writing for the Cambridge Criminology essay prize showed me that the most important criminological questions cannot be answered from inside the discipline alone.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "crim5",
+    "organisation_name": "Restorative Justice Council",
+    "role": "RJ Training Programme",
+    "courses": [
+      "criminology",
+      "law",
+      "social-work",
+      "psychology"
+    ],
+    "description": "Complete the Restorative Justice Council's training programme and assist accredited practitioners in community and school-based RJ sessions.",
+    "why_it_helps": "Trained RJ practice experience is rare and directly evidential for Criminology applications, especially those focused on justice reform.",
+    "skills": [
+      "Restorative practice",
+      "Conflict resolution",
+      "Facilitation skills"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Training + 2 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://restorativejustice.org.uk/",
+    "achievements": [
+      "Completed RJ Council Level 1 training",
+      "Assisted in 5 community restorative practice sessions"
+    ],
+    "reflection_prompts": [
+      "What did facilitating a restorative conversation reveal about the conditions needed for genuine repair?"
+    ],
+    "example_sentence": "Training in restorative justice showed me that accountability and healing are not opposites — they are the same process.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mc1",
+    "organisation_name": "BBC Academy",
+    "role": "BBC Journalism Work Experience",
+    "courses": [
+      "media-communications",
+      "journalism",
+      "politics",
+      "english-literature"
+    ],
+    "description": "Complete a BBC Academy journalism work experience placement — observing editorial processes, attending production meetings and contributing to content.",
+    "why_it_helps": "BBC work experience is the most recognised media industry placement for Media and Communications applications.",
+    "skills": [
+      "Broadcast journalism",
+      "Editorial process",
+      "Content production"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1-2 week placement",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.bbc.co.uk/academy",
+    "achievements": [
+      "Observed three editorial meetings",
+      "Contributed research to a broadcast news segment"
+    ],
+    "reflection_prompts": [
+      "What editorial decision during the placement revealed something about media values you hadn't understood before?"
+    ],
+    "example_sentence": "BBC work experience showed me that broadcast journalism is built on thousands of invisible decisions made under impossible time pressure.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mc2",
+    "organisation_name": "Channel 4",
+    "role": "4talent Student Insight",
+    "courses": [
+      "media-communications",
+      "film-media-studies",
+      "journalism"
+    ],
+    "description": "Apply for Channel 4's 4talent student insight programme — gaining exposure to commissioning, production and communications across the broadcaster.",
+    "why_it_helps": "Channel 4 insight experience is specifically cited by media studies admissions as evidence of industry engagement and critical awareness.",
+    "skills": [
+      "Commissioning awareness",
+      "Production insight",
+      "Creative strategy"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Programme days",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.channel4.com/corporate/4talent",
+    "achievements": [
+      "Completed 4talent insight programme",
+      "Participated in a live commissioning discussion with Channel 4 executives"
+    ],
+    "reflection_prompts": [
+      "What did seeing the commissioning process from the inside reveal about how media shapes culture?"
+    ],
+    "example_sentence": "The Channel 4 insight day showed me that commissioning decisions are always political as well as creative.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mc3",
+    "organisation_name": "PRCA",
+    "role": "Public Relations Student Challenge",
+    "courses": [
+      "media-communications",
+      "journalism",
+      "marketing",
+      "business"
+    ],
+    "description": "Enter the PRCA student PR challenge — developing a full public relations campaign for a real client brief, judged by senior PR professionals.",
+    "why_it_helps": "PRCA recognition is the most direct evidence of communications skill for Media and PR-related applications.",
+    "skills": [
+      "PR strategy",
+      "Stakeholder mapping",
+      "Media relations"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.prca.org.uk/",
+    "achievements": [
+      "Team reached PRCA student challenge final",
+      "Campaign strategy adopted in part by the client"
+    ],
+    "reflection_prompts": [
+      "What media relations decision in your campaign was hardest to justify to the judges?"
+    ],
+    "example_sentence": "Competing in the PRCA challenge showed me that good public relations is about earning trust, not manufacturing it.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "mc4",
+    "organisation_name": "Ofcom",
+    "role": "Media Literacy Volunteer",
+    "courses": [
+      "media-communications",
+      "politics",
+      "sociology",
+      "data-science-ai"
+    ],
+    "description": "Support Ofcom's media literacy outreach — helping deliver digital media literacy workshops to schools and community groups.",
+    "why_it_helps": "Ofcom media literacy work demonstrates critical engagement with the regulatory and social role of media — distinctive for Media applications.",
+    "skills": [
+      "Media literacy facilitation",
+      "Regulatory awareness",
+      "Digital safety education"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-literacy/",
+    "achievements": [
+      "Delivered media literacy workshops to 4 school groups",
+      "Co-produced a short media literacy guide for Year 9 students"
+    ],
+    "reflection_prompts": [
+      "What media behaviour surprised you most when you actually asked young people about how they consume content?"
+    ],
+    "example_sentence": "Delivering Ofcom media literacy workshops showed me that most people consume media constantly but rarely think critically about who made it and why.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mc5",
+    "organisation_name": "Reprezent Radio",
+    "role": "Community Radio Presenter",
+    "courses": [
+      "media-communications",
+      "journalism",
+      "music",
+      "sociology"
+    ],
+    "description": "Present, produce or report for Reprezent Radio — the UK's leading youth community radio station — reaching 750,000 listeners.",
+    "why_it_helps": "Reprezent is a fully operational broadcaster; regular production and presenting demonstrates real media skills beyond any simulation.",
+    "skills": [
+      "Radio production",
+      "Interviewing",
+      "Live presenting"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly show",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.reprezent.org.uk/get-involved/",
+    "achievements": [
+      "Presented a weekly 1-hour show for 3 months",
+      "Produced and broadcast 6 original interviews"
+    ],
+    "reflection_prompts": [
+      "What did presenting live radio teach you about the relationship between preparation and spontaneity?"
+    ],
+    "example_sentence": "Presenting at Reprezent showed me that good broadcasting requires you to have done all the thinking before the microphone is live.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ph1",
+    "organisation_name": "Public Health England (UKHSA)",
+    "role": "Health Improvement Volunteer",
+    "courses": [
+      "public-health",
+      "medicine",
+      "nursing",
+      "sociology"
+    ],
+    "description": "Support UK Health Security Agency community health improvement programmes — delivering public health messaging, supporting screening campaigns and community outreach.",
+    "why_it_helps": "UKHSA-affiliated community health work demonstrates population-level health thinking that distinguishes public health applicants.",
+    "skills": [
+      "Population health communication",
+      "Health promotion",
+      "Community outreach"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.gov.uk/government/organisations/uk-health-security-agency",
+    "achievements": [
+      "Supported a local vaccination uptake campaign that increased bookings by 12%"
+    ],
+    "reflection_prompts": [
+      "What barrier to health behaviour change did community engagement reveal that policy documents had missed?"
+    ],
+    "example_sentence": "Supporting a vaccination campaign showed me that public health is ultimately a communication challenge, not a medical one.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ph2",
+    "organisation_name": "The King's Fund",
+    "role": "Health Policy Research Volunteer",
+    "courses": [
+      "public-health",
+      "politics",
+      "economics",
+      "sociology"
+    ],
+    "description": "Assist The King's Fund — the UK's leading health policy think tank — with research, literature reviews and briefing production on NHS and public health issues.",
+    "why_it_helps": "King's Fund research experience demonstrates the policy-level health thinking that top public health and health management programmes require.",
+    "skills": [
+      "Health policy analysis",
+      "NHS systems knowledge",
+      "Research support"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.kingsfund.org.uk/",
+    "achievements": [
+      "Contributed to a King's Fund briefing on health inequalities",
+      "Coded qualitative data for a report on GP access"
+    ],
+    "reflection_prompts": [
+      "What NHS statistic revealed a systemic problem that individual clinical decisions cannot solve?"
+    ],
+    "example_sentence": "Researching for the King's Fund showed me that improving population health requires political will as much as clinical knowledge.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ph3",
+    "organisation_name": "British Nutrition Foundation",
+    "role": "Healthy Eating Schools Volunteer",
+    "courses": [
+      "public-health",
+      "nutrition-dietetics",
+      "biology-life-sciences",
+      "education"
+    ],
+    "description": "Deliver British Nutrition Foundation healthy eating workshops in primary and secondary schools — communicating evidence-based nutrition to young people.",
+    "why_it_helps": "Nutrition education outreach funded by the leading nutrition science body is strong, specific evidence for Public Health and Nutrition applications.",
+    "skills": [
+      "Nutrition science communication",
+      "School outreach",
+      "Behaviour change messaging"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.nutrition.org.uk/",
+    "achievements": [
+      "Delivered nutrition workshops to 5 school groups reaching 120 students"
+    ],
+    "reflection_prompts": [
+      "What nutrition myth did most students believe that the science most clearly contradicts?"
+    ],
+    "example_sentence": "Running nutrition workshops showed me that public health messaging fails not because the science is unclear but because the communication is.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ph4",
+    "organisation_name": "Global Health Network",
+    "role": "Young Researcher Programme",
+    "courses": [
+      "public-health",
+      "medicine",
+      "data-science-ai",
+      "international-relations"
+    ],
+    "description": "Join the GHN Young Researcher Programme — supporting global health research teams with data, literature reviews and science communication.",
+    "why_it_helps": "Global Health Network experience demonstrates the international and evidence-based perspective that public health programmes value.",
+    "skills": [
+      "Global health data",
+      "Literature synthesis",
+      "Research communication"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://globalhealthresearch.tghn.org/",
+    "achievements": [
+      "Contributed to a systematic review on child nutrition in sub-Saharan Africa"
+    ],
+    "reflection_prompts": [
+      "What global health disparity did the research reveal that domestic public health training rarely addresses?"
+    ],
+    "example_sentence": "Working with the Global Health Network showed me that public health research only matters if it reaches the people making decisions.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ph5",
+    "organisation_name": "RSPH",
+    "role": "RSPH Health Improvement Essay Award",
+    "courses": [
+      "public-health",
+      "medicine",
+      "biology-life-sciences",
+      "sociology"
+    ],
+    "description": "Enter the Royal Society for Public Health's annual essay competition — writing an evidence-based analysis of a public health challenge.",
+    "why_it_helps": "RSPH recognition is the most prestigious pre-university public health distinction and is directly referenced by admissions tutors.",
+    "skills": [
+      "Epidemiology basics",
+      "Public health policy",
+      "Evidence-based writing"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.rsph.org.uk/",
+    "achievements": [
+      "Shortlisted in the RSPH Health Improvement Essay Award"
+    ],
+    "reflection_prompts": [
+      "What evidence did your essay uncover that most undermined the dominant policy response to the health issue you chose?"
+    ],
+    "example_sentence": "Writing for the RSPH competition showed me that public health is the discipline that asks who gets sick and why — not just how to treat them.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "nd1",
+    "organisation_name": "Diabetes UK",
+    "role": "Community Awareness Volunteer",
+    "courses": [
+      "nutrition-dietetics",
+      "public-health",
+      "medicine",
+      "nursing"
+    ],
+    "description": "Support Diabetes UK community outreach — running healthy lifestyle workshops, staffing awareness stalls and supporting dietary education campaigns.",
+    "why_it_helps": "Dietary and lifestyle education in a clinical charity context gives specific, evidence-based experience that nutrition courses need.",
+    "skills": [
+      "Dietary education",
+      "Behaviour change communication",
+      "Chronic disease awareness"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.diabetes.org.uk/get-involved/volunteer",
+    "achievements": [
+      "Delivered healthy eating workshops to 4 community groups",
+      "Staffed a diabetes awareness stall at a community health fair"
+    ],
+    "reflection_prompts": [
+      "What dietary misconception did most people hold that the evidence most clearly contradicts?"
+    ],
+    "example_sentence": "Volunteering for Diabetes UK showed me that dietary behaviour change is as much about environment as individual choice.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "nd2",
+    "organisation_name": "Food Foundation",
+    "role": "Food Policy Research Volunteer",
+    "courses": [
+      "nutrition-dietetics",
+      "public-health",
+      "politics",
+      "economics"
+    ],
+    "description": "Support the Food Foundation's research on food insecurity, child nutrition and healthy food access policy in the UK.",
+    "why_it_helps": "Food policy research experience demonstrates the systems-level thinking that distinguishes strong Nutrition and Dietetics applications.",
+    "skills": [
+      "Food policy analysis",
+      "Nutritional epidemiology",
+      "Research support"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://foodfoundation.org.uk/",
+    "achievements": [
+      "Contributed data coding to a Food Foundation report on school food standards"
+    ],
+    "reflection_prompts": [
+      "What food policy finding most challenged your assumptions about who goes hungry in the UK?"
+    ],
+    "example_sentence": "Researching for the Food Foundation showed me that food insecurity is a political problem wearing the mask of a personal failure.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "nd3",
+    "organisation_name": "School Food Matters",
+    "role": "Cooking and Nutrition Volunteer",
+    "courses": [
+      "nutrition-dietetics",
+      "education",
+      "public-health"
+    ],
+    "description": "Help School Food Matters deliver cooking and nutrition education in primary and secondary schools — teaching children to cook and understand food.",
+    "why_it_helps": "Hands-on food education in schools is the most direct evidence of applied nutrition knowledge for dietetics applications.",
+    "skills": [
+      "Practical cooking instruction",
+      "Nutritional science communication",
+      "School-based education"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.schoolfoodmatters.org/",
+    "achievements": [
+      "Taught cooking skills to 60 primary school children over a term",
+      "Designed a lesson on reading food labels for Year 6"
+    ],
+    "reflection_prompts": [
+      "What did teaching children about food reveal about how early food habits are actually formed?"
+    ],
+    "example_sentence": "Teaching children to cook showed me that nutrition education only works when it is practical, not preachy.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "nd4",
+    "organisation_name": "BDA",
+    "role": "British Dietetic Association Work Ready Scheme",
+    "courses": [
+      "nutrition-dietetics",
+      "biology-life-sciences",
+      "medicine"
+    ],
+    "description": "Complete the BDA Work Ready Scheme — gaining structured experience in a dietetic department through supervised observation and case shadowing.",
+    "why_it_helps": "The BDA Work Ready Scheme is the official pre-university pathway for dietetics and is directly recognised by every dietetics admissions panel.",
+    "skills": [
+      "Clinical dietetics observation",
+      "Patient communication",
+      "Dietetic assessment basics"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Structured placement",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.bda.uk.com/",
+    "achievements": [
+      "Completed BDA Work Ready placement in an NHS dietetic department",
+      "Observed 20+ patient consultations across three clinical areas"
+    ],
+    "reflection_prompts": [
+      "What aspect of clinical dietetics practice was most different from the nutritional science you had studied at school?"
+    ],
+    "example_sentence": "Completing the BDA Work Ready scheme showed me that clinical dietetics is as much about behavioural psychology as food science.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "nd5",
+    "organisation_name": "Compassion in World Farming",
+    "role": "Food & Farming Education Volunteer",
+    "courses": [
+      "nutrition-dietetics",
+      "environmental-science",
+      "public-health",
+      "biology-life-sciences"
+    ],
+    "description": "Support CIWF's food education programmes — delivering farm-to-fork workshops and helping schools understand the environmental and health dimensions of food choices.",
+    "why_it_helps": "Food systems education from an environmental and welfare perspective gives nutrition applicants a distinctive, cross-disciplinary evidence base.",
+    "skills": [
+      "Food systems thinking",
+      "Animal welfare awareness",
+      "Environmental nutrition"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.ciwf.org.uk/",
+    "achievements": [
+      "Delivered food and farming workshops in 3 schools",
+      "Co-produced a classroom resource on the environmental impact of dietary choices"
+    ],
+    "reflection_prompts": [
+      "What food system fact most surprised students and why do you think mainstream nutrition education omits it?"
+    ],
+    "example_sentence": "Delivering food systems workshops showed me that what we eat is inseparable from how our food is produced — and who pays the cost.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "op1",
+    "organisation_name": "College of Optometrists",
+    "role": "Sight Loss Awareness Volunteer",
+    "courses": [
+      "optometry",
+      "medicine",
+      "nursing",
+      "public-health"
+    ],
+    "description": "Support the College of Optometrists' sight loss awareness campaigns — running public eye health events, school visits and community outreach.",
+    "why_it_helps": "College of Optometrists community engagement demonstrates the public health and patient communication skills optometry applications require.",
+    "skills": [
+      "Eye health communication",
+      "Sight loss awareness",
+      "Public engagement"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.college-optometrists.org/",
+    "achievements": [
+      "Ran an eye health awareness stall at a community health fair reaching 150 people"
+    ],
+    "reflection_prompts": [
+      "What aspect of preventable sight loss most surprised the people you engaged with?"
+    ],
+    "example_sentence": "Volunteering for the College of Optometrists showed me that the biggest barrier to good eye health is simply not knowing it's at risk.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "op2",
+    "organisation_name": "RNIB",
+    "role": "Sight Loss Support Volunteer",
+    "courses": [
+      "optometry",
+      "nursing",
+      "social-work",
+      "medicine"
+    ],
+    "description": "Support the Royal National Institute of Blind People — helping people with sight loss navigate daily life, technology and services.",
+    "why_it_helps": "Direct contact with sight-impaired people provides the empathic and clinical foundation that optometry schools expect to see.",
+    "skills": [
+      "Sight loss support",
+      "Adaptive technology guidance",
+      "Emotional support"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.rnib.org.uk/get-involved/volunteer/",
+    "achievements": [
+      "Provided regular telephone and digital support to 3 clients with sight loss"
+    ],
+    "reflection_prompts": [
+      "What aspect of life with sight loss had you not anticipated before direct contact with people affected?"
+    ],
+    "example_sentence": "Volunteering with the RNIB showed me that optometry is not just about diagnosing vision — it is about preserving independence.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "op3",
+    "organisation_name": "Optometry Today",
+    "role": "Student Writing Award",
+    "courses": [
+      "optometry",
+      "biology-life-sciences",
+      "medicine"
+    ],
+    "description": "Enter the Optometry Today student writing competition — producing an evidence-based article on a clinical or public health optometry topic.",
+    "why_it_helps": "Published or shortlisted writing in a professional optometry journal signals the academic ambition that optometry admissions look for.",
+    "skills": [
+      "Clinical research writing",
+      "Optometric science",
+      "Evidence-based communication"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.aop.org.uk/ot/",
+    "achievements": [
+      "Shortlisted in Optometry Today student writing award"
+    ],
+    "reflection_prompts": [
+      "What clinical finding in your research changed your understanding of the optometrist's role in primary care?"
+    ],
+    "example_sentence": "Writing for the Optometry Today competition showed me how much optometrists contribute to detecting systemic disease long before other clinicians do.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "op4",
+    "organisation_name": "Vision Aid Overseas",
+    "role": "Awareness & Fundraising Volunteer",
+    "courses": [
+      "optometry",
+      "public-health",
+      "international-relations"
+    ],
+    "description": "Support Vision Aid Overseas — a charity delivering eye care in sub-Saharan Africa — with UK fundraising, campaigns and awareness work.",
+    "why_it_helps": "VAO engagement demonstrates global health awareness and social motivation that optometry tutors increasingly look for in applicants.",
+    "skills": [
+      "Global eye health awareness",
+      "Fundraising",
+      "Campaign communication"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.visionaidoverseas.org/get-involved/",
+    "achievements": [
+      "Raised £500 at a fundraising event for VAO eye care programmes"
+    ],
+    "reflection_prompts": [
+      "What statistic about preventable blindness globally most reframed how you think about optometry as a profession?"
+    ],
+    "example_sentence": "Fundraising for Vision Aid Overseas showed me that most blindness in the world is preventable — optometry is a global health issue.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "op5",
+    "organisation_name": "Specsavers",
+    "role": "Community Eye Health Volunteer",
+    "courses": [
+      "optometry",
+      "public-health",
+      "medicine"
+    ],
+    "description": "Volunteer in Specsavers community outreach — supporting free sight testing drives, elderly care home visits and school screening awareness programmes.",
+    "why_it_helps": "Community optometry outreach experience is exactly the patient-facing context that optometry schools want to see in applications.",
+    "skills": [
+      "Eye health outreach",
+      "Patient communication",
+      "Screening awareness"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Event-based",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.specsavers.co.uk/",
+    "achievements": [
+      "Assisted at two community free sight test events",
+      "Supported a care home vision awareness session reaching 30 residents"
+    ],
+    "reflection_prompts": [
+      "What did community eye health outreach reveal about the barriers to accessing routine optometry for different groups?"
+    ],
+    "example_sentence": "Volunteering in community eye health outreach showed me that good optometry reaches people before they know they need it.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "gd1",
+    "organisation_name": "BAFTA",
+    "role": "BAFTA Young Game Designers Award",
+    "courses": [
+      "game-design",
+      "computer-science",
+      "art-design",
+      "film-media-studies"
+    ],
+    "description": "Enter the BAFTA Young Game Designers Award — creating an original game concept or playable prototype and presenting it to a BAFTA panel.",
+    "why_it_helps": "BAFTA YGD is the UK's most prestigious games competition for young people and is cited by every game design degree programme.",
+    "skills": [
+      "Game concept development",
+      "Prototype design",
+      "Design communication"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 10,
+    "town": "Anywhere",
+    "apply_url": "https://www.bafta.org/young-game-designers",
+    "achievements": [
+      "Reached BAFTA YGD national shortlist",
+      "Game prototype exhibited at a BAFTA event"
+    ],
+    "reflection_prompts": [
+      "What design decision most improved your game when you tested it with real players?"
+    ],
+    "example_sentence": "Entering BAFTA YGD showed me that game design is ultimately a hypothesis about what makes people feel something.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "gd2",
+    "organisation_name": "Into Games",
+    "role": "Games Industry Work Insight",
+    "courses": [
+      "game-design",
+      "computer-science",
+      "art-design"
+    ],
+    "description": "Apply for an Into Games industry insight programme — visiting studios, attending production meetings and speaking with game designers.",
+    "why_it_helps": "Into Games facilitates direct industry access that game design programmes cite as evidence of genuine career motivation.",
+    "skills": [
+      "Game production awareness",
+      "Studio culture",
+      "Design pipeline understanding"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Programme days",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://intogames.org/",
+    "achievements": [
+      "Attended an Into Games studio visit to a major UK games developer",
+      "Participated in a level design workshop with a senior designer"
+    ],
+    "reflection_prompts": [
+      "What aspect of professional game production was most different from how you imagined games were made?"
+    ],
+    "example_sentence": "Visiting a game studio through Into Games showed me that game design is 80% iteration and constraint, not inspiration.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "gd3",
+    "organisation_name": "GameDevNetwork",
+    "role": "Indie Game Jam Participant",
+    "courses": [
+      "game-design",
+      "computer-science",
+      "mathematics",
+      "art-design"
+    ],
+    "description": "Compete in a 48-hour game jam — building a complete game from scratch in response to a theme, then submitting for community judging.",
+    "why_it_helps": "Game jam participation demonstrates rapid creative problem-solving and technical delivery under constraint — exactly what game design admissions need to see.",
+    "skills": [
+      "Rapid prototyping",
+      "Game mechanics design",
+      "Iterative development"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "48-hour event",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://itch.io/jams",
+    "achievements": [
+      "Completed and submitted 3 original games across different game jams",
+      "Game rated in top 20% by the community in its jam"
+    ],
+    "reflection_prompts": [
+      "What design decision during the jam did playtesting invalidate within the first hour?"
+    ],
+    "example_sentence": "Competing in game jams showed me that every design decision is really a testable hypothesis about player behaviour.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "gd4",
+    "organisation_name": "Code Club",
+    "role": "Games Programming Club Leader",
+    "courses": [
+      "game-design",
+      "computer-science",
+      "education",
+      "mathematics"
+    ],
+    "description": "Run a games programming club at a local school or library using Scratch and Python — teaching young people to design and code their own games.",
+    "why_it_helps": "Teaching game programming demonstrates both technical depth and the communication skill games degrees increasingly value.",
+    "skills": [
+      "Games programming education",
+      "Scratch/Python",
+      "Level design basics"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "1-2 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://codeclub.org/volunteer",
+    "achievements": [
+      "Ran a games programming club for 12 students over two terms",
+      "Students showcased original Scratch games at a school exhibition"
+    ],
+    "reflection_prompts": [
+      "What game design concept was hardest to teach to beginners and what explanation finally worked?"
+    ],
+    "example_sentence": "Running a games club taught me that the clearest test of design understanding is whether you can teach someone else to make a game.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "gd5",
+    "organisation_name": "Games For Change",
+    "role": "Game For Good Competition",
+    "courses": [
+      "game-design",
+      "sociology",
+      "public-health",
+      "education"
+    ],
+    "description": "Enter Games for Change — a global competition to design games that address real social, environmental or educational problems.",
+    "why_it_helps": "G4C demonstrates the socially aware, purpose-driven design thinking that the best game design programmes want to develop.",
+    "skills": [
+      "Social impact game design",
+      "Systems thinking",
+      "Impact measurement"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 13,
+    "town": "Anywhere",
+    "apply_url": "https://gamesforchange.org/",
+    "achievements": [
+      "Game shortlisted in Games for Change student challenge",
+      "Mechanic highlighted as an innovative approach to a social issue"
+    ],
+    "reflection_prompts": [
+      "What design decision made your game's social purpose feel embedded rather than imposed?"
+    ],
+    "example_sentence": "Entering Games for Change showed me that the most powerful games change how players think, not just how they play.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "up1",
+    "organisation_name": "Town and Country Planning Association",
+    "role": "TCPA Young Planners Network",
+    "courses": [
+      "urban-planning",
+      "geography",
+      "architecture",
+      "politics"
+    ],
+    "description": "Join the TCPA Young Planners Network — attending planning policy events, site visits and workshops led by practising town planners.",
+    "why_it_helps": "TCPA is the UK's oldest planning organisation; network membership demonstrates professional awareness directly valued by planning schools.",
+    "skills": [
+      "Planning policy awareness",
+      "Land use analysis",
+      "Community consultation"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Monthly events",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.tcpa.org.uk/networks/young-planners/",
+    "achievements": [
+      "Attended 6 TCPA planning policy events",
+      "Contributed to a TCPA workshop on housing supply"
+    ],
+    "reflection_prompts": [
+      "What planning policy debate revealed the most fundamental tension between competing community interests?"
+    ],
+    "example_sentence": "Joining the TCPA Young Planners Network showed me that planning is the art of making impossible tradeoffs between legitimate competing needs.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "up2",
+    "organisation_name": "Future of London",
+    "role": "Young London Leaders Programme",
+    "courses": [
+      "urban-planning",
+      "politics",
+      "economics",
+      "sociology"
+    ],
+    "description": "Join Future of London's Young London Leaders programme — engaging with housing, transport and regeneration policy across the capital.",
+    "why_it_helps": "Young London Leaders is specifically cited by urban planning admissions as evidence of genuine policy engagement with real city challenges.",
+    "skills": [
+      "Urban regeneration",
+      "Housing policy",
+      "City governance"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Programme sessions",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.futureoflondon.org.uk/",
+    "achievements": [
+      "Completed Young London Leaders programme",
+      "Produced a housing policy brief presented to a London borough"
+    ],
+    "reflection_prompts": [
+      "What urban regeneration project revealed the gap between planning intentions and community outcomes?"
+    ],
+    "example_sentence": "The Young London Leaders programme showed me that urban planning is always a negotiation between technical solutions and political realities.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "up3",
+    "organisation_name": "Civic Voice",
+    "role": "Community Planning Volunteer",
+    "courses": [
+      "urban-planning",
+      "geography",
+      "politics",
+      "history"
+    ],
+    "description": "Support Civic Voice — the national body for civic societies — with neighbourhood planning, heritage campaigns and local environment projects.",
+    "why_it_helps": "Community planning experience demonstrates the grassroots, participatory dimension of urban planning that academic study often underemphasises.",
+    "skills": [
+      "Neighbourhood planning",
+      "Heritage protection",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.civicvoice.org.uk/",
+    "achievements": [
+      "Contributed to a local neighbourhood plan consultation",
+      "Helped map and document heritage assets in a conservation area"
+    ],
+    "reflection_prompts": [
+      "What community concern did the planning consultation reveal that the formal planning application had not addressed?"
+    ],
+    "example_sentence": "Volunteering with Civic Voice showed me that the most important planning decisions are made in community halls, not council chambers.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "up4",
+    "organisation_name": "RIBA",
+    "role": "Forgotten Spaces Competition",
+    "courses": [
+      "urban-planning",
+      "architecture",
+      "art-design",
+      "geography"
+    ],
+    "description": "Enter RIBA's Forgotten Spaces design competition — reimagining underused urban sites through design proposals that respond to community need.",
+    "why_it_helps": "RIBA competition experience in urban design is direct, specific evidence for both architecture and planning applications.",
+    "skills": [
+      "Urban design",
+      "Site analysis",
+      "Community-centred design"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.architecture.com/education-cpd-and-careers/competitions",
+    "achievements": [
+      "Shortlisted in RIBA Forgotten Spaces competition",
+      "Design proposal exhibited at a RIBA public event"
+    ],
+    "reflection_prompts": [
+      "What community insight most changed your initial design response to the site?"
+    ],
+    "example_sentence": "Entering the RIBA Forgotten Spaces competition showed me that urban design always starts with the question of who is being served.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "up5",
+    "organisation_name": "Space Syntax Laboratory",
+    "role": "Urban Analysis Volunteer",
+    "courses": [
+      "urban-planning",
+      "architecture",
+      "data-science-ai",
+      "geography"
+    ],
+    "description": "Assist UCL's Space Syntax Laboratory with spatial analysis projects — mapping pedestrian movement, street network analysis and urban data visualisation.",
+    "why_it_helps": "Space syntax research gives planning and architecture applicants distinctive quantitative urban analysis experience.",
+    "skills": [
+      "GIS mapping",
+      "Spatial data analysis",
+      "Urban movement patterns"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.spacesyntax.com/",
+    "achievements": [
+      "Contributed spatial analysis data to a published urban movement study"
+    ],
+    "reflection_prompts": [
+      "What movement pattern in the data contradicted what urban designers had assumed about how people use space?"
+    ],
+    "example_sentence": "Working with Space Syntax data showed me that people navigate cities according to rules that no designer consciously intended.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "rb1",
+    "organisation_name": "FIRST Robotics",
+    "role": "FIRST Robotics Competition",
+    "courses": [
+      "robotics-ai",
+      "engineering",
+      "computer-science",
+      "mathematics"
+    ],
+    "description": "Compete in FIRST Robotics — building a robot in 6 weeks to solve an annually-changing engineering challenge, competing at regional and national events.",
+    "why_it_helps": "FIRST Robotics is the world's most recognised pre-university robotics competition and is cited by every engineering and CS admissions panel.",
+    "skills": [
+      "Mechanical design",
+      "Programming",
+      "Systems integration"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly sessions + competitions",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://www.firstinspires.org/robotics/frc",
+    "achievements": [
+      "Robot competed at UK FIRST Robotics regional championship",
+      "Programmed the autonomous routine used in competition"
+    ],
+    "reflection_prompts": [
+      "What systems integration failure during build season required the most creative engineering solution?"
+    ],
+    "example_sentence": "Competing in FIRST Robotics showed me that engineering is always a team sport — no single person can hold the whole system in their head.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "rb2",
+    "organisation_name": "AI UK Festival",
+    "role": "AI for Good Hackathon",
+    "courses": [
+      "robotics-ai",
+      "computer-science",
+      "data-science-ai",
+      "mathematics"
+    ],
+    "description": "Compete in an AI for Good hackathon — building an AI-powered solution to a real societal challenge within 24-48 hours.",
+    "why_it_helps": "AI hackathon participation demonstrates applied machine learning thinking and rapid prototyping skills that robotics and AI programmes want.",
+    "skills": [
+      "Machine learning basics",
+      "Rapid AI prototyping",
+      "Problem framing"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Hackathon weekend",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.turing.ac.uk/",
+    "achievements": [
+      "Team's AI solution reached hackathon final",
+      "Model accuracy improved by 15% through feature engineering during the event"
+    ],
+    "reflection_prompts": [
+      "What societal problem turned out to be harder to define than to solve technically?"
+    ],
+    "example_sentence": "Competing in an AI hackathon showed me that the hardest part of applied AI is deciding what problem you are actually trying to solve.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "rb3",
+    "organisation_name": "Robotics for Good",
+    "role": "Community Robot Build Volunteer",
+    "courses": [
+      "robotics-ai",
+      "engineering",
+      "education"
+    ],
+    "description": "Help design and build robots for community benefit — assistive devices, educational robots and tools for people with disabilities.",
+    "why_it_helps": "Applied robotics for social impact demonstrates the purposeful engineering thinking that distinguishes strong applications.",
+    "skills": [
+      "Embedded systems",
+      "Mechanical fabrication",
+      "Assistive technology design"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly sessions",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.theiet.org/",
+    "achievements": [
+      "Built an assistive communication device for a young person with motor difficulties"
+    ],
+    "reflection_prompts": [
+      "What design constraint imposed by the user's needs changed your engineering approach most fundamentally?"
+    ],
+    "example_sentence": "Building an assistive robot showed me that the best engineering is always designed for a specific person, not a generic user.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "rb4",
+    "organisation_name": "IET",
+    "role": "IET FIRST LEGO League Coach",
+    "courses": [
+      "robotics-ai",
+      "engineering",
+      "education",
+      "computer-science"
+    ],
+    "description": "Coach a team of young people (9-16) competing in the IET-sponsored FIRST LEGO League — designing, building and programming a robot to complete missions.",
+    "why_it_helps": "Coaching FLL demonstrates both technical depth and the teaching dimension that robotics and engineering courses value.",
+    "skills": [
+      "Robot programming",
+      "Team coaching",
+      "Engineering communication"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly sessions",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.theiet.org/",
+    "achievements": [
+      "Coached a team of 8 to a regional FLL competition",
+      "Team's robot completed 12/15 missions in competition"
+    ],
+    "reflection_prompts": [
+      "What programming problem did the team solve in a way you hadn't suggested, and what did that teach you?"
+    ],
+    "example_sentence": "Coaching an FLL team showed me that teaching robotics forces you to understand it from first principles all over again.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "rb5",
+    "organisation_name": "Alan Turing Institute",
+    "role": "Data Study Group Volunteer",
+    "courses": [
+      "robotics-ai",
+      "data-science-ai",
+      "mathematics",
+      "computer-science"
+    ],
+    "description": "Participate in an Alan Turing Institute Data Study Group — collaborative week-long hackathons working on real data challenges with researchers and industry partners.",
+    "why_it_helps": "Turing Institute Data Study Group participation is exceptional evidence of applied AI and data science capability for robotics and AI applications.",
+    "skills": [
+      "Applied machine learning",
+      "Data analysis",
+      "Collaborative research"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Week-long programme",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.turing.ac.uk/collaborate-turing/data-study-groups",
+    "achievements": [
+      "Contributed to a Turing Data Study Group that produced an industry report"
+    ],
+    "reflection_prompts": [
+      "What data problem revealed a fundamental limitation in the ML approach your team initially chose?"
+    ],
+    "example_sentence": "Working at a Turing Data Study Group showed me that the boundary between AI research and real-world application is narrower and messier than papers suggest.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mb1",
+    "organisation_name": "Marine Conservation Society",
+    "role": "Sea Champion Volunteer",
+    "courses": [
+      "marine-biology",
+      "environmental-science",
+      "biology-life-sciences"
+    ],
+    "description": "Become an MCS Sea Champion — organising beach cleans, recording marine litter data and running ocean conservation community events.",
+    "why_it_helps": "MCS engagement is specifically recognised by marine biology programmes as evidence of conservation commitment and citizen science participation.",
+    "skills": [
+      "Marine litter monitoring",
+      "Citizen science",
+      "Conservation advocacy"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Monthly events",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://www.mcsuk.org/",
+    "achievements": [
+      "Organised a beach clean collecting 50kg of litter",
+      "Submitted data to the MCS Great British Beach Clean survey"
+    ],
+    "reflection_prompts": [
+      "What did beach clean data reveal about the sources of marine litter that surprised you?"
+    ],
+    "example_sentence": "Organising beach cleans for the MCS showed me that marine conservation is built on data collected one piece of litter at a time.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mb2",
+    "organisation_name": "Shark Trust",
+    "role": "Great Eggcase Hunt Volunteer",
+    "courses": [
+      "marine-biology",
+      "biology-life-sciences",
+      "environmental-science"
+    ],
+    "description": "Participate in the Shark Trust Great Eggcase Hunt — surveying beaches for shark and ray eggcases and contributing data to national population studies.",
+    "why_it_helps": "Shark Trust citizen science work gives marine biology applicants rare, specific field evidence directly relevant to elasmobranch research.",
+    "skills": [
+      "Species survey methodology",
+      "Marine taxonomy",
+      "Citizen science data collection"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Seasonal surveys",
+    "min_age": 14,
+    "town": "Anywhere",
+    "apply_url": "https://www.sharktrust.org/",
+    "achievements": [
+      "Contributed 40+ eggcase records to the national Great Eggcase Hunt database"
+    ],
+    "reflection_prompts": [
+      "What distribution pattern in the eggcase data suggested something unexpected about local shark and ray populations?"
+    ],
+    "example_sentence": "Surveying for the Shark Trust showed me that marine biology fieldwork is about training your eyes to see what isn't obvious.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mb3",
+    "organisation_name": "Reef Check UK",
+    "role": "Coral and Reef Survey Volunteer",
+    "courses": [
+      "marine-biology",
+      "environmental-science",
+      "biology-life-sciences"
+    ],
+    "description": "Train as a Reef Check UK volunteer diver — conducting standardised underwater surveys of reef health, fish populations and invertebrate communities.",
+    "why_it_helps": "Reef Check underwater survey training is among the most distinctive and specific experiences for marine biology applications.",
+    "skills": [
+      "Reef survey methodology",
+      "Marine species identification",
+      "Underwater data collection"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Training + survey dives",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.reefcheck.org.uk/",
+    "achievements": [
+      "Completed Reef Check UK volunteer diver training",
+      "Conducted 4 standardised reef health surveys"
+    ],
+    "reflection_prompts": [
+      "What reef health indicator showed the most unexpected pattern in your survey data?"
+    ],
+    "example_sentence": "Training as a Reef Check diver showed me that marine biology fieldwork requires the same methodological rigour as any laboratory science.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mb4",
+    "organisation_name": "Marine Biological Association",
+    "role": "MBA School of Ocean Science",
+    "courses": [
+      "marine-biology",
+      "biology-life-sciences",
+      "chemistry",
+      "environmental-science"
+    ],
+    "description": "Participate in the MBA's School of Ocean Science — a summer programme introducing marine biology, oceanography and laboratory techniques to sixth-formers.",
+    "why_it_helps": "MBA is the world's oldest marine biology institution; school programme participation is cited by every marine biology admissions panel.",
+    "skills": [
+      "Marine ecology",
+      "Oceanography basics",
+      "Laboratory marine science"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Summer programme week",
+    "min_age": 16,
+    "town": "Plymouth",
+    "apply_url": "https://www.mba.ac.uk/",
+    "achievements": [
+      "Completed MBA School of Ocean Science programme",
+      "Conducted original plankton diversity analysis as part of the course"
+    ],
+    "reflection_prompts": [
+      "What aspect of ocean science revealed a level of complexity you had not anticipated from school biology?"
+    ],
+    "example_sentence": "The MBA School of Ocean Science showed me that the ocean is not a background to marine life — it is an active and dynamic participant in it.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "mb5",
+    "organisation_name": "Sea Life Trust",
+    "role": "Marine Education Volunteer",
+    "courses": [
+      "marine-biology",
+      "education",
+      "environmental-science"
+    ],
+    "description": "Support Sea Life Trust's marine education programmes — delivering ocean conservation workshops, handling sessions and school visits.",
+    "why_it_helps": "Sea Life Trust outreach gives marine biology applicants communication experience linked to their subject in a public, educational context.",
+    "skills": [
+      "Marine education",
+      "Species handling",
+      "Conservation communication"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.sealifetrust.org/",
+    "achievements": [
+      "Delivered marine conservation workshops to 6 school groups",
+      "Assisted with live animal handling demonstrations for 200+ visitors"
+    ],
+    "reflection_prompts": [
+      "What did a child's question during a handling session reveal about a gap in how marine biology is publicly communicated?"
+    ],
+    "example_sentence": "Volunteering at Sea Life Trust showed me that the most important job in marine conservation is helping people see the ocean as something that belongs to them.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "th_1",
+    "organisation_name": "Inter Faith Network UK",
+    "role": "Interfaith Dialogue Volunteer",
+    "courses": [
+      "theology",
+      "philosophy",
+      "sociology",
+      "politics"
+    ],
+    "description": "Support the Inter Faith Network UK — facilitating interfaith dialogue events, school visits and community bridge-building programmes across different faith communities.",
+    "why_it_helps": "Interfaith facilitation demonstrates the cross-cultural religious understanding and dialogue skills that theology programmes specifically require.",
+    "skills": [
+      "Interfaith facilitation",
+      "Religious literacy",
+      "Community dialogue"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.interfaith.org.uk/",
+    "achievements": [
+      "Facilitated 6 interfaith dialogue sessions attended by representatives from 5 faith traditions"
+    ],
+    "reflection_prompts": [
+      "What theological or ethical commonality emerged between traditions you had assumed to be in opposition?"
+    ],
+    "example_sentence": "Facilitating interfaith dialogue showed me that religious disagreement is often about the same questions approached from different starting points.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "th_2",
+    "organisation_name": "St Ethelburga's Centre",
+    "role": "Reconciliation & Peacebuilding Volunteer",
+    "courses": [
+      "theology",
+      "philosophy",
+      "politics",
+      "sociology"
+    ],
+    "description": "Support St Ethelburga's Centre for Reconciliation and Peace — a London interfaith centre using religion as a resource for conflict transformation.",
+    "why_it_helps": "Reconciliation work at a dedicated interfaith peace centre is rare, distinctive evidence for Theology and Philosophy applications.",
+    "skills": [
+      "Conflict transformation",
+      "Religious peacebuilding",
+      "Facilitation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.stethelburgas.org/",
+    "achievements": [
+      "Supported 4 reconciliation workshops bringing together participants from conflicting backgrounds"
+    ],
+    "reflection_prompts": [
+      "What did the reconciliation process reveal about the role of religious narrative in sustaining conflict?"
+    ],
+    "example_sentence": "Volunteering at St Ethelburga's showed me that religion is equally capable of sustaining conflict and resolving it — the difference lies entirely in how it is used.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "th_3",
+    "organisation_name": "Scripture Union",
+    "role": "Youth Worker Support Volunteer",
+    "courses": [
+      "theology",
+      "education",
+      "social-work"
+    ],
+    "description": "Support Scripture Union youth workers in schools and community settings — assisting with Bible exploration groups, camps and mentoring programmes.",
+    "why_it_helps": "Sustained youth work in a faith context demonstrates the pastoral and educational skills that theology programmes value alongside academic knowledge.",
+    "skills": [
+      "Youth pastoral support",
+      "Faith exploration facilitation",
+      "Group leadership"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly sessions",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.scriptureunion.org.uk/",
+    "achievements": [
+      "Supported weekly Bible exploration groups in two secondary schools"
+    ],
+    "reflection_prompts": [
+      "What question from a young person about faith or meaning revealed something you had not yet fully worked out yourself?"
+    ],
+    "example_sentence": "Supporting Scripture Union youth groups showed me that theological questions are most alive when they emerge from real experience, not academic texts.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "th_4",
+    "organisation_name": "Student Christian Movement",
+    "role": "Theological Essay Competition",
+    "courses": [
+      "theology",
+      "philosophy",
+      "history",
+      "sociology"
+    ],
+    "description": "Enter the SCM theological essay competition — writing an original piece engaging a contemporary theological or ethical question.",
+    "why_it_helps": "SCM essay competition success is recognised by theology departments as evidence of independent theological thinking at degree-entry level.",
+    "skills": [
+      "Theological argument",
+      "Ethics",
+      "Academic writing"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.movement.org.uk/",
+    "achievements": [
+      "Shortlisted in SCM theological essay competition"
+    ],
+    "reflection_prompts": [
+      "What theological argument in your essay most surprised you by its implications once you had fully worked it through?"
+    ],
+    "example_sentence": "Writing for the SCM competition showed me that theology is not a subject about belief — it is a discipline about the rigour with which beliefs are examined.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "th_5",
+    "organisation_name": "National Association of Teachers of Religious Education",
+    "role": "NATRE Spirited Arts",
+    "courses": [
+      "theology",
+      "art-design",
+      "philosophy",
+      "education"
+    ],
+    "description": "Enter the NATRE Spirited Arts competition — producing an original artwork that engages with a religious, spiritual or moral theme.",
+    "why_it_helps": "Spirited Arts bridges theology and creative practice — competition success demonstrates both religious literacy and artistic engagement.",
+    "skills": [
+      "Religious and spiritual themes in art",
+      "Creative interpretation",
+      "Theological reflection"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 5,
+    "town": "Anywhere",
+    "apply_url": "https://www.natre.org.uk/spirited-arts/",
+    "achievements": [
+      "Artwork shortlisted in NATRE Spirited Arts national competition"
+    ],
+    "reflection_prompts": [
+      "What spiritual or theological concept became clearer to you through trying to express it visually?"
+    ],
+    "example_sentence": "Entering Spirited Arts showed me that the attempt to represent a theological idea in art forces a clarity of thought that writing alone rarely achieves.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "ds1",
+    "organisation_name": "Practical Action",
+    "role": "Engineering for Development Volunteer",
+    "courses": [
+      "development-studies",
+      "engineering",
+      "environmental-science",
+      "economics"
+    ],
+    "description": "Support Practical Action's communications and research on technology-based solutions to poverty — writing case studies, assisting with reports and supporting advocacy.",
+    "why_it_helps": "Practical Action sits at the intersection of technology and development — exactly the applied development thinking that Development Studies programmes value.",
+    "skills": [
+      "Development technology",
+      "Advocacy writing",
+      "Research support"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "Rugby",
+    "apply_url": "https://practicalaction.org/get-involved/",
+    "achievements": [
+      "Contributed a case study to a Practical Action technology and poverty report"
+    ],
+    "reflection_prompts": [
+      "What development solution worked brilliantly in one context and completely failed in another, and why?"
+    ],
+    "example_sentence": "Working with Practical Action showed me that appropriate technology is not about the most advanced solution — it is about the most usable one.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ds2",
+    "organisation_name": "WaterAid",
+    "role": "Campaigns & Advocacy Volunteer",
+    "courses": [
+      "development-studies",
+      "politics",
+      "public-health",
+      "sociology"
+    ],
+    "description": "Support WaterAid UK campaigns — mobilising supporters, producing advocacy content and engaging with the political process to champion global water and sanitation.",
+    "why_it_helps": "WaterAid advocacy experience demonstrates the political and systems-level development thinking that Development Studies programmes want.",
+    "skills": [
+      "Development advocacy",
+      "Water and sanitation policy",
+      "Campaign coordination"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.wateraid.org/uk/get-involved/volunteer",
+    "achievements": [
+      "Helped organise a WaterAid campaign event attended by 100 supporters"
+    ],
+    "reflection_prompts": [
+      "What political barrier to water access did your advocacy work reveal that the technical solution could not overcome?"
+    ],
+    "example_sentence": "Campaigning for WaterAid showed me that clean water is not a technical problem — it is a political one wearing a technical mask.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ds3",
+    "organisation_name": "Oxfam",
+    "role": "Global Justice Now Campaign Volunteer",
+    "courses": [
+      "development-studies",
+      "politics",
+      "economics",
+      "sociology"
+    ],
+    "description": "Support Oxfam's global justice campaigns — organising community events, producing campaign materials and engaging media on trade, tax justice and inequality.",
+    "why_it_helps": "Oxfam global justice work is cited by development studies tutors as the most politically engaged and critically aware volunteering available.",
+    "skills": [
+      "Global inequality advocacy",
+      "Trade justice",
+      "Campaign communications"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.oxfam.org.uk/get-involved/volunteer-with-us/",
+    "achievements": [
+      "Co-organised a trade justice campaign event attended by 60 people"
+    ],
+    "reflection_prompts": [
+      "What global trade or tax statistic most challenged the way development is explained in mainstream media?"
+    ],
+    "example_sentence": "Campaigning with Oxfam showed me that global poverty is not a natural disaster — it is the predictable consequence of policy choices.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ds4",
+    "organisation_name": "Bond",
+    "role": "UK Development Sector Research Volunteer",
+    "courses": [
+      "development-studies",
+      "economics",
+      "politics",
+      "international-relations"
+    ],
+    "description": "Support Bond — the UK network for organisations working in international development — with research, member engagement and sector communications.",
+    "why_it_helps": "Bond is the umbrella body for UK development NGOs; research involvement here signals professional awareness and analytical depth.",
+    "skills": [
+      "Development sector research",
+      "NGO analysis",
+      "Policy communication"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.bond.org.uk/",
+    "achievements": [
+      "Contributed research to a Bond report on UK aid effectiveness"
+    ],
+    "reflection_prompts": [
+      "What finding in the development sector data most undermined a commonly held assumption about aid?"
+    ],
+    "example_sentence": "Researching for Bond showed me that international development is a sector full of people who disagree about the right answers but agree on the questions.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ds5",
+    "organisation_name": "SCD",
+    "role": "Student Conference on Development Essay Prize",
+    "courses": [
+      "development-studies",
+      "economics",
+      "politics",
+      "geography"
+    ],
+    "description": "Enter the Student Conference on Development essay competition — writing an original analysis of a global development challenge.",
+    "why_it_helps": "SCD essay recognition demonstrates the interdisciplinary analytical depth that Development Studies tutors specifically look for.",
+    "skills": [
+      "Development economics",
+      "Political economy analysis",
+      "Academic writing"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.devstudies.org.uk/",
+    "achievements": [
+      "Shortlisted in Student Conference on Development essay competition"
+    ],
+    "reflection_prompts": [
+      "What development argument did your research force you to reject, and what did you replace it with?"
+    ],
+    "example_sentence": "Writing for the development essay competition showed me that the most dangerous assumptions in development are the ones that feel most natural.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "sp_1",
+    "organisation_name": "BASES",
+    "role": "BPS Sport & Exercise Psychology Student Award",
+    "courses": [
+      "sport-psychology",
+      "sports-science",
+      "psychology",
+      "medicine"
+    ],
+    "description": "Enter the British Psychological Society Sport & Exercise Psychology student essay prize — writing an evidence-based analysis of a performance psychology issue.",
+    "why_it_helps": "BPS student recognition in sport psychology is the most prestigious pre-university distinction for this specific subject area.",
+    "skills": [
+      "Performance psychology",
+      "Evidence-based analysis",
+      "Sports science integration"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.bps.org.uk/",
+    "achievements": [
+      "Shortlisted in BPS Sport & Exercise Psychology student award"
+    ],
+    "reflection_prompts": [
+      "What psychological intervention had the most counter-intuitive effect on athletic performance in the research you reviewed?"
+    ],
+    "example_sentence": "Writing for the BPS student award showed me that sport psychology is as much about what happens between the ears as between the muscles.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "sp_2",
+    "organisation_name": "Mind",
+    "role": "Sport & Mental Health Campaign Volunteer",
+    "courses": [
+      "sport-psychology",
+      "sports-science",
+      "psychology",
+      "social-work"
+    ],
+    "description": "Support Mind's Get Set to Go programme — using sport and physical activity as a tool for mental health improvement in communities.",
+    "why_it_helps": "Sport-based mental health work bridges exercise psychology and clinical psychology — a distinctive combination for applications.",
+    "skills": [
+      "Sport as mental health intervention",
+      "Community engagement",
+      "Behaviour change"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.mind.org.uk/get-involved/volunteer-with-us/",
+    "achievements": [
+      "Supported sport-based mental health sessions for 20 participants over 3 months"
+    ],
+    "reflection_prompts": [
+      "What change in a participant's relationship with physical activity was most clearly linked to improvements in their mental health?"
+    ],
+    "example_sentence": "Volunteering on the Mind Get Set to Go programme showed me that exercise is one of the most under-prescribed mental health interventions we have.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "sp_3",
+    "organisation_name": "Strava Mental Health Programme",
+    "role": "Physical Activity Peer Mentor",
+    "courses": [
+      "sport-psychology",
+      "sports-science",
+      "psychology",
+      "education"
+    ],
+    "description": "Train as a physical activity peer mentor at your school or college — supporting peers to use exercise as a strategy for managing stress, anxiety and low mood.",
+    "why_it_helps": "Peer-led physical activity mentoring demonstrates applied sport psychology thinking at the individual level — distinctive for applications.",
+    "skills": [
+      "Peer mentoring",
+      "Exercise prescription basics",
+      "Mental health first aid"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.sportengland.org/",
+    "achievements": [
+      "Mentored 5 peers to establish regular physical activity routines"
+    ],
+    "reflection_prompts": [
+      "What barrier to exercise did peer mentoring reveal that no amount of information could overcome on its own?"
+    ],
+    "example_sentence": "Peer mentoring peers around physical activity showed me that the hardest part of exercise psychology is understanding why people don't start.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "sp_4",
+    "organisation_name": "UK Coaching",
+    "role": "Mental Skills Workshop Facilitator",
+    "courses": [
+      "sport-psychology",
+      "sports-science",
+      "education"
+    ],
+    "description": "Support UK Coaching's mental skills workshops for young athletes — assisting coaches in delivering goal-setting, visualisation and focus training.",
+    "why_it_helps": "UK Coaching workshop facilitation gives sport psychology applicants direct experience of applied performance psychology in practice.",
+    "skills": [
+      "Mental skills delivery",
+      "Goal setting frameworks",
+      "Visualisation techniques"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Event-based",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.ukcoaching.org/",
+    "achievements": [
+      "Assisted at 4 UK Coaching mental skills workshops for junior athletes"
+    ],
+    "reflection_prompts": [
+      "Which mental skill had the most immediate impact on athlete performance when applied correctly?"
+    ],
+    "example_sentence": "Facilitating mental skills workshops showed me that performance psychology is practical and teachable — not something reserved for elite athletes.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "sp_5",
+    "organisation_name": "English Institute of Sport",
+    "role": "Wellbeing Support Volunteer",
+    "courses": [
+      "sport-psychology",
+      "sports-science",
+      "medicine",
+      "psychology"
+    ],
+    "description": "Support the EIS athlete wellbeing team — assisting with mental health check-in programmes, wellbeing surveys and psychological support referrals.",
+    "why_it_helps": "EIS wellbeing programme experience at the national sports institute is exceptional evidence for sport psychology applications.",
+    "skills": [
+      "Athlete mental health",
+      "Wellbeing monitoring",
+      "Referral awareness"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 days/month",
+    "min_age": 18,
+    "town": "Sheffield",
+    "apply_url": "https://www.eis2win.co.uk/",
+    "achievements": [
+      "Assisted with wellbeing check-ins for 15 elite junior athletes over a season"
+    ],
+    "reflection_prompts": [
+      "What did elite athlete wellbeing data reveal about the psychological costs of high-performance sport?"
+    ],
+    "example_sentence": "Supporting the EIS wellbeing team showed me that performance and wellbeing are not in tension — they are dependent on each other.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "fs1",
+    "organisation_name": "Forensic Science International",
+    "role": "Young Forensic Scientist Award",
+    "courses": [
+      "forensic-science",
+      "chemistry",
+      "biology-life-sciences",
+      "law"
+    ],
+    "description": "Enter the Forensic Science International Young Forensic Scientist Award — presenting a project or essay on a forensic science topic.",
+    "why_it_helps": "YFS recognition is the most prestigious pre-university forensic science distinction and is directly cited by every forensic science admissions panel.",
+    "skills": [
+      "Forensic analysis",
+      "Evidence interpretation",
+      "Scientific writing"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.forensicscienceinternational.com/",
+    "achievements": [
+      "Shortlisted in FSI Young Forensic Scientist Award"
+    ],
+    "reflection_prompts": [
+      "What forensic technique did your project reveal as more limited than TV crime dramas suggest?"
+    ],
+    "example_sentence": "Writing for the FSI award showed me that forensic science is built on probability and inference, not certainty.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "fs2",
+    "organisation_name": "Forensic Access",
+    "role": "Crime Scene Investigation Workshop",
+    "courses": [
+      "forensic-science",
+      "chemistry",
+      "biology-life-sciences",
+      "law"
+    ],
+    "description": "Attend a Forensic Access crime scene investigation workshop — hands-on experience of fingerprinting, DNA sampling, blood pattern analysis and evidence handling.",
+    "why_it_helps": "Forensic Access workshops provide rare practical forensic experience that applications in forensic science consistently need to demonstrate.",
+    "skills": [
+      "Fingerprint analysis",
+      "DNA evidence basics",
+      "Scene documentation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Workshop day",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.forensic-access.co.uk/",
+    "achievements": [
+      "Completed a forensic Access CSI workshop",
+      "Correctly identified a suspect using fingerprint and DNA evidence"
+    ],
+    "reflection_prompts": [
+      "What forensic technique turned out to be most dependent on human interpretation rather than objective measurement?"
+    ],
+    "example_sentence": "Attending the Forensic Access workshop showed me that forensic evidence is only as reliable as the reasoning that interprets it.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "fs3",
+    "organisation_name": "Metropolitan Police",
+    "role": "Police Specials Cadets Programme",
+    "courses": [
+      "forensic-science",
+      "criminology",
+      "law",
+      "sociology"
+    ],
+    "description": "Join the Metropolitan Police Cadets programme — learning about criminal investigation, evidence handling, forensic awareness and policing.",
+    "why_it_helps": "Police Cadets experience gives forensic science applicants rare, direct exposure to real criminal investigation processes.",
+    "skills": [
+      "Criminal investigation basics",
+      "Evidence handling",
+      "Police procedural awareness"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly sessions",
+    "min_age": 13,
+    "town": "London",
+    "apply_url": "https://www.met.police.uk/",
+    "achievements": [
+      "Completed Metropolitan Police Cadets Level 1 programme",
+      "Participated in a simulated crime scene investigation exercise"
+    ],
+    "reflection_prompts": [
+      "What aspect of real criminal investigation was most different from the forensic science portrayed in media?"
+    ],
+    "example_sentence": "The Met Police Cadets programme showed me that forensic evidence is just one part of an investigation — and rarely the decisive one.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "fs4",
+    "organisation_name": "Royal Society of Chemistry",
+    "role": "Forensic Chemistry Schools Challenge",
+    "courses": [
+      "forensic-science",
+      "chemistry",
+      "mathematics"
+    ],
+    "description": "Compete in the RSC Forensic Chemistry Schools Challenge — using analytical chemistry techniques to identify substances from a crime scene scenario.",
+    "why_it_helps": "RSC Forensic Chemistry competition demonstrates applied analytical chemistry in a forensic context — exactly what admissions panels want to see.",
+    "skills": [
+      "Chromatography",
+      "Spectroscopy basics",
+      "Analytical problem-solving"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Competition day",
+    "min_age": 15,
+    "town": "Anywhere",
+    "apply_url": "https://www.rsc.org/",
+    "achievements": [
+      "Team won regional RSC Forensic Chemistry Challenge"
+    ],
+    "reflection_prompts": [
+      "What chemical analysis technique yielded a result that initially contradicted all the other evidence?"
+    ],
+    "example_sentence": "Competing in the RSC Forensic Chemistry challenge showed me that analytical chemistry is as much about eliminating possibilities as confirming them.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "fs5",
+    "organisation_name": "Chartered Society of Forensic Sciences",
+    "role": "Student Membership",
+    "courses": [
+      "forensic-science",
+      "chemistry",
+      "biology-life-sciences",
+      "law"
+    ],
+    "description": "Join the Chartered Society of Forensic Sciences as a student member — attending lectures, webinars and events on current forensic science research and practice.",
+    "why_it_helps": "CSFS student membership demonstrates professional awareness and sustained subject engagement that forensic science tutors look for.",
+    "skills": [
+      "Current forensic science awareness",
+      "Professional network",
+      "Case study analysis"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Monthly events",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://csofs.org/",
+    "achievements": [
+      "Attended 6 CSOFS forensic science lectures",
+      "Asked a question at a CSOFS symposium that the speaker incorporated into discussion"
+    ],
+    "reflection_prompts": [
+      "What current forensic science research challenged your understanding of how reliable forensic evidence actually is?"
+    ],
+    "example_sentence": "Joining CSOFS showed me that professional forensic science is in a state of constant re-evaluation — which is exactly what makes it rigorous.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ms1",
+    "organisation_name": "Victoria and Albert Museum",
+    "role": "V&A Young Creatives",
+    "courses": [
+      "museum-studies",
+      "art-design",
+      "history",
+      "english-literature"
+    ],
+    "description": "Join the V&A Young Creatives programme — co-curating content, attending collection access sessions and contributing to youth public programming.",
+    "why_it_helps": "V&A Young Creatives is the most prestigious pre-university museum engagement programme and is universally recognised by museum studies departments.",
+    "skills": [
+      "Collection research",
+      "Curatorial thinking",
+      "Youth public engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Weekly sessions",
+    "min_age": 16,
+    "town": "London",
+    "apply_url": "https://www.vam.ac.uk/info/young-creatives",
+    "achievements": [
+      "Co-curated a digital exhibition for the V&A's online programme",
+      "Contributed to a Young Creatives interpretation panel in the gallery"
+    ],
+    "reflection_prompts": [
+      "What object in the V&A collection required the most thought about how to interpret it for a public audience?"
+    ],
+    "example_sentence": "Being part of V&A Young Creatives showed me that curation is always an argument — what you include and how you frame it are never neutral decisions.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ms2",
+    "organisation_name": "Museum of London",
+    "role": "Community History Volunteer",
+    "courses": [
+      "museum-studies",
+      "history",
+      "sociology",
+      "anthropology"
+    ],
+    "description": "Support the Museum of London's community history programmes — helping collect oral histories, conducting local history outreach and supporting object loans.",
+    "why_it_helps": "Community history work at a major civic museum demonstrates the participatory, socially engaged museum practice that museum studies programmes value.",
+    "skills": [
+      "Oral history methods",
+      "Community engagement",
+      "Object documentation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2-3 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.museumoflondon.org.uk/",
+    "achievements": [
+      "Contributed to an oral history collection documenting a London community",
+      "Supported an object loans session for a local school"
+    ],
+    "reflection_prompts": [
+      "Whose history did the community project reveal that the museum's existing collection had not represented?"
+    ],
+    "example_sentence": "Volunteering at the Museum of London showed me that a museum's power lies not just in what it holds but in whose stories it chooses to tell.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ms3",
+    "organisation_name": "Arts Council England",
+    "role": "Cultural Heritage Volunteer Network",
+    "courses": [
+      "museum-studies",
+      "history",
+      "art-design",
+      "sociology"
+    ],
+    "description": "Support Arts Council England's cultural heritage volunteer network — assisting with collections care, digitisation and public access projects.",
+    "why_it_helps": "Arts Council-affiliated heritage volunteering demonstrates the collections management and public access thinking that museum studies programmes require.",
+    "skills": [
+      "Collections care",
+      "Digitisation",
+      "Heritage interpretation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Half-day/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.artscouncil.org.uk/",
+    "achievements": [
+      "Digitised 200 items from a local heritage collection",
+      "Contributed metadata to an online catalogue accessed by 500+ users"
+    ],
+    "reflection_prompts": [
+      "What did digitising a collection reveal about the assumptions embedded in how objects had been previously catalogued?"
+    ],
+    "example_sentence": "Digitising a heritage collection showed me that cataloguing is an act of interpretation — every descriptor is a choice about what matters.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "ms4",
+    "organisation_name": "Museum Association",
+    "role": "Transformers Young Curators Award",
+    "courses": [
+      "museum-studies",
+      "art-design",
+      "history",
+      "education"
+    ],
+    "description": "Enter the Museum Association's Transformers Young Curators Award — designing an innovative programme or intervention that makes museum collections more accessible.",
+    "why_it_helps": "MA Transformers recognition is the most prestigious pre-university museum award and is directly cited by museum studies admissions.",
+    "skills": [
+      "Programme design",
+      "Audience development",
+      "Collections interpretation"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.museumsassociation.org/",
+    "achievements": [
+      "Shortlisted in MA Transformers Young Curators Award"
+    ],
+    "reflection_prompts": [
+      "What access barrier to museum collections did your project address that existing museum practice had overlooked?"
+    ],
+    "example_sentence": "Entering the Transformers award showed me that museum innovation is not about better displays — it is about rethinking who museums are for.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "ms5",
+    "organisation_name": "English Heritage",
+    "role": "Blue Plaques Research Volunteer",
+    "courses": [
+      "museum-studies",
+      "history",
+      "geography",
+      "architecture"
+    ],
+    "description": "Assist English Heritage's Blue Plaques programme — researching candidates for new plaques, verifying historical accuracy and engaging with nomination communities.",
+    "why_it_helps": "English Heritage research work is direct, specific evidence for museum studies and history applications.",
+    "skills": [
+      "Historical research",
+      "Biography",
+      "Heritage interpretation"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.english-heritage.org.uk/visit/blue-plaques/",
+    "achievements": [
+      "Contributed research to a successful Blue Plaque nomination",
+      "Identified two previously undocumented historical connections"
+    ],
+    "reflection_prompts": [
+      "What did researching a Blue Plaque candidate reveal about whose history the programme has historically prioritised?"
+    ],
+    "example_sentence": "Researching for the Blue Plaques programme showed me that public history is always a selection — and selections are always political.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "cy1",
+    "organisation_name": "National Cyber Security Centre",
+    "role": "CyberFirst Girls Competition",
+    "courses": [
+      "cybersecurity",
+      "computer-science",
+      "mathematics",
+      "data-science-ai"
+    ],
+    "description": "Enter the NCSC CyberFirst Girls Competition — a team-based cybersecurity challenge testing coding, cryptography and security thinking.",
+    "why_it_helps": "NCSC CyberFirst is government-endorsed; competition participation is cited by every cybersecurity and computer science admissions panel.",
+    "skills": [
+      "Cryptography",
+      "Network security basics",
+      "Team CTF problem-solving"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Competition weekend",
+    "min_age": 12,
+    "town": "Anywhere",
+    "apply_url": "https://www.ncsc.gov.uk/cyberfirst/competitions",
+    "achievements": [
+      "Team reached CyberFirst Girls national final",
+      "Solved 15/18 challenges in competition time"
+    ],
+    "reflection_prompts": [
+      "What security vulnerability in the competition did you find hardest to exploit, and what did that teach you about defence?"
+    ],
+    "example_sentence": "Competing in CyberFirst showed me that good cybersecurity thinking requires you to understand both attack and defence simultaneously.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "cy2",
+    "organisation_name": "GCHQ",
+    "role": "GCHQ Cybersecurity Challenge",
+    "courses": [
+      "cybersecurity",
+      "computer-science",
+      "mathematics"
+    ],
+    "description": "Enter the GCHQ-sponsored Cyber Security Challenge UK — a series of competitions and assessment events testing real-world cybersecurity skills.",
+    "why_it_helps": "GCHQ-endorsed competition participation is exceptional, distinctive evidence for cybersecurity applications at any university.",
+    "skills": [
+      "Penetration testing basics",
+      "Network forensics",
+      "Security challenge solving"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Competition series",
+    "min_age": 18,
+    "town": "Anywhere",
+    "apply_url": "https://www.cybersecuritychallenge.org.uk/",
+    "achievements": [
+      "Qualified for Cyber Security Challenge UK face-to-face assessment"
+    ],
+    "reflection_prompts": [
+      "What security problem in the challenge required you to think like an attacker to design the defence?"
+    ],
+    "example_sentence": "Competing in the Cyber Security Challenge showed me that the most important cybersecurity skill is anticipating what you haven't been told to protect.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "cy3",
+    "organisation_name": "NCSC",
+    "role": "CyberFirst Bursary Programme",
+    "courses": [
+      "cybersecurity",
+      "computer-science",
+      "mathematics",
+      "engineering"
+    ],
+    "description": "Apply for the NCSC CyberFirst bursary — a government-funded programme supporting students into cybersecurity through courses, mentoring and summer schools.",
+    "why_it_helps": "CyberFirst bursary holders are the UK government's identified pipeline for cybersecurity talent — it is the most direct pre-university endorsement available.",
+    "skills": [
+      "Cyber defence fundamentals",
+      "Programming security",
+      "Government security awareness"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "Summer school + academic year",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.ncsc.gov.uk/cyberfirst/overview",
+    "achievements": [
+      "Selected as a CyberFirst Bursary holder",
+      "Completed CyberFirst summer school with distinction"
+    ],
+    "reflection_prompts": [
+      "What aspect of national cybersecurity did the programme reveal that public discourse completely misses?"
+    ],
+    "example_sentence": "Being selected for CyberFirst showed me that cybersecurity is infrastructure — it is the thing that makes everything else possible.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "cy4",
+    "organisation_name": "Cyber Discovery",
+    "role": "Cyber Discovery Programme",
+    "courses": [
+      "cybersecurity",
+      "computer-science",
+      "data-science-ai"
+    ],
+    "description": "Participate in DCMS Cyber Discovery — a free online cybersecurity learning and challenge programme funded by the UK government for 13-18 year olds.",
+    "why_it_helps": "Cyber Discovery Elite completion is cited by admissions tutors as the benchmark of pre-university cybersecurity commitment.",
+    "skills": [
+      "Web security",
+      "Reverse engineering",
+      "Cryptanalysis"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Self-paced + challenges",
+    "min_age": 13,
+    "town": "Anywhere",
+    "apply_url": "https://joincyberdiscovery.com/",
+    "achievements": [
+      "Reached Cyber Discovery Elite level",
+      "Solved cryptanalysis challenges rated university-level difficulty"
+    ],
+    "reflection_prompts": [
+      "What category of cybersecurity challenge exposed the biggest gap in your current knowledge?"
+    ],
+    "example_sentence": "Completing Cyber Discovery Elite showed me that cybersecurity knowledge has a floor but no ceiling.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "cy5",
+    "organisation_name": "OWASP",
+    "role": "Student Security Research Volunteer",
+    "courses": [
+      "cybersecurity",
+      "computer-science",
+      "data-science-ai",
+      "law"
+    ],
+    "description": "Contribute to OWASP (Open Worldwide Application Security Project) — testing, documenting or communicating web application security issues for the open-source community.",
+    "why_it_helps": "OWASP open-source contribution demonstrates real, applied security engineering practice that cybersecurity admissions specifically cite.",
+    "skills": [
+      "Web application security",
+      "Vulnerability documentation",
+      "Security research communication"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "3-4 hrs/week",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://owasp.org/",
+    "achievements": [
+      "Contributed documentation to an OWASP security testing guide",
+      "Identified and reported a configuration vulnerability in a test environment"
+    ],
+    "reflection_prompts": [
+      "What web security vulnerability was most commonly misunderstood by other developers in the OWASP community?"
+    ],
+    "example_sentence": "Contributing to OWASP showed me that open-source security research is how the whole internet gets incrementally safer.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "av1",
+    "organisation_name": "BAFTA",
+    "role": "BAFTA Young Animators Award",
+    "courses": [
+      "animation-vfx",
+      "art-design",
+      "computer-science",
+      "film-media-studies"
+    ],
+    "description": "Enter the BAFTA Young Animators Award — submitting an original animated short film for judging by BAFTA industry members.",
+    "why_it_helps": "BAFTA recognition in animation is the most prestigious pre-university film and animation distinction available in the UK.",
+    "skills": [
+      "Animation production",
+      "Storytelling",
+      "Technical rendering"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 10,
+    "town": "Anywhere",
+    "apply_url": "https://www.bafta.org/",
+    "achievements": [
+      "BAFTA Young Animator Award shortlist",
+      "Animation screened at a BAFTA event"
+    ],
+    "reflection_prompts": [
+      "What technical limitation in your production forced a creative solution you ended up preferring?"
+    ],
+    "example_sentence": "Entering the BAFTA animation award showed me that the best animated films solve technical problems with creative decisions.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "av2",
+    "organisation_name": "Into Film",
+    "role": "Animation Masterclass Participant",
+    "courses": [
+      "animation-vfx",
+      "film-media-studies",
+      "art-design",
+      "computer-science"
+    ],
+    "description": "Attend an Into Film animation masterclass — learning professional animation techniques from industry practitioners working in UK film and TV.",
+    "why_it_helps": "Into Film industry masterclasses give animation applicants direct professional exposure that is consistently cited in personal statements.",
+    "skills": [
+      "2D/3D animation techniques",
+      "Industry workflow",
+      "Storyboarding"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Workshop days",
+    "min_age": 14,
+    "town": "London",
+    "apply_url": "https://www.intofilm.org/",
+    "achievements": [
+      "Completed an Into Film animation masterclass",
+      "Produced a 30-second animated sequence using industry software"
+    ],
+    "reflection_prompts": [
+      "What aspect of professional animation workflow was most different from self-taught practice?"
+    ],
+    "example_sentence": "Attending an Into Film masterclass showed me that animation is a discipline of planning — every second of movement is designed before it is made.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "av3",
+    "organisation_name": "ScreenSkills",
+    "role": "Animation Industry Work Placement",
+    "courses": [
+      "animation-vfx",
+      "computer-science",
+      "art-design",
+      "film-media-studies"
+    ],
+    "description": "Apply for a ScreenSkills-funded animation or VFX work placement at a UK studio — observing production pipelines and contributing to live projects.",
+    "why_it_helps": "ScreenSkills animation placements provide direct industry experience that is specifically cited by animation and VFX degree programmes.",
+    "skills": [
+      "Production pipeline",
+      "VFX compositing basics",
+      "Studio professional culture"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2-3 week placement",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.screenskills.com/",
+    "achievements": [
+      "Completed a 2-week placement at a UK animation studio",
+      "Contributed rigging work to a live production"
+    ],
+    "reflection_prompts": [
+      "What part of the animation pipeline was most invisible to you before the placement and most important in practice?"
+    ],
+    "example_sentence": "My ScreenSkills animation placement showed me that 90% of animation is invisible work done by people whose names appear for two seconds in the credits.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "av4",
+    "organisation_name": "Escape Studios",
+    "role": "Escape Studios Taster Day",
+    "courses": [
+      "animation-vfx",
+      "computer-science",
+      "art-design"
+    ],
+    "description": "Attend an Escape Studios taster day — hands-on experience of VFX, motion graphics and 3D animation led by industry professionals.",
+    "why_it_helps": "Escape Studios is the UK's leading VFX and animation training institution; taster day participation demonstrates informed career motivation.",
+    "skills": [
+      "VFX compositing",
+      "3D modelling basics",
+      "Motion graphics"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Taster day",
+    "min_age": 15,
+    "town": "London",
+    "apply_url": "https://www.escapestudios.ac.uk/",
+    "achievements": [
+      "Completed Escape Studios VFX taster day",
+      "Produced a composited VFX shot in a single day"
+    ],
+    "reflection_prompts": [
+      "What VFX technique that looks simple on screen turned out to require the most complex technical process?"
+    ],
+    "example_sentence": "Attending an Escape Studios taster day showed me that VFX is the art of making difficult things look effortless.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "av5",
+    "organisation_name": "Aardman",
+    "role": "Aardman Student Competition",
+    "courses": [
+      "animation-vfx",
+      "art-design",
+      "film-media-studies",
+      "creative-writing"
+    ],
+    "description": "Enter an Aardman animation challenge — creating an original animated character or short in response to a brief set by the UK's most famous animation studio.",
+    "why_it_helps": "Aardman is globally recognised; competition entry demonstrates the creative and technical commitment that every animation programme values.",
+    "skills": [
+      "Character design",
+      "Stop motion or digital animation",
+      "Narrative craft"
+    ],
+    "mode": "online",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 12,
+    "town": "Anywhere",
+    "apply_url": "https://www.aardman.com/",
+    "achievements": [
+      "Animation shortlisted in Aardman student challenge"
+    ],
+    "reflection_prompts": [
+      "What character design decision most changed how the animation felt when you saw it in motion?"
+    ],
+    "example_sentence": "Entering the Aardman competition showed me that character animation is the art of making a drawing feel like it has a life of its own.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "hg1",
+    "organisation_name": "RGS",
+    "role": "Human Geography Fieldwork Award",
+    "courses": [
+      "human-geography",
+      "geography",
+      "sociology",
+      "economics"
+    ],
+    "description": "Enter the RGS Human Geography Fieldwork Award — conducting original primary research on a human geography topic and presenting your findings.",
+    "why_it_helps": "RGS fieldwork recognition is the most prestigious pre-university human geography award and is directly cited by geography and social science departments.",
+    "skills": [
+      "Primary research methods",
+      "Human geography analysis",
+      "Research presentation"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "Project-based",
+    "min_age": 16,
+    "town": "Anywhere",
+    "apply_url": "https://www.rgs.org/schools/",
+    "achievements": [
+      "Shortlisted in RGS Human Geography Fieldwork Award"
+    ],
+    "reflection_prompts": [
+      "What finding in your primary data most contradicted the secondary literature you had read?"
+    ],
+    "example_sentence": "Conducting original human geography fieldwork showed me that the most interesting geography happens at the intersection of maps and people.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "competition"
+  },
+  {
+    "id": "hg2",
+    "organisation_name": "Joseph Rowntree Foundation",
+    "role": "Urban Inequality Research Volunteer",
+    "courses": [
+      "human-geography",
+      "sociology",
+      "economics",
+      "politics"
+    ],
+    "description": "Support JRF's research on spatial inequality, housing and place-based poverty in UK cities.",
+    "why_it_helps": "JRF urban inequality research gives human geography applicants direct evidence of the socioeconomic fieldwork their discipline requires.",
+    "skills": [
+      "Spatial data analysis",
+      "Housing research",
+      "Poverty mapping"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "York",
+    "apply_url": "https://www.jrf.org.uk/work-with-us",
+    "achievements": [
+      "Contributed spatial data coding to a JRF report on neighbourhood poverty"
+    ],
+    "reflection_prompts": [
+      "What pattern in the spatial data revealed that urban inequality cannot be understood at the city level alone?"
+    ],
+    "example_sentence": "Researching urban inequality for JRF showed me that geography is the discipline that makes visible what statistics keep hidden.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "hg3",
+    "organisation_name": "Shelter",
+    "role": "Housing Policy Research Volunteer",
+    "courses": [
+      "human-geography",
+      "sociology",
+      "politics",
+      "social-work"
+    ],
+    "description": "Support Shelter's research and policy team — analysing housing data, reviewing literature on homelessness and contributing to campaign briefings.",
+    "why_it_helps": "Shelter research experience demonstrates the applied socioeconomic analysis and policy awareness that human geography programmes value.",
+    "skills": [
+      "Housing policy analysis",
+      "Social geography",
+      "Data interpretation"
+    ],
+    "mode": "hybrid",
+    "region": "UK",
+    "weekly_commitment": "3 hrs/week",
+    "min_age": 18,
+    "town": "London",
+    "apply_url": "https://www.shelter.org.uk/",
+    "achievements": [
+      "Contributed data analysis to a Shelter housing affordability briefing"
+    ],
+    "reflection_prompts": [
+      "What housing statistic most revealed how spatial location determines life outcomes?"
+    ],
+    "example_sentence": "Researching for Shelter showed me that geography is not neutral — where you live shapes what is possible for you in ways that have nothing to do with individual effort.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "hg4",
+    "organisation_name": "Migration Museum",
+    "role": "Community History Volunteer",
+    "courses": [
+      "human-geography",
+      "history",
+      "sociology",
+      "anthropology"
+    ],
+    "description": "Support the Migration Museum — helping collect community migration histories, supporting exhibitions and assisting with public engagement events.",
+    "why_it_helps": "Migration Museum work demonstrates the cultural geography and social history engagement that human geography departments look for.",
+    "skills": [
+      "Migration geography",
+      "Oral history",
+      "Community engagement"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "London",
+    "apply_url": "https://www.migrationmuseum.org/get-involved/",
+    "achievements": [
+      "Contributed to a migration history oral archive",
+      "Assisted with a Migration Museum public exhibition attended by 300 visitors"
+    ],
+    "reflection_prompts": [
+      "What migration story revealed a geographical pattern that no map had previously made visible to you?"
+    ],
+    "example_sentence": "Volunteering at the Migration Museum showed me that migration is not a movement of people across space — it is the movement of lives across worlds.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
+  },
+  {
+    "id": "hg5",
+    "organisation_name": "Geographers in Schools",
+    "role": "School Fieldwork Mentor",
+    "courses": [
+      "human-geography",
+      "geography",
+      "education"
+    ],
+    "description": "Support geography teachers as a fieldwork mentor — helping design and deliver human geography fieldwork projects for GCSE and A-level students.",
+    "why_it_helps": "Fieldwork mentoring in schools demonstrates both subject depth and the communication skills that geography programmes value alongside academic achievement.",
+    "skills": [
+      "Fieldwork design",
+      "Human geography teaching",
+      "Research mentoring"
+    ],
+    "mode": "in-person",
+    "region": "UK",
+    "weekly_commitment": "2 hrs/week",
+    "min_age": 17,
+    "town": "Anywhere",
+    "apply_url": "https://www.rgs.org/schools/teachers/",
+    "achievements": [
+      "Mentored a Year 12 class through a primary fieldwork project on urban land use"
+    ],
+    "reflection_prompts": [
+      "What fieldwork method did students find most challenging to apply, and what did their struggle reveal about the method itself?"
+    ],
+    "example_sentence": "Mentoring school fieldwork showed me that human geography is a discipline about asking better questions of the places we already know.",
+    "is_active": true,
+    "last_checked": "2026-07-24",
+    "type": "volunteering"
   }
 ]
